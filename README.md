@@ -11,3 +11,4 @@ Repository for the course "HTML coding for kids"
 3. [Разметка текста](https://github.com/rakavets/html-coding/blob/chapter3/chapter3/technical-task.md)
 4. [Cсылки и изображения](https://github.com/rakavets/html-coding/blob/chapter4/chapter4/technical-task.md)
 5. [Введение в таблицы](https://github.com/rakavets/html-coding/blob/chapter5/chapter5/technical-task.md)
+
