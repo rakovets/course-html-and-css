@@ -1,7 +1,8 @@
 table {
     border-collapse: collapse;
+
 }
 
 td {
-     border-left: 2px solid lightgray;
+     border-left: 2px solid lightgray; 
 }

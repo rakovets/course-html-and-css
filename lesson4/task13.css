@@ -1,5 +1,5 @@
 table {
-    border-collapse: separate;
+    border-collapse:collapse ;
     border: 2px solid black;
     border-spacing: 4px;
 }
@@ -18,8 +18,4 @@ th {
 caption {
     margin-bottom: 10px;
     font-size: 18px;
-}
-
-.pink {
-    background-color: pink;
 }

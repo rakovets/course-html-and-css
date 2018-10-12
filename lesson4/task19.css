@@ -4,14 +4,19 @@ table {
 }
 
 td {
+    color: brown;
+    background-color: lightyellow;
     padding: 5px;
     padding-right: 10px;
     border: 1px solid lightgray;
 }
 
 th {
+    color: darkblue;
+    background-color: lightcyan;
     padding: 10px;
     border: 1px solid black;
+
 }
 
 caption {
