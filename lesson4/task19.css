@@ -7,11 +7,15 @@ td {
     padding: 5px;
     padding-right: 10px;
     border: 1px solid lightgray;
+    color: brown;
+    background-color: lightyellow;
 }
 
 th {
     padding: 10px;
     border: 1px solid black;
+    color: darkblue;
+    background-color: lightcyan;
 }
 
 caption {

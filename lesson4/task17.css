@@ -1,7 +1,22 @@
+table {
+    border-collapse: collapse;
+}
+
 body {
+    
     width: 350px;
     margin: 0;
     padding: 0 10px;
     font-size: 14px;
     font-family: Arial, sans-serif;
+}
+
+td {
+    border: 2px solid lightgray;
+    padding: 5px;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid rgb(204, 17, 17);
 }
