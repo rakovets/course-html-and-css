@@ -1,5 +1,5 @@
 table {
-    border
+    border-collapse: collapse;
 }
 body {
     width: 350px;
@@ -8,4 +8,8 @@ body {
     font-size: 14px;
     font-family: Arial, sans-serif;
     
+}
+td {
+    border-bottom: 2px solid lightgray;
+    padding: 5pxS;
 }
