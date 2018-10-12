@@ -1,0 +1,17 @@
+html, body {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    width: 350px;
+    padding: 10px 20px;
+    color: black;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+h1 {
+    margin: 0;
+}
