@@ -1,0 +1,28 @@
+caption {
+    caption-side: bottom;
+    text-align: center;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 4px;
+}
+
+
+td {
+    padding: 10px;
+    border: 1px solid lightgray;
+}
+
+th {
+    padding: 10px;
+    border-bottom: 3px solid black;
+}
+
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}

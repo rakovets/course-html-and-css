@@ -1,0 +1,20 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+}
+
+td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid lightgray;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: left;
+}

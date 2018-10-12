@@ -1,0 +1,68 @@
+body {
+    width: 350px;
+    margin: 0;
+    padding: 0 10px;
+    font-size: 14px;
+    font-family: Arial, sans-serif;
+}
+
+table {
+    border-collapse: collapse;
+    border-spacing: 4px;
+}
+
+td {
+    border-bottom: 1px solid lightgray; 
+    padding: 10px
+}
+
+
+th {
+    padding: 10px;
+    border-bottom: 1px solid black;
+    border-top: 1px solid black;
+}
+
+.t1{
+    background-color: darkcyan;
+    text-align: left;
+    width: 33%;
+}
+
+.t2{
+    background-color: lightblue;
+    text-align: center;
+    width: 33%;
+}
+
+.t3{
+    background-color: darkcyan;
+    width: 33%;
+}
+
+.t4{
+    text-align: left;
+    width: 33%;
+}
+
+.t5{
+    text-align: center;
+    width: 33%;
+}
+
+.t6{
+    text-align: right;
+    width: 33%;
+}
+
+.t8{
+    background-color: lightyellow
+}
+
+.t9{
+    background-color: lightyellow
+}
+
+.t7{
+    color: white
+}
