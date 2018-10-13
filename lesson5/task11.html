@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Испытание: форма регистрации</title>
+        <link rel="stylesheet" href="task11.css">
+    </head>
+    <body>
+        <h1>Регистрация</h1>
+
+        <form action="https://it-academy.by" method="post">
+            <label for="login-field">Ваш логин(email):</label>
+            <br><br>
+            <input type="text" name="login" id="login-field">
+            <br><br>
+            <label for="password-field"> Пароль:</label>
+            <br><br>
+            <input type="password" name="password" id="password-field">
+            <p>Информация о себе:</p>
+            <textarea name="comment" id="comment-field" rows="10"></textarea>
+            <br><br>
+            <input type="checkbox" checked name="subscribe" id="subscribe-field">
+            <label for="subscribe-field">Подписаться на рассылку</label>
+            <br><br>
+            <input type="submit" value="Зарегистрироваться">
+        </form>
+    </body>
+</html>
