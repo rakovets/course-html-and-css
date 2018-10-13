@@ -1,12 +1,15 @@
-.cell-1 {vertical-align: bottom;
+.cell-1 {
+    vertical-align: bottom;
     
 }
 
-.column-2 {text-align: right;
+.column-2 {
+    text-align: right;
     
 }
 
-.column-3 {text-align: center;
+.column-3 {
+    text-align: center;
     
 }
 

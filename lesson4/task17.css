@@ -2,8 +2,7 @@ table {
     border-collapse: collapse;
 }
 
-body {
-    
+body {   
     width: 350px;
     margin: 0;
     padding: 0 10px;
@@ -14,9 +13,4 @@ body {
 td {
     border: 2px solid lightgray;
     padding: 5px;
-}
-
-th {
-    padding: 10px;
-    border: 1px solid rgb(204, 17, 17);
 }
