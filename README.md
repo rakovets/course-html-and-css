@@ -2,8 +2,11 @@
 Repository for the course "HTML coding for kids"
 
 ## Intro
-- Для каждого занятия имеются technical tasks, которые состоят из нескольких заданий.
-- Для каждого задания (далее именуется как Statement of work *) вам потребуются input file, т.е. файлы на базе которых вы будете выполнять задание. Они названы соответственно task*.html (extension file html/css/js and etc.)
+- Каждое `lesson` соответствует в **GitHub** одной `branch` с именем `lesson{$numberLesson}`
+- Каждый `branch` имеет `technical-specification.md`
+- Каждый `technical specification` состоит из нескольких `statement of work {$numberStatementOfWork}`
+- Для каждого `{$numberStatementOfWork}` потребуются `input files`, т.е. файлы на базе которых будет выполняться задание. Они названы соответственно `task*.html` (extension file `html/css/js` and etc.)
+
 
 ## Technical tasks:
 1. [Введение](https://github.com/rakavets/html-coding/blob/chapter1/chapter1/technical-task.md)
