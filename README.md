@@ -1,2 +1,2 @@
-# html-coding-for-kids
-Repository for the course "HTML coding for kids"
+# html-coding
+Repository for the course "HTML coding"
