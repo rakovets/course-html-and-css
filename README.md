@@ -1,5 +1,6 @@
-# html-coding-for-kids
-Repository for the course "HTML coding for kids"
+# html-coding
+Repository for the course "HTML coding"
+
 
 ## Intro
 - Для каждого занятия имеются technical tasks, которые состоят из нескольких заданий.
