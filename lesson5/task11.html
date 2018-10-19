@@ -9,11 +9,22 @@
         <h1>Регистрация</h1>
 
         <form action="https://it-academy.by" method="post">
-            Ваш логин (email):
-            Пароль:
-            Информация о себе:
-            Подписаться на рассылку
-            Зарегистрироваться
+            <label for="login-field">Ваш логин (email):</label> 
+            <br>
+            <input type="text" name="login" id="login-field">
+            <br>
+            <label for="password-field">Пароль:</label>
+            <br>
+            <input type="password" name="password" id="password-field">
+            <br>
+            <label>Информация о себе:</label>
+            <br>
+            <textarea name="comment" id="comment-field" rows="5"></textarea>
+            <br>
+            <input type="checkbox" name="subscribe" id="subscribe-field" checked>
+            <label for="subscribe-field">Подписаться на рассылку</label>
+            <br>
+            <input type="submit" value="Зарегистрироваться">
         </form>
     </body>
 </html>
