@@ -1,0 +1,204 @@
+@font-face {
+    font-weight: 400;
+    font-family: "Roboto";
+    font-style: normal;
+    src:
+        local("Roboto Regular"),
+        local("Roboto-Regular"),
+        url("fonts/roboto.woff") format("woff");
+}
+
+html,
+body {
+    margin: 0;
+    padding: 0;
+    font-size: 100%;
+    font-family: "Roboto", sans-serif;
+    color: white;
+    background-color: #2c3e50;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+    color: #c0392b;
+}
+
+code {
+    padding: 0.2em 0.4em;
+    font-weight: bold;
+    color: #c0392b;
+    background: white;
+    box-shadow: 0 0 2px #cccccc;
+}
+
+/* Header */
+header.page-header {
+    position: relative;
+    z-index: 5;
+    min-height: 20px;
+    padding: 20px;
+    color: white;
+    background-image:
+        linear-gradient(45deg, #34495e 25%, transparent 25%),
+        linear-gradient(-45deg, #34495e 25%, transparent 25%),
+        linear-gradient(135deg, #34495e 25%, transparent 25%),
+        linear-gradient(-135deg, #34495e 25%, transparent 25%);
+    background-position: 10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    box-shadow: 0 0 5px 0 #333333;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    margin: 0;
+}
+
+.main-menu ul {
+    margin: 0;
+    margin-left: 130px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.main-menu a {
+    color: white;
+}
+
+/* Main */
+main {
+    display: block; /* для страховки, очень новый элемент */
+    min-height: 200px;
+    padding-top: 50px;
+    color: black;
+    background-color: white;
+    background-image: url("data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAACMAAAAjCAMAAAApB0NrAAAABlBMVEX///+pqalTpKl9AAAAAnRSTlMAGovxNEIAAAAdSURBVDjLY2AAAUaG4UYxDDsfjfp91O+jfqfE7wCzpQCw/dq+qQAAAABJRU5ErkJggg==");
+}
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.about-me {
+    min-height: 100px;
+    margin: 0 20px;
+    padding: 10px;
+    background-color: rgba(241, 196, 15, 0.1);
+    border-radius: 5px;
+    box-shadow: 0 0 3px #cccccc;
+}
+
+.about-me::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.profile {
+    float: left;
+    width: 51%;
+    min-height: 100px;
+    padding: 2%;
+    background-color: rgba(243, 156, 18, 0.1);
+    border-radius: 5px;
+}
+
+.profile h1 {
+    margin: 0;
+    font-size: 1.7em;
+}
+
+.profile p {
+    margin: 0.5em 0;
+}
+
+.last-actions {
+    float: right;
+    width: 40%;
+    min-height: 100px;
+    background: #f1c40f;
+    border: 5px solid white;
+    border-bottom-width: 15px;
+    box-shadow: 0 0 8px -1px #f39c12;
+}
+
+.last-actions ul {
+    margin: 0;
+    padding: 10px;
+    list-style: none;
+}
+
+.last-actions li {
+    margin-bottom: 0.5em;
+    font-size: 14px;
+    font-family: "Courier New";
+}
+
+.last-actions time {
+    display: block;
+    font-size: 11px;
+    color: #666666;
+}
+
+.posts {
+    min-height: 50px;
+    margin: 20px 0;
+    padding: 20px;
+    background: #f5f5f5;
+    box-shadow: 0 0 5px #cccccc;
+}
+
+.featured-post header h1 {
+    margin: 0;
+    margin-bottom: 0.8em;
+}
+
+/* Footer */
+footer.page-footer {
+    min-height: 50px;
+    padding: 20px;
+    font-size: 14px;
+    color: black;
+    background-color: #f1c40f;
+    background-image: linear-gradient(45deg, transparent 50%, white 50%),
+    linear-gradient(-45deg, transparent 50%, white 50%),
+    linear-gradient(135deg, transparent 50%, #2c3e50 50%),
+    linear-gradient(-135deg, transparent 50%, #2c3e50 50%);
+    background-repeat: repeat-x;
+    background-position: 0 0, 0 0, 0 100%, 0 100%;
+    background-size: 10px 12px;
+}
+
+.page-footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-footer .info {
+    float: left;
+}
+
+.page-footer .info img {
+    margin-right: 0.5em;
+    vertical-align: middle;
+    border: 2px solid white;
+    box-shadow: 0 0 4px #c0392b;
+    transform: rotate(-5deg);
+}
+
+.page-footer .copyright {
+    float: right;
+    padding-top: 20px;
+    font-size: 12px;
+}
