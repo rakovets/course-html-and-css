@@ -16,3 +16,5 @@ Repository for the course "HTML coding for kids"
 5. [Введение в таблицы](https://github.com/rakavets/html-coding/blob/chapter5/chapter5/technical-task.md)
 6. [Введение в формы](https://github.com/rakavets/html-coding/blob/lesson5/lesson5/technical-specification.md)
 7. [Семантическая структура страницы](https://github.com/rakovets/html-coding/blob/lesson6/lesson6/technical-specification.md)
+8. [Введение в CSS](https://github.com/rakovets/html-coding/blob/lesson7/lesson7/technical-specification.md)
+9. [Селекторы](https://github.com/rakovets/html-coding/blob/lesson8/lesson8/technical-specification.md)
