@@ -1,0 +1,16 @@
+p {
+    padding: 10px;
+}
+
+.green {
+    background-color: #dff0d8;
+}
+
+.blue {
+    background-color: #aaddff;
+}
+
+.nice-box {
+    border-radius: 5px;
+    box-shadow: 3px 3px 4px #cccccc;
+}
