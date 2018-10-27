@@ -15,7 +15,12 @@ div {
     min-height: 100px;
     background-color: #d9edf7;
 }
-
-.footer {
-    
+.left-column {
+    float: left;
+}
+.right-column {
+    float: right;
+}
+footer {
+    clear: both;
 }
