@@ -1,0 +1,7 @@
+.p-absolute {
+    padding: 20px;
+    background-color: rgba(0, 255, 0, 0.25);
+    position: absolute;
+    left: 100px;
+    bottom: 200px;
+}
