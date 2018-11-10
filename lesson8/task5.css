@@ -1,0 +1,47 @@
+.dark .target .first{
+    color: darkgreen
+}
+
+.dark .target .second{
+    color: darkblue
+}
+
+.dark .target .third{
+    color: darkcyan
+}
+
+.dark .forth{
+    color: darkgray
+}
+
+.dark .fifth{
+    color: darksalmon
+}
+
+.dark .sixth{
+    color: darkseagreen
+}
+
+.light .first{
+    color: lightgreen
+}
+
+.light .second{
+    color: lightblue
+}
+
+.light .third{
+    color: lightcyan
+}
+
+.light .forth{
+    color: lightgray
+}
+
+.light .fifth{
+    color: lightsalmon
+}
+
+.light .sixth{
+    color: lightseagreen
+}
