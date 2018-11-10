@@ -9,8 +9,10 @@ table {
     border-collapse: collapse;
 }
 td { 
-    border-top: 2px solid black;
-    border-left: 2px solid lightgray;
-    border-bottom:2px solid lightgray;
+    border-top: 1px solid black;
+    border-left: 1px solid lightgray;
+    border-bottom:1px solid lightgray;
+    padding: 5px;
+    padding-bottom: 5px;
 }
     

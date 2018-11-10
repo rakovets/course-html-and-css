@@ -5,3 +5,31 @@ body {
     font-size: 14px;
     font-family: Arial, sans-serif;
 }
+table {
+    border-collapse: collapse;
+ }
+td {
+    border-top: 1px solid black;
+    border-bottom: 1px solid lightgray;
+    padding: 5px;
+    padding-bottom: 5px; 
+}
+th {
+    background-color: darkcyan;
+    color: white;
+}
+.row-1 {
+    background-color: lightskyblue;
+}
+.row-2 {
+    background-color: lightgray;
+}
+.row-3 {
+    background-color: lightyellow;
+}
+.row-4 {
+    background-color: lightgrey;
+}
+.row-5 {
+    background-color: lightyellow;
+}
