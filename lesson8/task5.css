@@ -1,0 +1,30 @@
+.dark .first {
+    color: darkred;
+}
+.dark .second {
+    color:darkorange;
+}
+.dark .third {
+    color: darkblue;
+}
+.dark .fourth {
+    color: darkgray;
+}
+.dark .fifth {
+    color: darkgreen;
+}
+.light .first {
+    color: lightcoral;
+}
+.light .second {
+    color: lightyellow;
+}
+.light .third {
+    color: lightblue;
+}
+.light .fourth {
+    color: lightgray;
+}
+.ligth .fifth {
+    color: lightgreen;
+}
