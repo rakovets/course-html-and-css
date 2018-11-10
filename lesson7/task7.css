@@ -19,7 +19,7 @@ div {
     float: left;
 }
 .right-column {
-    float: right;
+    float: left;
 }
 footer {
     clear: both;

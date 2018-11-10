@@ -19,7 +19,10 @@ body {
 }
 
 /* Собственные стили блоков */
-
+div {
+    margin-bottom: 15px;
+    padding: 10px 25px 10px 25px;
+}
 .header {
     min-height: 40px;
     margin-bottom: 20px;
@@ -29,31 +32,41 @@ body {
     float: left;
     width: 100px;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
 .contacts {
     float: right;
     width: 110px;
     text-align: center;
+    background-color: black;
+    color: white;
 }
-
 .about-us {
     width: 200px;
     margin-bottom: 10px;
 }
 
 .about-us h1 {
-    
+    float: left;
 }
 
 .about-us p {
     font-size: 12px;
+    float: left;
 }
 
 .main-menu {
     width: 50px;
+    float: left;
 }
 
 .footer {
-    
+    clear: both;
+    background-color: black;
+    color: white;
+}
+.class {
+    background-color: black;
 }
