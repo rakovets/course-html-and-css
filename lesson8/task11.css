@@ -1,0 +1,16 @@
+.shooter-1 li {
+    background-color: white;
+  }
+  
+  .shooter-1 li:nth-child(2),
+  .shooter-1 li:nth-child(5) {
+    background-color: red;
+  }
+  
+  .shooter-2 li {
+    background-color: white;
+  }
+  
+  .shooter-2 li:nth-child(1) {
+    background-color: red;
+  }

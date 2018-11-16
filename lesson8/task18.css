@@ -3,21 +3,20 @@ body {
     margin: 0;
     padding: 0;
   }
-  
-  selector {
+  .shooter-1 {
     padding: 55px 0 55px 0;
   
     background-color: #fcf8e3;
     border-bottom: 1px dashed #cccccc;
   }
   
-  selector {
+  .shooter-2 {
     padding: 55px 0 55px 0;
   
     background-color: #d9edf7;
   }
   
-  selector {
+  .target {
     display: flex;
     justify-content: space-between;
     width: 200px;
@@ -33,7 +32,7 @@ body {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
   }
   
-  selector {
+  li {
     position: relative;
   
     width: 22px;
@@ -46,7 +45,7 @@ body {
     border-radius: 50%;
   }
   
-  selector {
+  .lever {
     width: 10px;
     height: 10px;
     margin: 6px auto;
@@ -54,8 +53,9 @@ body {
     background-color: #999999;
     border-radius: 50%;
   }
-  
-  selector {
+  .shooter-1 li:nth-child(3n+1) span,
+  .shooter-2 li:nth-child(2) span,
+  .shooter-2 li:nth-child(3) span{
     position: absolute;
     top: -2px;
     left: -2px;
@@ -68,7 +68,9 @@ body {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
   }
   
-  selector {
+  .shooter-1 li:nth-child(3n+1) .hitbox,
+  .shooter-2 li:nth-child(2) .hitbox,
+  .shooter-2 li:nth-child(3) .hitbox{
     position: absolute;
     top: 12px;
     left: 11px;
