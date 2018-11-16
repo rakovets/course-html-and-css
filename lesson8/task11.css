@@ -1,0 +1,5 @@
+.list-1 ul :nth-child(2),
+.list-1 ul :nth-child(4),
+.list-2 ul :first-child{
+    background-color: red;
+}

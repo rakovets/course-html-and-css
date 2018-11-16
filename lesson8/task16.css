@@ -1,0 +1,11 @@
+[required]{
+    background-color: #fcf8e3;
+}
+
+[type="password"]{
+    background-color: #f2dede;
+}
+
+[type="submit"]{
+    border-color: green;
+}
