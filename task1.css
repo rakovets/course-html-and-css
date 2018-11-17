@@ -1,0 +1,22 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align:justify;
+
+}
+body{
+    margin-left: 200px;
+    margin-right: 700px;
+}
+h1,h2 {
+    color: green;
+}
+.date {
+    text-align: right;
+    top: 15px;
+    right: 700px; 
+    position: absolute;
+}
+.author-photo {
+    border-radius: 50%;
+}
+
