@@ -10,6 +10,9 @@ body{
 h1,h2 {
     color: green;
 }
+a{
+    color: purple;
+}
 .date {
     text-align: right;
     top: 15px;
@@ -19,4 +22,15 @@ h1,h2 {
 .author-photo {
     border-radius: 50%;
 }
-
+.life{
+    text-align: right;
+    top: 2px;
+    right: 450px;
+    position: absolute;
+}
+.name{
+    text-align: right;
+    position: absolute;
+    top: 680px;
+    right: 1150px;
+}
