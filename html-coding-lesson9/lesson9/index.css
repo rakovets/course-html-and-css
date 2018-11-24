@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+body {
+    margin-left: 200px;
+    margin-right: 700px;
+}
+.main-part {
+    width: 590px;
+    float: left;
+}
+.secondary-part {
+    text-align: right;
+    top: 2px;
+    right: 450px;
+    position: absolute;
+}
+
+h1,h2 {
+    color: green;
+}
+a {
+    color: purple;
+}
+.date {
+    text-align: right;
+    position: absolute;
+    top: 30px;
+    right: 700px;
+}
+.author-photo {
+    border-radius: 50%;
+}
+.name {
+    text-align: right;
+    position: absolute;
+    top: 800px;
+    right: 1030px;
+}
