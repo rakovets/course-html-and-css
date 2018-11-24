@@ -1,0 +1,33 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.date{
+    position: absolute;
+    right: 30%;
+    top: 5px;
+}
+
+main{
+    width: 60%;
+    float: left;
+    padding-left: 10%;
+    padding-right: 2% ;
+    font-size: 20px;
+    text-align: justify;
+}
+
+aside{
+    width: 28%;
+    float: left;
+    font-size: 20px;
+}
+
+h1,h2{
+    color: green;
+}
+
+.pic{
+    border-radius: 100%;
+}
