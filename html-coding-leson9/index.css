@@ -1,0 +1,34 @@
+*{
+    margin: 0% ;
+    padding:0% ;
+}
+.hh {
+    border-radius: 50%;
+}
+.date {
+    position: absolute;
+    top: 30px;
+    right:30px;
+}
+.block-post{
+    font-family: Arial, Helvetica;
+    text-align: justify;
+    float: left ;
+    width: 75%;
+}
+.t {
+    color: green;
+
+}
+.r{
+    color: green;
+
+}
+
+
+.b {
+    float: left;
+}
+.other-block-post{
+    float: right;
+}
