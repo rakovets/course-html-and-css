@@ -3,12 +3,12 @@
     text-align: justify;
     float: left ;
     width: 75%;
-    margin: 10px;
+   font-size: 20px;
 }
 .other-block-post{
-    float:left;
+    float: right;;
     font-family: Arial, Helvetica;
-    width: 75%;
+    width: 25%;
 }
 .date {
     position: absolute;
@@ -31,4 +31,3 @@
 .hh {
     border-radius: 50%;
 }
-
