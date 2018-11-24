@@ -1,0 +1,36 @@
+* {
+    font-family: 'Times New Roman', Times, serif;
+    text-align:justify;
+
+}
+body{
+    margin-left: 200px;
+    margin-right: 700px;
+}
+h1,h2 {
+    color: green;
+}
+a{
+    color: yellowgreen;
+}
+.date {
+    text-align: right;
+    top: 15px;
+    right: 700px; 
+    position: absolute;
+}
+.author-photo {
+    border-radius: 50%;
+}
+.life{
+    text-align: right;
+    top: 2px;
+    right: 450px;
+    position: absolute;
+}
+.name{
+    text-align: right;
+    position: absolute;
+    top: 740px;
+    right: 980px;
+}
