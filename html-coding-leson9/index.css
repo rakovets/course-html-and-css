@@ -1,34 +1,49 @@
-*{
-    margin: 0% ;
-    padding:0% ;
-}
 .hh {
     border-radius: 50%;
 }
 .date {
+    font-family: Arial, Helvetica;
     position: absolute;
     top: 30px;
-    right:30px;
+    right:500px;
+}
+.other-block-post{
+    right: 5px;
+    font-size: 18px;
+    float: right;
+    width: 25%;
 }
 .block-post{
+    position: absolute;
+    font-size: 18px;
     font-family: Arial, Helvetica;
     text-align: justify;
     float: left ;
-    width: 75%;
+    width: 65%;
+    margin: 40px;
 }
 .t {
-    color: green;
+    color:blue;
+    margin: 5px;
+    font-size: 30px;
 
 }
 .r{
-    color: green;
-
+    color:blue ;
+    margin: 5px;
+    font-size:20px;
 }
 
 
 .b {
     float: left;
 }
-.other-block-post{
-    float: right;
+.cu{
+    color: blue;
+    margin: 5px;
+    font-size:20px;
+}
+*{
+    margin: 0%;
+    padding: 0%;
 }
