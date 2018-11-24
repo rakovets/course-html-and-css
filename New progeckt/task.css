@@ -1,0 +1,36 @@
+h1 { 
+    color:green;
+    font-size: 35px;
+}
+h2 {
+    font-size: 20px;
+    color: green;
+    text-align: left;
+}
+h3 {
+    color: green;
+    text-align: left
+}
+p {
+    text-align: left;
+}
+.life {
+    text-align: right;
+    top: 10px;
+    right: 500px;
+    position: absolute;
+}
+p {
+    font-family: Arial,Helvetica,sans-serif;
+    text-align: justify;
+}
+body {
+    margin-left: 100px;
+    margin-right: 500px;
+}
+.date {
+    text-align: right;
+    top: 2px;
+    right: 200px;
+    position: absolute;
+}
