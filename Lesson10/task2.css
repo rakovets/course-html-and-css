@@ -1,0 +1,40 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+body {
+    margin-left: 200px;
+    margin-right: 700px;
+}
+.main-part {
+    position: relative;
+    width: 70%;
+    float: left;
+}
+.secondary-part {
+    text-align: right;
+    width: 25%;
+    float: right;
+}
+
+h1,h2,h3 {
+    color: #e58e26;
+}
+a {
+    color: #4a69bd;
+}
+.date {
+    text-align: left;
+    position: absolute;
+    left: 85%;
+    bottom: 93%;
+}
+.author-photo {
+    border-radius: 50%;
+}
+.name {
+    text-align: right;
+    position: absolute;
+    top: 93%;
+    right: 75%;
+}
