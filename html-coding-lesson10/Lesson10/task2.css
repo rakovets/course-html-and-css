@@ -1,0 +1,60 @@
+*{
+    font-family: 'Noto Sans SC', sans-serif;
+    text-align: justify;
+}
+
+body {
+    margin: 0% 15%;
+}
+
+.main-part {
+    position: relative;
+    width: 70%;
+    float: left;
+}
+.secondary-part {
+    text-align: right;
+    width: 25%;
+    float: right;
+}
+
+h1,h2,h4 {
+    color: #e58e26;
+}
+
+a {
+    color: #4a69bd;
+    font-size: 20px;
+}
+
+.date {
+    text-align: left;
+    position: absolute;
+    left: 73%;
+    top: 1%;
+}
+
+.author-photo {
+    border-radius: 50%;
+    width: 18%;
+}
+
+.name {
+    position: absolute;
+    text-align: left;
+    bottom: 4.5%;
+    left: 20%;
+}
+
+p {
+    font-size: 20px;
+}
+
+.img {
+    float: right;
+    margin-left: 10px;
+}
+
+.icon {
+    width: 13%;
+}    
