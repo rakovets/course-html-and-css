@@ -6,7 +6,7 @@ h1 {
     color: black;
     font-size: 50px;
     font-family: 'Noto Sans SC', sans-serif;
-    text-align: left;
+    text-align: center;
 }
 .date {
     text-align: right;
@@ -19,13 +19,15 @@ p {
 }
 h2 {
     color: black;
-    font-size: 30px;
-    text-align: left;
+    font-size: 35px;
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
 }
 h3 {
     color: black;
-    font-size: 20px;
-    text-align: left;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
 }
 img {
     float: left;
@@ -36,6 +38,19 @@ body {
 }
 h4 {
     color: black;
-    font-size: 20px;
-    text-align: left;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+h5 {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
+}
+h6 {
+    color: black;
+    font-size: 25px;
+    text-align: center;
+    font-family: 'Noto Sans SC', sans-serif;
 }
