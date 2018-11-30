@@ -1,36 +1,60 @@
 * {
-    font-family: 'Times New Roman', Times, serif;
+    font-family: 'Open Sans', sans-serif;
     text-align:justify;
+}
 
-}
 body{
-    margin-left: 200px;
-    margin-right: 700px;
+    margin: 0% 15%;
 }
-h1,h2 {
+
+h1,h2,h4 {
     color: green;
 }
+
 a{
-    color: yellowgreen;
+    color: green;
 }
+
+.main-part{
+    position: relative;
+    width: 70%;
+    float: left;
+}
+
 .date {
-    text-align: right;
-    top: 15px;
-    right: 700px; 
+    text-align: left;
+    top: 1%;
+    left: 73%; 
     position: absolute;
 }
+
 .author-photo {
     border-radius: 50%;
+    width: 16%;
 }
+
 .life{
     text-align: right;
-    top: 2px;
-    right: 450px;
-    position: absolute;
+    width:20%;
+    float:right;
 }
+
+.icon{
+    width: 16%;
+}
+
 .name{
-    text-align: right;
+    text-align: left;
     position: absolute;
-    top: 740px;
-    right: 980px;
+    bottom: 2.5%;
+    left: 19%;
+}
+
+img{
+    float: left;
+    margin-right: 10px;
+}
+
+p{
+    font-size: 19px;
 }
