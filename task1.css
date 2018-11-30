@@ -11,11 +11,11 @@ h1 {
 .date {
     text-align: right;
     top: 2px;
-    right: 200px;
+    right: 300px;
     position: absolute;
 }
 p {
-    text-align: left;
+    text-align: justify;
 }
 h2 {
     color: black;
@@ -35,6 +35,7 @@ img {
 body {
     margin-left: 100px;
     margin-right: 500px;
+    background: #BCE498;
 }
 h4 {
     color: black;
@@ -53,4 +54,48 @@ h6 {
     font-size: 25px;
     text-align: center;
     font-family: 'Noto Sans SC', sans-serif;
+}
+.life {
+    border-top: 1px solid;
+    color: black;
+    width: 200%;
+}
+.life img {
+    width: 6%;
+    margin-right: 10px;
+    border-radius: 50%;
+}
+.red img {
+    width: 40%;
+    margin-right: 10px;
+}
+.flowers img {
+    width: 40%;
+    margin-right: 10px;
+}
+.yellow img {
+    width: 48%;
+    margin-right: 10px;
+}
+.sport img {
+    width: 32%;
+    margin-right: 10px;
+}
+.long img {
+    width: 33%;
+    margin-right: 10px;
+}
+.part img {
+    width: 25%;
+    margin-right: 10px;
+}
+.place img {
+    width: 21%;
+    margin-right: 10px;
+}
+.first {
+   text-align: right;
+   top: 2px;
+   right: 40px;
+   position: absolute;
 }
