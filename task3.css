@@ -1,0 +1,60 @@
+* {
+    font-family: 'Open Sans', sans-serif;
+    text-align:justify;
+}
+
+body{
+    margin: 0% 15%;
+}
+
+h1,h2,h4 {
+    color: green;
+}
+
+a{
+    color: green;
+}
+
+.main-part{
+    position: relative;
+    width: 70%;
+    float: left;
+}
+
+.date {
+    text-align: left;
+    top: 1%;
+    left: 73%; 
+    position: absolute;
+}
+
+.author-photo {
+    border-radius: 50%;
+    width: 16%;
+}
+
+.life{
+    text-align: right;
+    width:20%;
+    float:right;
+}
+
+.icon{
+    width: 16%;
+}
+
+.name{
+    text-align: left;
+    position: absolute;
+    bottom: 2.5%;
+    left: 19%;
+}
+
+img{
+    float: left;
+    margin-right: 10px;
+}
+
+p{
+    font-size: 19px;
+}
