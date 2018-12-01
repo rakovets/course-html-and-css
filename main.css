@@ -1,0 +1,69 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+html{
+    background-color: #FFDAB9;
+}
+
+.photo{
+    width: 150px;
+}
+
+.date{
+    position: absolute;
+    right: 25%;
+    top: 15px;
+    color: #1C1C1C;
+}
+
+main{
+    width: 65%;
+    float: left;
+    padding-left: 10%;
+    padding-right: 2% ;
+    font-size: 20px;
+    text-align: justify;
+}
+
+aside{
+    width: 23%;
+    float: right;
+    font-size: 20px;
+}
+
+h1,h2{
+    color: #8B0000;
+    margin: 10px 0px;
+}
+
+.pic{
+    border-radius: 100%;
+    width: 120px;
+    margin: 10px 5px;
+}
+
+div.user::after{
+    content: "Марфа Самуиловна";
+    position: relative;
+    bottom: 55px;
+    color: #1C1C1C;
+}
+
+p{
+    color: #1C1C1C;
+}
+
+a{
+    color: 	#CD2626;
+}
+
+a:visited{
+    color: #828282;
+}
+
+.icon{
+    width: 50px;
+    margin: 3px 3px 0px 3px;
+}
