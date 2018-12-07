@@ -1,0 +1,59 @@
+body {
+    margin-left: 190px;
+    margin-right: 250px;
+
+}
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.orange img{
+    float: left;
+    width: 50px;
+    margin-left: 100px;
+    text-align: left;
+    margin-right: 20px;
+}
+.orange {
+    color: orange;
+    font-family: 'Noto Sans TC', sans-serif;
+}
+.rabbit {
+    height: 0px;
+    color: black;
+    font-weight: bold;
+}
+.icon-home img {
+    float: left;
+    margin-left: 250px;
+    width: 4%;
+}
+.icon-about img {
+    float: left;
+    margin-left: 40px;
+    width: 4%;
+}
+.icon-work img {
+    float: left;
+    margin-left: 40px;
+    width: 30px;
+    height: 40px;
+}
+.icon-blog img {
+    float: left;
+    margin-left: 40px;
+    width: 27px;
+    height: 42px;
+}
+.icon-contact img {
+    float: left;
+    margin-left: 40px;
+    width: 40px;
+    height: 44px;
+}
+.headline {
+    text-align: center;
+    font-size: 10px;
+    color: orange;
+    margin-top: 200px ;
+}
