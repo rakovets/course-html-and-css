@@ -1,6 +1,11 @@
 *{
-    margin: 0;
-    padding: 0;
+    margin: 0px;
+    padding: 0px;
+    border: 0px
+}
+
+header{
+    height: 128px;
 }
 
 .logo{
@@ -19,18 +24,26 @@
     margin-top: 9%
 }
 
-.nav{
+nav{
     float: left;
     width: 70%;
     margin-right: 10%
 }
 
-.icon{
+.item{
     float: right;
     margin-left: 6%;
+    margin-top: 3%;
     text-align: center
 }
 
 .icon-txt{
     text-align: center
+}
+
+.intro{
+    border: solid;
+    padding: 0px;
+    width: 1600px;
+    height: 60px;
 }
