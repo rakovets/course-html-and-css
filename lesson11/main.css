@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.logo{
+    float: left;
+    width: 20%;
+}
+
+.logo-img{
+    float: left;
+    margin-left: 13.5%;
+    margin-top: 5%
+}
+
+.logo-txt{
+    float: left;
+    margin-top: 9%
+}
+
+.nav{
+    float: left;
+    width: 70%;
+    margin-right: 10%
+}
+
+.icon{
+    float: right;
+    margin-left: 6%;
+    text-align: center
+}
+
+.icon-txt{
+    text-align: center
+}
