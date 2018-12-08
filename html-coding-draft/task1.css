@@ -3,6 +3,27 @@ body {
     margin-right: 250px;
 
 }
+
+.logo {
+    float: left;
+    width: 20%;
+}
+
+.logo-image {
+    float: left;
+    margin-top: 15px;
+}
+
+.logo-name {
+    float: left;
+    margin-left: 5%;
+}
+
+nav {
+    float: left;
+    width: 80%;
+}
+
 p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
@@ -31,13 +52,13 @@ p {
 .icon-about img {
     float: left;
     margin-left: 40px;
-    width: 4%;
+    width: 3%;
 }
 .icon-work img {
     float: left;
     margin-left: 40px;
-    width: 30px;
-    height: 40px;
+    width: 3%;
+
 }
 .icon-blog img {
     float: left;
