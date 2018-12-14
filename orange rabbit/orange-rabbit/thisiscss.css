@@ -10,11 +10,14 @@
 
 }
 footer {
-    background-color: orange;
+    background-color: #ff9900;
     color: white;
     text-align: center;
-    font-weight: 500;
+    font-weight: 400;
     line-height: 2;
+	margin-top: 60px;
+	margin-bottom: 8px;
+	font-size: 25px;
     
 }
 
@@ -86,7 +89,7 @@ footer {
 }
 
 .rabbits-text {
-	background-color: #666666;
+	background-color: rgba(102, 102, 102, 0.7);
 	color: #ff9900;
 	font-size: 37px;
     border: 1px solid #666666;
@@ -94,7 +97,7 @@ footer {
 }
 
 .oranges-text {
-	background-color: #ff9900;
+	background-color: rgba(255, 153, 0, 0.7);
 	color: #666666;
 	font-size: 37px;
     border: 1px solid #ff9900;
@@ -102,7 +105,7 @@ footer {
     display: absolute;
 }
 
-.members-headline {
+.members-headline , .contact-headline {
     text-align: center;
     font-size: 40px;
     color: #ff9900;
@@ -113,10 +116,65 @@ footer {
     margin-right: 25%;
     margin-left: 25%;
     margin-top: 60px;
+	margin-bottom: 40px
 }
 
-.members-items {
-    width: 50%;
-    margin-right: 25%;
-    margin-left: 25%;
+.members-items , .contact {
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+.member-name , .member-job {
+	 text-align: center;
+	 display: inline; 
+	margin-bottom: 30px;
+	
+}
+
+.member-job {
+	    color: #ff9900;
+}
+
+.member-photo {
+	width: 300px;
+	height: 300px;
+	border-style: solid;
+	border-width: 10px;
+	border-color: #ff9900;
+	border-radius: 200px;
+}
+
+.member-item {
+    float: left;
+    margin-right: 16%;
+    width: 200px;
+}
+
+.members-text {
+	margin: 30px;
+	width: 300px;
+	text-align: left;
+}
+
+.contact-item {
+	display: inline; 
+}
+
+.member-text {
+	color: #ff9900;
+}
+
+.form-item {
+	border-left: 4px solid #b3b3b3;
+	width: 1000px;
+	height: 30px;
+}
+
+.form-button {
+	background-color: #ff9900;
+	width: 170px;
+	height: 50px;
+	font-size: 30px;
+	color: #ffffff;
 }
