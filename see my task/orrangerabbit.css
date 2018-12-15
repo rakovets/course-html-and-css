@@ -11,22 +11,38 @@ footer {
     line-height: 2;
     
 }
+header{
+    height: 125px;
+    width: 1600px;
+    display: block;
+}
+
+main {
+    width: 1600px;
+    overflow: hidden;
+
+display: inline-block;
+}
+
+.preview {
+    display: block;
+}
 
 .logo-img {
     float: left;
-    height: 130px;
+    height: 105px; 
     position: absolute;
-    margin-left: 200px;
+    margin-left: 12.5%;
 }
 
-.logo-text1 {
+.first-logo-text {
     margin-top: 35px;
     color: rgb(251, 156, 6);
     position:absolute;
     margin-left:360px;
     font-size: 35px;
 }
-.logo-text2{
+.second-logo-text{
     margin-top: 70px;
     color: rgb(110, 109, 107);
     position:absolute;
@@ -52,40 +68,40 @@ footer {
     position: absolute;
     left: 830px;
     top: 20px;
-    width: 55px;
-    height: 47px;
+    width:3.4375%;
+    height:2.9375%;
 }
 
 .about-nav {
     position: absolute;
     left: 950px;
     top: 20px;
-    width: 23px;
-    height: 44px;
+    width:3.4375%;
+    height:2.9375%;
   }
   
 .work-nav {
     position: absolute;
     left: 1070px;
-    top: 20px;
-    width: 43px;
-    height: 43px;
+    top: 23px;
+    width:3.4375%;
+    height:2.9375%;
 }
   
 .blog-nav {
     position: absolute;
     left: 1190px;
-    top: 20px;
-    width: 40px;
-    height: 40px;
+    top: 23px;
+    width:3.4375%;
+    height:2.9375%;
   }
   
 .contact-nav {
     position: absolute;
     left: 1310px;
-    top: 20px;
-    width: 50px;
-    height: 35px;
+    top: 25px;
+    width:3.4375%;
+    height:2.9375%;
 }
   
 .slider {
@@ -104,6 +120,7 @@ footer {
     position: absolute;
     margin-top: 265px;
     margin-left: 210px; 
+    opacity: 0,7;
 }
 
 .slider-text2 {
@@ -114,7 +131,8 @@ footer {
     margin-top: 330px;
     font-weight: 395px;
     margin-left: 210px; 
-    background-color: rgb(255, 196, 69)
+    background-color: rgb(255, 196, 69);
+    opacity: 0,7;
    
 }
 .developer{
@@ -132,46 +150,18 @@ footer {
     font-size: 30px;
     width: 280px;
 }
-.left{
+.short-topic-text{
 position: absolute;
-font-size: 10px;
-width: 15%;
+font-size: 15px;
+width: 25%;
 margin-top: 555px;
 text-align: justify;
 margin-left: 215px;
-font-weight: 235px;
+width: 235px;
 
 }
-.left-second{
-    position: absolute;
-    font-size: 10px;
-    margin-top: 555px;
-    width: 15%;
-    text-align: justify;
-    margin-left: 520px;
-  
 
-}
-.right-second{
-    position: absolute;
-    font-size: 10px;
-    margin-top: 555px;
-    width: 15%;
-    text-align: justify;
-    margin-left: 810px;
-   
-
-}
-.right{
-    position: absolute;
-    font-size: 10px;
-    margin-top: 555px;
-    width: 15%;
-    text-align: justify;
-    margin-left: 1115px;
-    
-}
-.linkl{
+.short-text-link{
 position: absolute;
 font-size: 10px;
 margin-top: 605px;
@@ -316,10 +306,10 @@ color: #ff9900;
     margin-top: 1625px;
     color: #ff9900;
     font-size: 20px;
-    width: 1070px;
+    width: 1060px;
     margin-left: 180px;
 }
-.mytext{
+.Mytext2{
     width: 1060px;
     height: 90px;
 }
