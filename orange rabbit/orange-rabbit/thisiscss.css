@@ -161,10 +161,6 @@ footer {
 	display: inline; 
 }
 
-.member-text {
-	color: #ff9900;
-}
-
 .form-item {
 	border-left: 4px solid #b3b3b3;
 	width: 1000px;
@@ -177,4 +173,18 @@ footer {
 	height: 50px;
 	font-size: 30px;
 	color: #ffffff;
+}
+
+.intro {
+    position: relative;
+}
+
+.intro-text {
+    position: absolute;
+    left: 200px;
+    top: 350px;
+}
+
+.posts {
+    margin-top: 30px;
 }
