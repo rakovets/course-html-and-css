@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
     <head>
         <meta charset="utf-8">
         <title>Orange rabbit</title>
@@ -7,15 +8,11 @@
     </head>
     <body>
         <header>
-            <div class="logo">
-                <div>
-                    <img src="logo.png" alt="logo"/>
+            <div class="logo-item">
+                    <img src="logo.png" class="logo-img"/>
+                    <p class="logo-text1">orange</p>
+                    <h1 class="logo-text2">RABBIT</h1>
                 </div>
-                <div class="logo-name">
-                    <h1>orange</h1>
-                    <div class="rabbit">RABBIT</div>
-                </div>
-            </div>
             <nav>
                 <div class="nav-item"><img class="nav-item-icon" src="icon-home.png"><p>home</p></div>
                 <div class="nav-item"><img class="nav-item-icon" src="icon-about.png"/><p>about</p></div>
@@ -25,30 +22,35 @@
             </nav>
         </header>
 
-        <div class="main-part">
-            <div class="background"><img src="background.png"/>
-            <div class="tagline1"><a>DO YOU LIKE RABBITS?</a></div>
-            <div class="tagline2"><a>DO YOU LIKE ORANGES?</a></div>
-            </div>
-            <div class="posts">
-                <div class="post">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href="https://www.onliner.by/" clss="post-link">read more...</a>
+        <main>
+            <section class="preview">
+                <div class="background">  
+                    <img src="background.png"/>
                 </div>
-                <div class="post">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href="https://www.onliner.by/" clss="post-link">read more...</a>
+                <div class="taglines">
+                    <div class="tagline"><a>DO YOU LIKE RABBITS?</a></div>
+                    <div class="tagline"><a>DO YOU LIKE ORANGES?</a></div>
                 </div>
-                <div class="post">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href="https://www.onliner.by/" clss="post-link">read more...</a>
-                </div>
-                <div class="post">
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
-                    <a href="https://www.onliner.by/" clss="post-link">read more...</a>
-                </div>
-            </div>
+            </section>
 
+            <section class="short-topics">
+                <div class="column">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="https://www.onliner.by/" class="column-link" >read more...</a>
+                </div>
+                <div class="column">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="https://www.onliner.by/" class="column-link">read more...</a>
+                </div>
+                <div class="column">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="https://www.onliner.by/" class="column-link">read more...</a>
+                </div>
+                <div class="column">
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    <a href="https://www.onliner.by/" class="column-link">read more...</a>
+                </div>
+            </section>
             <div class="meet">
                 <br><p>Meet the team</p>
             </div>
@@ -70,25 +72,27 @@
 				<p class="contact-headline">Send us a message...</p>
 				<form>
 					<div class="contact-item">
-                        <label for="login-field" class="contact-text">Name:</label>
-                        <input type="text" class="form-item">
+                    <label for="login-field" class="contact-text">Name:</label>
+                    <input type="text" class="form-item">
                     <br><br><br>
 					</div>
 					<div class="contact-item">
-                        <label for="login-field" class="contact-text">Email:</label>
-                        <input type="text" class="form-item">
-                    <br><br><br>  
-					</div> 
+                    <label for="login-field" class="contact-text">Email:</label>
+                    <input type="text" class="form-item">
+                    <br><br><br>
+					</div>
 					<div class="contact-item">
-                        <label for="login-field" class="contact-text">Message:</label>
-                        <input type="text" class="form-item">
-					</div> 
+                    <label for="login-field" class="contact-text">Message:</label>
+                    <input type="text" class="form-item">
+					</div>
 					<input type="submit" value="Submit" class="form-button">
 				</form>
             </div>
-        </main>
+            </form>
+            
         <footer>
-            <p>COPYRIGHT ORANGE RABBIT - DESIGNED BY JAKE BHATT</p>
+             <p>COPYRIGHT ORANGE RABBIT - DESIGNED BY JAKE BHATT</p>
         </footer>
+
     </body>
 </html>

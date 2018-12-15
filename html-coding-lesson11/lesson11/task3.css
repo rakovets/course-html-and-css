@@ -1,117 +1,132 @@
 @font-face {
-	font-family: MyFont;
-	src: url(PT_Sans-Web-Regular.ttf);
+font-family: MyFont;
+src: url(PT_Sans-Web-Regular.ttf);
 }
 
-*{
-  font-family: MyFont;
-  margin: 0px;
-  padding: 0px;
+body{
+  width: 1600px;
 }
 
-header{
-  height: 100px;
+* {
+font-family: MyFont;
+margin: 0px;
+padding: 0px;
 }
 
-.logo{
-  float: left;
-  width: 20%;
-}
-
-nav{
-  float: left;
-  width: 60%;
-}
-
-.nav-item{
-  float: left;
-  margin-left: 1000px;
-  font-family: "Calibri";
-  color: rgb(251, 156, 6);
-  text-align: center;
-  font-weight: bold; 
-}
-
-.orange {
-  font-family: "Calibri";
-  color: rgb(251, 156, 6);
-  text-align: center;
-  padding-left: 25.7%;
-  width: 7.5%;
-  top: 5%;
-}
-
-.rabbit{
-  font-family: "Calibri";
-  color: #6e6d6b;
-  text-align: center;
-  padding-left: 25.7%;
-  width: 7.5%;
-  top: 10%;
-  font-size: 40px;
-}
-
-.icon {
-  font-size: 22px;
-  font-family: "Calibri";
-  color: rgb(158, 155, 155);
-  text-align: center;
-  width: 80%;
-  float: right;
-  font-weight: bold;
-  float: left;
-}
-
-.main-part{
-background-image:url("background.png");
-position: absolute; 
+header {
+height: 150px;
 width: 1600px;
-height: 400px:
 }
 
-.tagline1{
-  background-color: #666666;
-	color: rgb(251, 156, 6);
-	font-size: 37px;
-  border: 1px solid #666666;
-  opacity: 0.7;
+.logo-img {
+float: left;
+height: 130px;
+position: absolute;
+margin-left: 200px;
 }
 
-.tagline2 {
-  background-color:rgb(251, 156, 6);
-	color: #666666;
-	font-size: 37px;
-  border: 1px solid rgb(251, 156, 6);
-  opacity: 0.7;
+.logo-text1{
+margin-top: 35px;
+color: rgb(251, 156, 6);
+position: absolute;
+margin-left: 360px;
+font-size: 35px;
 }
 
-.posts {
-  margin-right: 100px;
-  margin-left: 150px;
+.logo-text2{
+margin-top: 70px;
+color: #666666;
+position: absolute;
+margin-left: 350px;
+font-size: 35px;
 }
 
-.post {
-  float: left;
-  margin-right: 4%;
-  width: 260px;
+.logo-item{
+width: 20%;
 }
 
-.post-link {
-  float: right;
-  color: rgb(251, 156, 6);
-  font-style: italic;
+nav {
+float: left;
+width: 55%;
+margin-right: 12.5%;
+margin-left: 37.5%;
+font-weight: bold;
+text-align: center;
+}
+
+.nav-item {
+float: left;
+margin-left: 4%;
+}
+
+
+.preview {
+  border-top: 4px solid rgb(251, 156, 6);
+  border-bottom: 4px rgb(251, 156, 6);
+background-image:url("background.png");
+position: relative;
+width: 1600px;
+height: 400px;
+display: block;
+}
+
+.taglines{
+  position: absolute;
+  top: 150px;
+  left: 150px;
+}
+
+.tagline {
+background-color:rgba(251, 156, 6, 0.85);
+background-size: 395px;
+color: #666666;
+font-size: 37px;
+font-weight: 395px;
+height: 50px;
+text-align: center;
+margin-bottom: 10px;
+}
+
+.tagline:nth-child(2n){
+background-color: rgba(158, 155, 155, 0.85);
+color: rgb(251, 156, 6);
+}
+
+.short-topics{
+column-count: 4;
+margin-right: 100px;
+margin-left: 100px;
+display: block;
+width: 1600px;  
+}
+
+.column {
+float: left; 
+margin-right: 4%;
+width: 260px;
+}
+
+
+.column-link {
+float: right;
+color: #ff9900;
+font-style: italic;
 }
 
 .meet {
 text-align: center;
 font-size: 40px;
-color: rgb(251, 156, 6);
+color: #ff9900;
 text-decoration: underline;
 font-weight: normal;
 float: left;
-width: 50%;
+width: 1600px;
 margin-right: 25%;
 margin-left: 25%;
+color: rgb(251, 156, 6);
+text-align: center;
+font-size: 40px;
+font-family: "Myriad Pro"; 
 }
 
 .columns2{
@@ -140,10 +155,44 @@ border: 5px solid rgb(251, 156, 6);
 border-radius: 50%;
 }
 
+.feedback{
+color: rgb(251, 156, 6);
+font-size: 40px;
+font-family: "Myriad Pro"; 
+margin: 0;
+padding: 0;
+}
+
+.contact-item {
+display: inline; 
+color: rgb(251, 156, 6);
+font-size: 30px;
+}
+
+.form-button {
+background-color:  rgb(251, 156, 6);
+width: 170px;
+height: 50px;
+font-size: 30px;
+color: #ffffff;
+}
+
+.form-item {
+border-left: 4px solid #b3b3b3;
+width: 900px;
+height: 30px;
+}
+
+.contact {
+width: 80%;
+margin-right: 10%;
+margin-left: 10%;
+}
+
 .contact-headline {
 text-align: center;
 font-size: 40px;
-color: rgb(251, 156, 6);
+color: #ff9900;
 text-decoration: underline;
 font-weight: normal;
 float: left;
@@ -154,35 +203,8 @@ margin-top: 60px;
 margin-bottom: 40px
 }
 
-.contact {
-width: 80%;
-margin-right: 10%;
-margin-left: 10%;
-}
-
-
-.contact-item {
-display: inline; 
-color: rgb(251, 156, 6);
-font-size: 30px; 
-}
-
-.form-button {
-background-color: rgb(251, 156, 6);
-width: 170px;
-height: 50px;
-font-size: 30px;
-color: #ffffff;
-}
-
-.form-item {
-border-left: 4px solid #b3b3b3;
-width: 1000px;
-height: 30px;
-}
-
 footer {
-background-color: rgb(251, 156, 6);
+background-color: #ff9900;
 color: white;
 text-align: center;
 font-weight: 400;
@@ -190,4 +212,5 @@ line-height: 2;
 margin-top: 60px;
 margin-bottom: 8px;
 font-size: 25px;
+width: 1600px;
 }
