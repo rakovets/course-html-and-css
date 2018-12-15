@@ -38,12 +38,13 @@
             </nav>
         </header>
         <main>
-            <div class="intro"><img src="background.png"></div>
-            <div class="intro-txt">
+            <section class="intro">
+                <img src="background.png">
                 <div class="intro-txt-rabbits">do you like rabbits?</div>
                 <div class="intro-txt-orange">do you like orange?</div>
-            </div>
-            <div class="articles">
+            </section>
+
+            <section class="articles">
                 <div class="article">
                     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                     <div><a href="">read more...</a></div>
@@ -60,8 +61,9 @@
                     <div>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</div>
                     <div><a href="">read more...</a></div>
                 </div>
-            </div>
-            <div class="info">
+            </section>
+
+            <section class="info">
                 <div><h1>Meet the team</h1></div>
                 <div>
                     <div class="team-member">
@@ -80,16 +82,27 @@
                         <div class="about">Squawk is no social bunny. But when it comes to programming he stands out from the crowd.</div>
                     </div>
                 </div>
-            </div>
-            <div class="feedback">
+            </section>
+
+            <section class="feedback">
                 <div><h1>Send us a message</h1></div>
                 <div>
-                    <div class="field">Name:<input type="text"></div>
-                    <div class="field">Email:<input type="text"></div>                   
-                    <div class="field">Message:<input type="text"></div>
+                    <label for="name-field">Name:</label>
+                    <input type="text" id="name-field" class="text-field">
                 </div>
-            </div>
+                <div>
+                    <label for="email-field">Email:</label>
+                    <input type="text" id="email-field" class="text-field">
+                </div>
+                <div>
+                    <label for="message-field">Message:</label>
+                    <input type="text" id="message-field" class="text-field">
+                </div>
+                <div><input type="submit" value="Submit" class="button"></div>
+            </section>
         </main>
-        <footer></footer>
+        <footer>
+            <div class="copyright">COPYRIGHT ORANGE RABBIT-DESIGHED BY JAKE  BHATT.</div>
+        </footer>
     </body>
 </html>
