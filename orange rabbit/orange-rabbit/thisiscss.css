@@ -9,26 +9,15 @@
     padding: 0px;
 
 }
-footer {
-    background-color: #ff9900;
-    color: white;
-    text-align: center;
-    font-weight: 400;
-    line-height: 2;
-	margin-top: 60px;
-	margin-bottom: 8px;
-	font-size: 25px;
-    
-}
 
 .logo-img {
     float: left;
-    width: 60%;
+    width: 50%;
 	margin-top: 2px;
 }
 
 .logo-text1 {
-    width: 40%;
+    width: 50%;
     margin-top: 30px;
     color: #ff9900;
     font-size: 30px;
@@ -36,7 +25,7 @@ footer {
 }
 
 .logo-text2 {
-    width: 40%;
+    width: 50%;
     margin-top: 4px;
     color: #666666;
     font-weight: bold;
@@ -45,15 +34,14 @@ footer {
 }
 
 .logo {
-    width: 20%;
     float: left;
-    margin-left: 12.5%;
+    margin-left: 150px;
 }
 
 .nav {
-    width: 55%;
-    margin-right: 12.5%;
-    margin-left: 37.5%;
+    width: 500px;
+    margin-left: 300px;
+    margin-top: 20px;
     float: left;
     font-weight: bold;
     text-align: center;
@@ -74,7 +62,7 @@ footer {
 .posts {
     margin-right: 100px;
     margin-left: 150px;
-
+    overflow: auto;
 }
   
 .post-link {
@@ -103,9 +91,23 @@ footer {
     border: 1px solid #ff9900;
     width: 400px;
     display: absolute;
+    margin-top: 5px;
 }
 
-.members-headline , .contact-headline {
+.members-headline {
+    text-align: center;
+    font-size: 40px;
+    color: #ff9900;
+    text-decoration: underline;
+    font-weight: normal;
+    float: left;
+    width: 60%;
+    margin-left: 12%;
+    margin-top: 60px;
+	margin-bottom: 40px
+}
+
+.contact-headline {
     text-align: center;
     font-size: 40px;
     color: #ff9900;
@@ -119,21 +121,18 @@ footer {
 	margin-bottom: 40px
 }
 
-.members-items , .contact {
-    width: 80%;
-    margin-right: 10%;
-    margin-left: 10%;
+.members {
+    overflow: auto;
+    margin-left: 200px;
 }
 
 .member-name , .member-job {
-	 text-align: center;
-	 display: inline; 
-	margin-bottom: 30px;
-	
+    text-align: center;
+    display: inline;
 }
 
 .member-job {
-	    color: #ff9900;
+	color: #ff9900;
 }
 
 .member-photo {
@@ -147,7 +146,7 @@ footer {
 
 .member-item {
     float: left;
-    margin-right: 16%;
+    margin-right: 200px;
     width: 200px;
 }
 
@@ -157,8 +156,24 @@ footer {
 	text-align: left;
 }
 
-.contact-item {
-	display: inline; 
+.contact {
+    overflow: auto;
+    margin-right: 200px;
+    margin-left: 200px;
+}
+
+.contact-text {
+    color: #ff9900;
+    font-size: 20px;
+    width: 10%;
+    float: left;
+    margin-top: 20px;
+}
+
+.form-i {
+    width: 90%;
+    float: left;
+    margin-top: 20px;
 }
 
 .form-item {
@@ -167,12 +182,21 @@ footer {
 	height: 30px;
 }
 
+.form-item1 {
+	border-left: 4px solid #b3b3b3;
+	width: 1000px;
+	height: 60px;
+}
+
 .form-button {
 	background-color: #ff9900;
 	width: 170px;
 	height: 50px;
 	font-size: 30px;
-	color: #ffffff;
+    color: #ffffff;
+    margin-top: 20px;
+    margin-right: 100px;
+    float: right;
 }
 
 .intro {
@@ -182,9 +206,25 @@ footer {
 .intro-text {
     position: absolute;
     left: 200px;
-    top: 350px;
+    top: 290px;
 }
 
 .posts {
+    margin-top: 30px;
+}
+
+footer {
+    background-color: #ff9900;
+    color: white;
+    text-align: center;
+    font-weight: 400;
+    line-height: 2;
+	margin-top: 60px;
+	margin-bottom: 8px;
+	font-size: 25px;
+    
+}
+
+hr {
     margin-top: 30px;
 }
