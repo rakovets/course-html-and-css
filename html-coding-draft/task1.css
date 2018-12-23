@@ -1,13 +1,17 @@
-body {
-    margin-left: 10px;
-    margin-right: 500px;
+* {
+    margin: 0px;
+    padding: 0px;
 }
-
+body {
+  width: 1600;
+}
+header {
+     height: 125px;
+}
 .logo {
     float: left;
     width: 20%;
 }
-
 .logo-image {
     float: left;
     margin-top: 15px;
@@ -37,45 +41,16 @@ nav {
     float: left;
     width: 80%;
    margin-left: 650px;
+   margin-top: 30px;
 }
 
 p {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
 }
-.icon-home img {
+.nav-item {
     float: left;
     margin-left: 50px;
-    width: 6%;
-    margin-top: 5px;
-}
-.icon-about img {
-    float: left;
-    margin-left: 40px;
-    width: 6%;
-    margin-top: 8px;
-}
-.icon-work img {
-    float: left;
-    margin-left: 40px;
-    width: 5%;
-    height: 50px;
-
-}
-.icon-blog img {
-    float: left;
-    margin-left: 40px;
-    width: 5%;
-    height: 53px;
-}
-.icon-contact img {
-    float: left;
-    margin-left: 40px;
-    width: 7%;
-    height: 53px;
-}
-.tagrain {
-    width: 165%;
 }
 .headline {
     text-align: center;
@@ -83,7 +58,7 @@ p {
     font-weight: lighter;
     color: orange;
     margin-top: 150px ;
-    margin-left: 520px;
+    margin-left: 50px;
 }
 .horse1 {
     float: left;
@@ -128,13 +103,23 @@ p {
 .loginform {
     text-align: center;
     color: orange;
-    margin-left: 0px;
+    margin-right: 20px;
     margin-top: 550px;
+}
+.form-item {
+    border-left: 4px solid #b3b3b3;
+    width: 850px;
+    height: 20px;
+}
+.messange-item {
+    border-left: 4px solid #b3b3b3;
+    width: 850px;
+    height: 60px;
 }
 .submit {
     background-color: orange;
     color: white;
-    margin-left: 200px;
+    margin-left: 800px;
     height: 30px; 
     width: 100px;
     font-weight: lighter;
@@ -148,7 +133,7 @@ p {
     color: white;
     margin-top: 100px ;
     margin-left: 5px;
-    width: 164%;
+    width: 1200px;
     height: 30px;
 }
 .horse-text {
