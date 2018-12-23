@@ -1,0 +1,239 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+body {
+  width: 1600;
+}
+header {
+     height: 125px;
+}
+.logo {
+    float: left;
+    width: 20%;
+}
+.logo-image {
+    float: left;
+    margin-top: 15px;
+    margin-left: 170px;
+    position: absolute;
+    margin-top: 0px;
+}
+.logo-name {
+    float: left;
+    margin-left: 270px;
+    margin-top: 5px;
+}
+.orange {
+    color: orange;
+    font-family: 'Slabo 27px', serif;
+    font-size: 20px;
+    position: absolute;
+    margin-top: 5px;
+}
+.rabbit-text {
+    font-weight: bolder;
+    font-size: 18px;
+    position: absolute;
+    margin-top: 35px;
+}
+nav {
+    float: left;
+    width: 80%;
+   margin-left: 650px;
+   margin-top: 30px;
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+}
+.nav-item {
+    float: left;
+    margin-left: 50px;
+}
+.headline {
+    text-align: center;
+    font-size: 13px;
+    font-weight: lighter;
+    color: orange;
+    margin-top: 150px ;
+    margin-left: 50px;
+}
+.horse1 {
+    float: left;
+    border-radius: 50%;
+    border: 3px solid orange;
+    margin-left: 180px;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+}
+.rabbit {
+    float: left;
+    border-radius: 50%;
+    border: 3px solid orange;
+    margin-left: 150px;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+}
+.ostrich {
+    float: left;
+    border-radius: 50%;
+    border: 3px solid orange;
+    margin-left: 170px;
+    margin-top: 100px;
+    height: 200px;
+    width: 200px;
+    margin-right: 50px;
+    position: absolute;
+}
+.heading {
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    color: orange;
+    position: absolute;
+    margin-top: 400px ;
+    margin-left: 550px;
+
+
+}
+.loginform {
+    text-align: center;
+    color: orange;
+    margin-right: 20px;
+    margin-top: 550px;
+}
+.form-item {
+    border-left: 4px solid #b3b3b3;
+    width: 850px;
+    height: 20px;
+}
+.messange-item {
+    border-left: 4px solid #b3b3b3;
+    width: 850px;
+    height: 60px;
+}
+.submit {
+    background-color: orange;
+    color: white;
+    margin-left: 800px;
+    height: 30px; 
+    width: 100px;
+    font-weight: lighter;
+}
+.caption {
+    text-align: center;
+    font-size: 15px;
+    font-weight: lighter;
+    background-color: orange;
+    position: relative;
+    color: white;
+    margin-top: 100px ;
+    margin-left: 5px;
+    width: 1200px;
+    height: 30px;
+}
+.horse-text {
+    text-align: left;
+    color: orange;
+    font-size: 12px;
+    font-family: 'Muli', sans-serif;
+    word-wrap: break-word;
+    margin-left: 235px;
+    position: absolute;
+    margin-top: 55px;
+    font-weight: lighter;
+}
+.rabbittext {
+    text-align: left;
+    color: orange;
+    font-size: 12px;
+    font-family: 'Muli', sans-serif;
+    word-wrap: break-word;
+    margin-left:  585px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 55px;
+}
+.ostrich-text {
+    text-align: left;
+    color: orange;
+    font-size: 12px;
+    font-family: 'Muli', sans-serif;
+    word-wrap: break-word;
+    margin-left: 965px;
+    font-weight: lighter;
+    position: absolute;
+    margin-top: 55px;
+}
+.text1 {
+    float: left;
+    font-size: 10px;
+    font-family: 'Muli', sans-serif;
+    word-wrap: break-word;
+    width: 180px;
+    margin-left: 90px;
+    margin-top: 3px;
+}
+.text2 {
+    float: left;
+    font-size: 10px;
+    font-family: 'Muli', sans-serif;
+    word-wrap: break-word;
+    width: 180px;
+    margin-left: 110px;
+    margin-top: 3px;
+}
+.text3 {
+    float: left;
+    font-size: 10px;
+    font-family: 'Muli', sans-serif;
+    word-wrap: break-word;
+    width: 180px;
+    margin-left: 650px;
+    position: absolute;
+    margin-top: 0px;
+}
+.text4 {
+    float: left;
+    font-size: 10px;
+    font-family: 'Muli', sans-serif;
+    word-wrap: break-word;
+    width: 180px;
+    margin-left: 920px;
+    position: absolute;
+    margin-top: 0px;
+}
+.text5 {
+    float: left;
+    font-size: 10px;
+    font-family: 'Muli', sans-serif;
+    word-wrap: break-word;
+    width: 180px;
+    margin-left: 200px;
+    position: absolute;
+    margin-top: 310px;
+}
+.text6 {
+    float: left;
+    font-size: 10px;
+    font-family: 'Muli', sans-serif;
+    word-wrap: break-word;
+    width: 180px;
+    margin-left: 550px;
+    position: absolute;
+    margin-top: 310px;
+}
+.text7 {
+    float: left;
+    font-size: 10px;
+    font-family: 'Muli', sans-serif;
+    word-wrap: break-word;
+    width: 180px;
+    margin-left: 920px;
+    position: absolute;
+    margin-top: 310px;
+}
