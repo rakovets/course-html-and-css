@@ -1,0 +1,111 @@
+@font-face {
+    font-family: MyFont;
+    src: url(Thasadith-Regular.ttf);
+}
+
+* {
+    font-family: MyFont;
+    margin: 0px;
+    padding: 0px;
+
+}
+
+header {
+    height: 80px;
+}
+
+.logo {
+    float: left;
+    margin-left: 300px;
+    margin-top: 6px;
+    margin-bottom: 5px;
+}
+
+.logo-img{
+    width: 65px;
+    height: 65px;
+}
+
+.nav {
+    margin-left: 400px;
+    margin-top: 25px;
+    font-size: 20px;
+    float: left;
+    text-align: center;
+    color: rgb(156, 156, 156);
+}
+
+.nav-item {
+    float: left;
+    margin-right: 20px;
+}
+
+.background-image1{
+    width: 1519px;
+    height: 1100px;
+    opacity: 0.25;
+}
+
+.intro {
+    background-color: rgba(0, 0, 0, 1);
+    height: 1100px;
+    position: relative;
+}
+
+.intro-items {
+    position: absolute;
+    left: 200px;
+    top: 450px;
+}
+
+.intro-text {
+    font-size: 50px;
+    color: white;
+}
+
+.intro-button2 {
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 6px 20px;
+    border: 2px solid orange;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0);
+}
+.intro-button2:hover {
+    background-color: orange;
+    color: white;
+}
+
+.intro-button1 {
+    border-radius: 20px;
+    font-size: 25px;
+    padding: 6px 20px;
+    border: 2px solid orange;
+    color: white;
+    background-color: orange;
+}
+.intro-button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+.about {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.about-hr {
+    width: 60px;
+    margin-left: 48%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.about-text {
+    font-size: 20px;
+}
+
+h1 {
+    font-size: 35px;
+}
+
