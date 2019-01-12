@@ -40,6 +40,10 @@ header {
     margin-right: 20px;
 }
 
+section {
+    display: inline-block;
+}
+
 .background-image1{
     width: 1519px;
     height: 1100px;
@@ -92,20 +96,102 @@ header {
 .about {
     margin-top: 20px;
     text-align: center;
+    margin-left: 350px;
 }
 
-.about-hr {
+.hr {
     width: 60px;
-    margin-left: 48%;
+    margin-left: 46%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .about-text {
     font-size: 20px;
+    margin-bottom: 20px;
 }
 
-h1 {
+.title {
     font-size: 35px;
+    text-align: center;
 }
 
+.column {
+    width: 200px;
+    float: left;
+    margin: 20px;
+}
+
+.columns {
+    text-align: left;
+}
+
+.example-photo {
+    width: 379.5px;
+    height: 379.5px;
+    float: left;    
+}
+
+.mobile-app {
+    margin-top: 20px;
+    margin-left: 450px;
+}
+
+.mobile-app-img {
+    height: 580px;
+    width: 280px;
+    float: left;
+}
+
+.mobile-app-text {
+    float: left;
+    margin-left: 40px;
+    margin-top: 40px;
+    width: 400px;
+}
+
+.number {
+    width: 50px;
+    height: 50px;
+}
+
+.app-text {
+    display: inline;
+}
+
+.download {
+    display: inline;
+    float: left;
+    margin-left: 80px;
+    margin-top: 50px;
+}
+
+.title-app {
+    font-size: 35px;
+    text-align: center;
+    margin-left: 20px;
+}
+
+.cities-icon {
+    width: 20px;
+    height: 20px;
+    float: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+
+.cities-text {
+    display: inline;
+    float: left;
+    margin-right: 30px;
+}
+
+.city-photo {
+    width: 200px;
+    height: 180px;
+}
+
+.cities {
+    margin-left: 300px;
+    margin-top: 40px;
+}
