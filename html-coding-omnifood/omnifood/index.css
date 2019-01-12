@@ -1,81 +1,203 @@
 @font-face {
     font-family: MyFont;
     src: url(PT_Sans-Web-Regular.ttf);
-    }
+}
     
 body{
-  width: 1600px;
+    width: 1600px;
 }
 
 * {
-  font-family: MyFont;
-  margin: 0px;
-  padding: 0px;
+    font-family: MyFont;
+    margin: 0px;
+    padding: 0px;
 }
 
 header {
-height: 150px;
-width: 1600px;
+    height: 80px;
+}
+
+.logo {
+    padding: 0 2%;
 }
 
 .logo-img {
-float: left;
-height: 130px;
-position: absolute;
-margin-left: 200px;
-}
-
-.logo-item{
-width: 20%;
+    height: 100px;
+    width: auto;
+    float: left;
+    margin-top: 20px;
 }
 
 nav {
-float: left;
-width: 55%;
-margin-right: 12.5%;
-margin-left: 37.5%;
-font-weight: bold;
-text-align: center;
+    float: right;
+    list-style: none;
+    margin-top: 55px;
 }
 
 .nav-item {
-float: left;
-margin-left: 4%;
+    display: inline-block;
+    margin-left: 40px;
+}
+
+.background{
+    width: 1519px;
+    height: 1100px;
+    opacity: 0.25;
 }
 
 .preview {
-  background-image:url("hero.jpg");
-  background-size: cover;
-  background-attachment: fixed ;
-  background-repeat: no-repeat;
-  background-position: center;
-  width: 100%;
-  height: 30%;
+    background-color: black;  
+    height: 1100px;
+    position: relative;
+    width: 100%;
 }
 
 .taglines{
-position: absolute;
-top: 150px;
-left: 150px;
+    position: absolute;
+    top: 400px;
+    left: 100px;
 }
 
-.tagline {
-color: white;  
-font-size: 37px;
-font-weight: 395px;
-height: 50px;
-text-align: center;
-margin-bottom: 10px;
+h1 {
+    color: white;
+    font-size: 230%;
 }
 
-.tagline:nth-child(2n){
-color: white;
+.form-button2 {
+    border-radius: 200px;
+    font-size: 25px;
+    padding: 10px 30px;
+    border: 2px solid orange;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.intro-button2:hover {
+    background-color: orange;
+    color: white;
 }
 
-.form-button {
-width: 170px;
-height: 50px;
-font-size: 30px;
-color: #ffffff;
+.form-button1 {
+    border: 2px solid orange;
+    color: white;
+    background-color: orange;
+    margin-right: 15px;
+    padding: 10px 30px;
+    border-radius: 200px;
+    font-size: 25px;
+}
+
+.intro-button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+.slogan {
+    line-height: 145%;
+    width: 70%;
+    margin-left: 15%;
+}
+
+.icons {
+    font-size: 350%;
+    display: block;
+    margin-bottom: 10px;
+    font-style: normal
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+.column {
+    padding: 1%;
+    float: left;
+    width: 20%;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+
+.iphone {
+    
+}
+
+.steps {
+    color: orange;
+    border: 2px solid orange;
+    border-radius: 50%;
+    height: 50px;
+    width: 55px;
+    text-align: center;
+    padding: 5px;
+    float: right;
+    font-size: 150%;
+    margin-right: 20px;    
+}
+
+.city {
+    display: block;
+    float: left;
+    margin: 1% 0 1% 1.6%;
+    padding: 0 2%;
+}
+
+.saying {
+    margin-left: 0;
+    width: 20%;
+    float: left;
+}
+
+.customer {
+    border-radius: 50%;
+    margin-right: 10px;
+    vertical-align: middle;
+}
+
+.background1 {
+    width: 1519px;
+    height: 500px;
+    opacity: 0.25;
+}
+
+.contact-item {
+    
+    
+    
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+section {
+    padding: 80px 0;
+}
+
+
+
+
+
+
+h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 30px;
 }
       
