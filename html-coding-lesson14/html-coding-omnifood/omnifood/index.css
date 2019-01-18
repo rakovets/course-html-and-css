@@ -1,0 +1,319 @@
+@font-face {
+    font-family: MyFont;
+    src: url(PT_Sans-Web-Regular.ttf);
+}
+    
+body{
+    width: 1600px;
+}
+
+* {
+    font-family: MyFont;
+    margin: 0px;
+    padding: 0px;
+}
+
+
+section {
+    display: inline-block;
+    padding: 80px 0;
+}
+
+
+
+
+.logo-img {
+    width: 5%;
+    float: left;
+    margin-left: 20%;
+    margin-right: 25%;
+    margin-top: 1%;
+    margin-bottom: 1%;
+}
+
+.nav {
+    width: 10%;
+    float: left;
+    margin-right: 1%;
+    margin-top: 3%;
+    color: gray;
+}
+
+
+.preview {
+    background-size: 100%;
+    height: 100vh;
+    position: relative;
+    width: 100%;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(hero.jpg);
+    background-position: center;
+    background-attachment: fixed;
+
+}
+
+.taglines{
+    position: absolute;
+    top: 300px;
+    left: 320px;
+}
+
+h1 {
+    color: white;
+    font-size: 230%;
+}
+
+.form-button2 {
+    border-radius: 200px;
+    font-size: 25px;
+    padding: 10px 30px;
+    border: 2px solid orange;
+    color: orange;
+    background-color: rgba(0, 0, 0, 0);
+    
+}
+.intro-button2:hover {
+    background-color: orange;
+    color: white;
+}
+
+.form-button1 {
+    border: 2px solid orange;
+    color: white;
+    background-color: orange;
+    margin-right: 15px;
+    padding: 10px 30px;
+    border-radius: 200px;
+    font-size: 25px;
+}
+
+.intro-button1:hover {
+    background-color: orange;
+    color: white;
+}
+
+.information_subtitle {
+    margin-left: 31%;
+    text-align: left;
+    color: grey;
+    width: 39%;
+}
+
+.icons {
+    font-size: 350%;
+    display: block;
+    margin-bottom: 10px;
+    font-style: normal
+}
+
+.menu_photo {
+    float: left;
+    width: 25%;
+    padding: 0px;
+    border: none;
+}
+
+h3 {
+    font-size: 110%;
+    margin-bottom: 15px;
+}
+
+.column {
+    padding: 1%;
+    float: left;
+    width: 13%;
+    margin-left: 9%;
+    margin-top: 3%;
+}
+
+.menu {
+    padding: 0;
+    margin: 0;
+    float: left;
+    width: 100%;
+}
+
+.how_it_works {
+    background-color: whitesmoke;
+}
+
+.how_it_works_headline {
+    text-align: center;
+    font-size: 22px;
+    color: gray;
+    width: 40%;
+    margin-left: 30%;
+    margin-right: 30%;
+    padding-top: 3%;
+    margin-bottom: 2%;
+}
+
+.iPhone {
+    width: 12%;
+    margin-left: 30%;
+    float: left;
+    margin-bottom: 3%;
+}
+
+.how_it_works_number {
+    width: 10%;
+    float: left;
+    margin-bottom: 2%;
+    margin-left: 2%;
+    margin-right: 2%;
+}
+
+.how_it_works_text {
+    float: left;
+    width: 75%;
+    margin-left: 2%;
+    margin-bottom: 2%;
+
+}
+
+.how_it_works_paragraphs {
+    display: inline-block;
+    margin: 3%;
+}
+
+.download-app {
+    margin-top: 3%;
+    margin-left: 7%;
+    width: 11%;
+    float: left;
+    margin-bottom: 3%;
+}
+
+.download-android {
+    margin-left: 2%;
+    margin-top: 3%;
+    width: 9.5%;
+    float: left;
+    margin-bottom: 3%;
+}
+
+.numbers {
+    width: 30%;
+    text-align: left;
+    float: left;
+    padding-right: 15%;
+    padding-top: 2%;
+    padding-left: 5%;
+}
+
+
+
+.lisbon {
+    width:15%;
+    padding-left: 10%;
+    float: left;
+}
+
+.san-francisco {
+    width: 15%;
+    padding-left: 6.6%;
+    float: left;
+}
+
+.berlin {
+    width:15%;
+    padding-left: 6.6%;
+    float: left;
+}
+
+.london {
+    width: 15%;
+    padding-left: 6.6%;
+    padding-right: 10%;
+    float: left;
+}
+
+.iconys {
+    width: 10%;
+    float: left;
+}
+
+
+.saying {
+    margin-left: 0;
+    width: 20%;
+    float: left;
+}
+
+.opinion {
+    box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.5) inset;
+    background-image: url(back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 50vh;
+    width: 100%;
+    background-attachment: fixed;
+    color: white;
+}
+
+.author-photo {
+    width: 17%;
+    border-radius: 50%;
+    margin-top: 7%;
+}
+
+.paragraph {
+    float: left;
+    width: 18%;
+    padding-left: 12%;
+}
+.name {
+    float: left;
+    
+}
+
+.parentheses {
+    font-size: 40px;
+}
+
+    
+
+
+
+
+h1, h2, h3 {
+    font-weight: 300;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-size: 180%;
+    text-align: center;
+    margin-bottom: 30px;
+    letter-spacing: 1px;
+    word-spacing: 2px;
+}
+
+h2:after {
+    display: block;
+    height: 2px;
+    background-color: #e67e22;
+    content: " ";
+    width: 100px;
+    margin: 0 auto;
+    margin-top: 30px;
+}
+
+
+
+
+
+
+footer {
+    background-color: black;
+    text-align: center;
+    color: grey;
+}
+
+.footer-icon {
+    width: 1%;
+}
+
+.footer-menu {
+    float: left;
+}
+      
