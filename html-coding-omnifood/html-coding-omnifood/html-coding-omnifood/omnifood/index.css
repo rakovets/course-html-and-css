@@ -32,16 +32,13 @@ header {
     margin-right: 20px;
 }
 
-.background-image1{
-    width: 1519px;
-    height: 1100px;
-    opacity: 0.25;
-}
-
 .intro {
-    background-color: rgba(0, 0, 0, 1);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url(hero.jpg);
+    background-size: cover;
+    background-position: center;
     height: 1100px;
-    position: relative;
+    width: 100%;
+    background-attachment: fixed;
 }
 
 .intro-items {
@@ -82,8 +79,7 @@ header {
 }
 
 .about {
-    width: 1600px;
-    margin-top: 20px;
+    margin: 20px 20% 0 20%;
     text-align: center;
     height: 400px;
 }
@@ -110,15 +106,15 @@ h1 {
 .text-column{
     color: darkgrey;
     font-family: Arial, Helvetica, sans-serif;
-    float :right;
-    text-align: left;
-    width:200px;
-    padding-top: 6px ;
-    margin-right: 10%;
+    float :left;
+    text-align:left;
+    width: 20%;
+    padding-left: 5%;
 }
 
 .text-columns p{
     padding-bottom: 10px;
+
 }
 
 .food-galery{
@@ -132,6 +128,7 @@ h1 {
 
 .downoloading-page{
     height: 600px;
+    background-color: gainsboro;
 }
 
 .phone-item{
@@ -170,6 +167,7 @@ h2{
     text-align: left;
     padding-top: 120px;
     padding-left: 30px;
+    float: left;
 }
 
 .cities-item img{
@@ -178,10 +176,10 @@ h2{
 }
 
 .cities-item{
-    width: 10%;
-    float: left;
-    text-align: justify;
-    padding-left: 40px
+    width: 20%;
+    padding-left: 5%;
+    float :left;
+    text-align:left;
 }
 
 h3{
@@ -196,6 +194,7 @@ h4{
 
 .cities{
     height: 400px;
+    margin: 20px 20% 0 20%;
 }
 
 .opinions img{
@@ -203,6 +202,96 @@ h4{
 }
 
 .opinions{
-    background-color: black;
-    
+    box-shadow: 0 0 0 10000px rgba(0, 0, 0, 0.5) inset;
+    background-image: url(back-customers.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 300px;
+    width: 100%;
+    color: white;
+    background-attachment: fixed;
 }
+
+a{
+    color: orange;
+    border-bottom: 1px;
+    border-bottom-color: orange;
+}
+
+.opinions-item{
+    width: 25%;
+    padding-left: 7%;
+    float :left;
+    text-align:left;
+}
+
+.opinions-item p{
+    font-style: italic;
+    font-size: 20px;
+}
+
+.opinions-item img{
+    height: 50px;
+    border-radius: 50%;
+}
+
+.cost{
+    background-color: gainsboro;
+    width: 1600px;
+    height: 400px;
+}
+
+.cost-item{
+    width: 10%;
+    padding-left: 20%;
+    float :left;
+    text-align:left;
+}
+
+h5{
+    text-align: center;
+    font-size: 35px; 
+}
+
+.first-item{
+    width: 200px;
+    height:100px;
+    background-color: whitesmoke;
+    border-bottom:1px solid gray; 
+}
+
+.second-item{
+    width: 200px;
+    height:110px;
+    background-color:white;
+    border-bottom:1px solid gray; 
+}
+
+.cost-item p{
+    padding-top: 10px;
+}
+
+.cost-button{
+    width: 180px;
+    height: 40px;
+    border-radius: 20px;
+    color: orange;
+    background-color: whitesmoke;
+}
+
+.cost-button:hover {
+    background-color: orange;
+    color: white;
+}
+
+.button-place{
+    height: 60px;
+    width: 200px;
+    background-color: white;
+    padding-top: 10px;
+    padding-left: 10px;
+    background-color: white;
+}
+
+
+
