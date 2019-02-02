@@ -1,0 +1,22 @@
+.base{
+    height: 367px;   
+    width:317px;
+    border: 1px solid;
+    border-color: rgb(207, 222, 222)
+}
+
+.label1{
+    position: absolute;
+    margin-top: 55,68px;
+}
+
+*{
+    padding: 0%;
+    margin: 0%;
+}
+
+.base-item{
+    margin-top: 55,68px;;
+}
+
+  
