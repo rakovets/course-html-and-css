@@ -2,27 +2,27 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <link rel="stylesheet" href="index.css">
-        <title>Тест</title>
+        <title>CREATE AN ACCOUNT</title>
+        <link href="index.css" rel="stylesheet"/>
     </head>
     <body>
-        <p class="creat ribbon ">CREATE AN ACCOUNT</p>
-        <div class="base">
-            <div class="base-item">
-                <label for="email" class="label1">Email</label>
-                <br>
-                <input type="email" placeholder="johnsmit@gmail.com" aria-label="email" height="31px" width="">
+        
+        <div class="menu">
+            <div class="fon">
+                <div class="fon-color">
+                    <form>
+                        <input type="email" name="email" value="johnsmith@gmail.com" class="input-email">
+                        <input type="password" name="Choose" class="input-choose">
+                        <input type="password" name="Confirm" class="input-confirm">                    
+                        <input type="submit" value="REGISTER NOW!" class="button">
+                    </form> 
+                </div>
+                <img src="images/createanaccountfon.jpg" class="ribbon">
+                <p class="CREATE_AN_ACCOUNT">CREATE AN ACCOUNT</p>
+                <p class="Email">Email: *</p>
+                <p class="choosePassword">Choose Password: *</p>
+                <p class="confirmPassword">Confirm Password: *</p>
             </div>
-            <br>
-            <label for="password" class="label2">CHOOSE PASSWORD:</label>  
-            <br>
-            <input type="text" aria-label="password">
-            <br>
-            <label for="confirm" class="label3">CONFIRM PASSWORD:</label>  
-            <br>
-            <input type="text" aria-label="confirm">
-            <br>
-            <button>REGISTER NOW!</button>
         </div>
     </body>
 </html>
