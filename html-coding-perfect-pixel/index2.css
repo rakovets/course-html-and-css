@@ -1,0 +1,126 @@
+.fon-color {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+  position: absolute;
+  left: 130px;
+  top: 107px;
+  width: 318px;
+  height: 368px;
+}
+.fon-color form div .CREATE_AN_ACCOUNT {
+  position: absolute;
+  left: 162px;
+  top: 98px;
+  width: 150px;
+  height: 11px;
+  font-weight: bold;
+  text-align: center;
+  text-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+  font-size: 12px;
+  font-family: "Arial";
+  color: #ffffff;
+}
+.fon-color form div .input-email {
+  position: absolute;
+  left: 30px;
+  top: 80px;
+  width: 258px;
+  height: 25px;
+  color: #777777;
+  text-align: left;
+  font-size: 12px;
+  font-family: "Arial";
+  color: #ffffff;
+}
+.fon-color form .input-choose {
+  position: absolute;
+  left: 30px;
+  top: 154px;
+  width: 258px;
+  height: 25px;
+}
+.fon-color form .input-confirm {
+  position: absolute;
+  left: 30px;
+  top: 230px;
+  width: 258px;
+  height: 25px;
+}
+.fon-color form .button {
+  border-radius: 4px;
+  border-color: #10bfbf;
+  background-color: #01c3c3;
+  position: absolute;
+  left: 30px;
+  top: 295px;
+  width: 260px;
+  height: 45px;
+  z-index: 14;
+  font-size: 16px;
+  font-family: "Arial";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: 2.688;
+  text-align: center;
+  text-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+}
+.fon-color .label {
+  font-size: 12px;
+  font-family: "Arial";
+  color: #ffffff;
+}
+.fon-color .ribbon {
+  background-image: -moz -linear-gradient(90deg, #04a4ac 0%, #04c5cf 100%);
+  background-image: -webkit -linear-gradient(90deg, #04a4ac 0%, #04c5cf 100%);
+  background-image: -ms -linear-gradient(90deg, #04a4ac 0%, #04c5cf 100%);
+  box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+  position: absolute;
+  left: 162px;
+  top: 103px;
+  width: 149px;
+  height: 25px;
+  z-index: 22;
+}
+.fon-color .Email {
+  font-size: 12px;
+  font-family: "Arial";
+  color: #333333;
+  font-weight: bold;
+  line-height: 0, 833;
+  text-align: left;
+  position: absolute;
+  left: 162px;
+  top: 151px;
+  width: 116px;
+  height: 158px;
+  z-index: 18;
+}
+.fon-color .choosePassword {
+  font-size: 12px;
+  font-family: "Arial";
+  color: #ffffff;
+  font-weight: bold;
+  line-height: 0, 833;
+  text-align: left;
+  position: absolute;
+  left: 162px;
+  top: 225px;
+  width: 130px;
+  height: 158px;
+  z-index: 18;
+}
+.fon-color .confirmPassword {
+  font-size: 12px;
+  font-family: "Arial";
+  color: #333333;
+  font-weight: bold;
+  line-height: 0.833;
+  text-align: left;
+  position: absolute;
+  left: 162px;
+  top: 300px;
+  width: 130px;
+  height: 158px;
+  z-index: 18;
+}
