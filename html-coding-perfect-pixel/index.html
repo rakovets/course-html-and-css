@@ -6,27 +6,20 @@
         <link href="index.css" rel="stylesheet"/>
     </head>
     <body>
-        <img src="images/createanaccountfon.jpg" class="ribbon">
-        <div class="form">
-            <form>
-                <div class="form-item">
-                    <label class="CREATE_AN_ACCOUNT">CREATE AN ACCOUNT</label>
-                    <div>
-                        <input class="form-item" type="email" name="email" value="johnsmith@gmail.com">
-                </div>
-                    
-                    
-                    <label class="Email">Email: *</label>
-                    <label class="choosePassword">Choose Password: *</label>
-                    <label class="confirmPassword">Confirm Password: *</label>
-                
-                <input type="password" name="Choose" class="input-choose">
-                <input type="password" name="Confirm" class="input-confirm">                    
-                <input type="submit" value="REGISTER NOW!" class="button">
-            </form> 
+        <div class="menu">
+            <div class="forum">
+                <form action="/login" method="POST">
+                    <input type="email" name="email" value="johnsmith@gmail.com" class="input-email">
+                    <input type="password" name="Choose" class="input-choose">
+                    <input type="password" name="Confirm" class="input-confirm">                    
+                    <input type="submit" value="REGISTER NOW!" class="input-button">
+                </form> 
             </div>
-        <div>
-            
+            <img src="images/createanaccountfon.jpg" class="ribbon">
+            <p class="account">CREATE AN ACCOUNT</p>
+            <p class="Email">Email: *</p>
+            <p class="choosePassword">Choose Password: *</p>
+            <p class="confirmPassword">Confirm Password: *</p>
         </div>
     </body>
 </html>

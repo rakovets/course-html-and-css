@@ -1,0 +1,107 @@
+body .forum {
+  background-color: #ffffff;
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 130px;
+  top: 107px;
+  width: 318px;
+  height: 368px;
+}
+body .menu .ribbon {
+  background-image: -moz-linear-gradient(90deg, #04a4ac 0%, #04c5cf 100%);
+  background-image: -webkit-linear-gradient(90deg, #04a4ac 0%, #04c5cf 100%);
+  background-image: -ms-linear-gradient(90deg, #04a4ac 0%, #04c5cf 100%);
+  box-shadow: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+  position: absolute;
+  left: 162px;
+  top: 103px;
+  width: 149px;
+  height: 25px;
+}
+body .menu .account {
+  color: white;
+  line-height: 1;
+  text-align: center;
+  text-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+  left: 167px;
+  top: 98px;
+  width: 150px;
+  height: 11px;
+}
+body .menu .Email,
+body .menu .choosePassword,
+body .menu .confirmPassword,
+body .menu .account {
+  font-size: 12px;
+  font-family: "Arial";
+  font-weight: bold;
+  text-align: left;
+  position: absolute;
+}
+body .menu .Email,
+body .menu .choosePassword,
+body .menu .confirmPassword {
+  color: #333333;
+}
+body .menu .Email {
+  left: 162px;
+  top: 151px;
+  width: 116px;
+  height: 158px;
+}
+body .menu .choosePassword {
+  left: 162px;
+  top: 225px;
+  width: 130px;
+  height: 158px;
+}
+body .menu .confirmPassword {
+  left: 162px;
+  top: 300px;
+  width: 130px;
+  height: 158px;
+}
+body .menu .forum .input-button,
+body .menu .forum .input-email,
+body .menu .forum .input-choose,
+body .menu .forum .input-confirm {
+  position: absolute;
+}
+body .menu .forum .input-button {
+  border-radius: 4px;
+  border-color: #10bfbf;
+  background-color: #01c3c3;
+  left: 30px;
+  top: 295px;
+  width: 260px;
+  height: 45px;
+  font-size: 16px;
+  font-family: "Arial";
+  color: #ffffff;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+}
+body .menu .forum .input-email {
+  left: 30px;
+  top: 80px;
+  width: 258px;
+  height: 25px;
+  font-size: 12px;
+  font-family: "Arial";
+  color: #777777;
+  text-align: left;
+}
+body .menu .forum .input-choose {
+  left: 30px;
+  top: 154px;
+  width: 258px;
+  height: 25px;
+}
+body .menu .forum .input-confirm {
+  left: 30px;
+  top: 230px;
+  width: 258px;
+  height: 25px;
+}

@@ -1,0 +1,130 @@
+@color-fon: rgb(255, 255, 255);
+@shadow-003: 0px 1px 3px 0px rgba(0, 0, 0, 0.03);
+@shadow-015: 0px 1px 2px 0px rgba(0, 0, 0, 0.15);
+@color-text: rgb(51, 51, 51);
+@font-family: "Arial";
+@gradient:  90deg, rgb(4,164,172) 0%, rgb(4,197,207) 100%;
+@font-size-b: 16px;
+@font-size-s: @font-size-b - 4px;
+
+body {
+    .forum {
+    background-color: @color-fon;
+    box-shadow: @shadow-015;
+    position: absolute;
+    left: 130px;
+    top: 107px;
+    width: 318px;
+    height: 368px;
+    border: 1px grey;
+    }
+    .menu {
+            .ribbon {
+                background-image: -moz-linear-gradient(@gradient);
+                background-image: -webkit-linear-gradient(@gradient);
+                background-image: -ms-linear-gradient(@gradient);
+                box-shadow: @shadow-015;
+                position: absolute;
+                left: 162px;
+                top: 103px;
+                width: 149px;
+                height: 25px;
+            }
+
+            .account {
+                color: white;  
+                line-height: 1;
+                text-align: center;
+                text-shadow: @shadow-003;
+                left: 167px;
+                top: 98px;
+                width: 150px;
+                height: 11px;
+            }
+
+            .Email, .choosePassword, .confirmPassword, .account {
+                font-size: @font-size-s;
+                font-family: @font-family;
+                font-weight: bold;
+                text-align: left;
+                position: absolute;
+            }
+
+            .Email, .choosePassword, .confirmPassword {
+                color: @color-text;
+            }
+
+            .Email {
+                left: 162px;
+                top: 151px;
+                width: 116px;
+                height: 158px;
+            }
+            
+            .choosePassword {
+                left: 162px;
+                top: 225px;
+                width: 130px;
+                height: 158px;
+            }
+
+            .confirmPassword {
+                left: 162px;
+                top: 300px;
+                width: 130px;
+                height: 158px;
+            }
+
+            .forum {
+
+                .input-button, .input-email, .input-choose, .input-confirm {
+                    position: absolute;
+                }
+
+                .input-button {
+                    border-radius: 4px;
+                    border-color: #10bfbf;
+                    background-color: #01c3c3;
+
+                    left: 30px;
+                    top: 295px;
+                    width: 260px;
+                    height: 45px;
+
+                    font-size: @font-size-b;
+                    font-family: @font-family;
+                    color: rgb(255, 255, 255);
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    text-align: center;
+                    text-shadow: @shadow-003;
+                }
+
+                .input-email {
+                    left: 30px;
+                    top: 80px;
+                    width: 258px;
+                    height: 25px;
+
+                    font-size: @font-size-s;
+                    font-family: @font-family;
+                    color: rgb(119, 119, 119);
+                    text-align: left;
+                }
+
+                .input-choose {
+                    left: 30px;
+                    top: 154px;
+                    width: 258px;
+                    height: 25px;
+                }
+
+                .input-confirm {
+                    left: 30px;
+                    top: 230px;
+                    width: 258px;
+                    height: 25px;
+                }
+            }
+    }   
+}
