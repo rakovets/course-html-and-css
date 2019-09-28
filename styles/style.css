@@ -1,0 +1,168 @@
+* {
+    margin: 0;
+    border: 0;
+}
+
+@font-face {
+    font-family: 'stmarie';
+    src: url('../fonts/stmarie-thin-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;     
+}
+
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/bebas___-webfont.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+header {
+    width: 1600px;
+    height: 125px;
+    padding: 0 220px;
+    background-color: white;
+    box-sizing: border-box;
+    position: fixed;
+}
+
+logo {
+    float: left;
+}
+nav {
+    margin: 0 0 0 600px;
+}
+
+.logo-image {
+    float: left;    
+}
+
+figure {
+    padding: 0 20px;
+    width: 70px;
+    height: 80px;
+    float: left;
+    text-align: center;
+}
+
+.menu-caption {
+    font: 18px 'bebas';
+    color: gray;
+}
+
+footer {
+    padding: 30px 0 0 0;
+    width: 1600px;
+    height: 60px;
+    font: 24px 'stmarie';
+    background-color: orange;
+    color: white;    
+    text-align: center;
+}
+
+section {
+    width: 1200px;
+    margin: 0px 200px;
+    clear: both;
+}
+
+.slider {
+    width: 1600px;
+    height: 400px;
+    margin: 125px 0 0 0;
+    border-top: 5px solid orange;
+    border-bottom: 5px solid orange;
+    background-image: url(../pictures/orange.jpg);
+    float: left;
+}
+
+.four-textarea {    
+    height: 150px;
+}
+
+.textarea-content {
+    width: 300px;
+    max-height: 100%;
+    padding: 5px 15px;
+    font: 15px 'Calibri Regular';  
+    box-sizing: border-box;
+    overflow: hidden;
+    float: left;
+    display: inline-block;
+}
+
+.team {
+    height: 500px;
+}
+
+.member {
+    width: 400px;
+    max-height: 100%;
+    padding: 0px 55px;
+    box-sizing: border-box;
+    float: left;
+    display: inline-block;
+}
+
+.member-title {
+    text-align: center;
+    font: 22px 'Calibri Light';
+}
+
+.member-image {
+    width: 100%;
+    height: 290px;
+    margin: 20px 0px;
+    border-radius: 50%;
+    border: 5px solid #ffb240;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.member-content {
+    height: 110px;
+    font: 15px 'Calibri Light';
+    padding: 0px 30px;
+    box-sizing: border-box;
+}
+
+input, textarea {
+    width: 1070px;
+    font: 24px 'stmarie';
+    background-color: #eeeeee;
+    border: 1px solid orange;
+    box-sizing: border-box;
+}
+
+.text-field {
+    margin: 20px 0;
+}
+
+h1 {
+    font-family: 'bebas';
+}
+
+h2 {
+    margin: 30px 0;
+    text-align: center;
+    color: orange;
+    font: 40px 'stmarie';
+    text-decoration: underline;
+}
+
+.button {
+    margin: 0 0 20px 1000px;
+    width: 170px;
+    height: 50px;
+    background-color: orange;
+    color: white;
+    font: 24px 'stmarie';
+}
+
+label {
+    width: 120px;
+    font: 600 24px 'stmarie';
+    color: orange;
+    vertical-align: top;
+    display: inline-block;
+}
