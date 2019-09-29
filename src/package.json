@@ -1,0 +1,22 @@
+{
+  "name": "rakovets-2019q1",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browser-sync start --config bs-config.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/rolling-scopes-school/rakovets-2019Q1.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/rolling-scopes-school/rakovets-2019Q1/issues"
+  },
+  "homepage": "https://github.com/rolling-scopes-school/rakovets-2019Q1#readme",
+  "devDependencies": {
+    "browser-sync": "^2.26.4"
+  }
+}
