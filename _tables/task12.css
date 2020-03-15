@@ -1,0 +1,25 @@
+table {
+    border-collapse: separate;
+    border: 2px solid black;
+    border-spacing: 4px;
+}
+
+td {
+    padding: 5px;
+    padding-right: 30px;
+    border: 1px solid lightgray;
+}
+
+th {
+    padding: 10px;
+    border: 1px solid black;
+}
+
+caption {
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+
+.pink {
+    background-color: pink;
+}
