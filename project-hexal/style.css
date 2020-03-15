@@ -1,0 +1,188 @@
+* {
+    box-sizing: border-box;
+    border: 0px;
+}
+
+body {
+    font-family: 'Lato', 'Helvetica', sans-serif;
+    width: 1020px;
+    font-size: 0.607em;
+    font-weight: 700;
+}
+
+h2, h3, p {
+    padding: 0px;
+    margin: 0px;
+}
+
+a {
+    color: white;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2eb398;
+}
+
+header {
+    height: 63px;
+    background-color: #323232;
+}
+
+header:after {
+    content: '';
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 26px 45px 0px 45px;
+    border-color: #323232 transparent transparent transparent;
+    position: absolute;
+    bottom: 0;
+    transform: translateX(-553px);
+    top:63px;
+}
+
+nav {
+    height: 63;
+    border: 0px;
+}
+
+.logo {
+    width: 90px;
+    float: left;
+    margin-top: 9px;
+    text-align: center;
+}
+
+.logo img {
+    display: inline-block;
+}
+
+.menu-left, .menu-right {
+    width: 464px;
+    float: left;
+    margin-top: 30px;
+}
+
+.menu-left a {
+    float: right;
+    margin-right: 24px;
+}
+
+.menu-right a {
+    float: left;
+    margin-left: 24px;
+}
+
+.hexagons {
+    height: 720px;
+    padding-top: 90px;
+}
+
+.hexagons-row-odd {
+    margin-left: 120px;
+}
+
+.hexagons-row-even .hexa {
+    margin: -40px 0px -40px 20px;
+}
+
+.hexa, .hexa div {
+    width: 100%;
+    height: 100%;
+    transform-origin: 50% 50%;
+    overflow: hidden;
+}
+
+.hexa {
+    width: 180px;
+    height: 207px;
+    float: left;
+    margin-right: 20px;
+    transform: rotate(120deg);
+}
+
+.hexa-rotate1 {
+    transform: rotate(-60deg);
+}
+
+.hexa-rotate2 {
+    transform: rotate(-60deg);
+}
+
+section.about-me {
+    overflow: auto;
+}
+
+.about-me {
+    height: 341px;
+    background-color: #2eb398;
+}
+
+.about-me-photo {
+    width: 180px;
+    margin: 68px 20px 0px 120px; 
+    float: left;
+}
+
+.about-me-photo img {
+    margin-left: -120px; 
+}
+
+.about-me-description {
+    width: 583px;
+    margin-top: 68px;
+    float: left;
+}
+
+.about-me-description h2,
+.about-me-description h3 {
+    font-family: 'Maven Pro', 'Helvetica', sans-serif;
+    font-weight: 400;
+    vertical-align: top;
+}
+
+.about-me-description h2 {
+    color:  #d8fcf5;
+    font-size: 30px;
+    line-height: 24px;
+}
+
+.about-me-description h3 {
+    color:  #1f816d;
+    font-size: 18px;
+    line-height: 27px;
+}
+
+.about-me-description p {
+    color:  #d7fcf5;
+    font-size: 12px;
+    font-weight: 400;
+    text-align: justify;
+    line-height: 1.797;
+    line-clamp: 0.5;
+    margin-top: 10px;
+}
+
+.social-networks {
+    margin-top: 37px;
+    margin-right: 2px;
+}
+
+.social-network {
+    float: right;
+    filter: grayscale(100%) opacity(50%);
+}
+
+.social-network:hover {
+    filter: none;
+}
+
+.footer {
+    height: 43px;
+    background-color: #222222;
+    color:  #454545;
+    font-family: 'Maven Pro', 'Helvetica', sans-serif;
+    font-weight: 400;
+    padding-top: 16px;
+}
