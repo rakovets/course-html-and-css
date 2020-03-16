@@ -1,0 +1,163 @@
+<html lang="en"><head>
+</head> 
+<style>
+ body {
+    background-color: lightgrey;
+    font-family: 'Noto Sans', 'Tahoma', sans-serif;
+    font-size: 18px;
+    line-height: 2em;
+    box-sizing: border-box;
+}
+
+section p {
+    text-align: justify;
+}
+
+a {
+    margin-left: 0.5em;
+    color: black;
+    text-decoration: none;
+}
+
+header,
+footer {
+    color:wheat ;
+    background-color: darkslategray;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0em 0em 1em;
+    padding: 1em;
+}
+
+footer p {
+    margin: 1em 0em 0em;
+    padding: 1em;
+}
+
+img {
+    width: 16em;
+    height: 16em;
+    border-radius: 1em;
+    border: 3px solid rgba(105, 105, 105, 0.5);
+    overflow: hidden;
+    object-fit: cover;
+    object-position: -0% 10%;
+}
+
+section {
+    display: inline-block;
+    width: 1020px;
+    padding-bottom: 2%;
+    border-bottom: 3px solid rgba(105, 105, 105, 0.5);
+}
+
+section.additional {
+    border-bottom: 0px;
+}
+
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+    align-content: center;
+}
+
+.about-me-photo {
+    width: 40%;
+    float: left;
+}
+
+.about-me-contact {
+    width: 60%;
+    margin-top: 3%;
+    float: left;
+}
+  
+
+ </style>
+<body>
+    <header>
+        <h1>Nikita Kochetkov : Student of computer sience academic</h1>
+    </header>
+    </style> 
+    <img style="transform: rotate(90deg);" src="ipd.jpg" alt="Italian Trulli" height="120" width="200">
+    
+    <br> 
+
+    <section class="Main info:">
+            <h1 style="color: crimson; font-size: 20px ; font-style: italic;" >1) Contact Info:</h1>
+                <p><b>Phone/Viber/Telegram:</b><a> +375292755981</a></p>
+                <p><b>Email:</b><a >nikitaatesh@icloud.com</a></p>
+  <p><b>Skype:</b><a >nikitaatesh</a></p>
+          
+        </section>
+  
+        <section  style="display: inline-table;" class="About me:">
+           
+                <h2 style="color:blueviolet ; font-size: 20px ; font-style: italic;">2) About me:</h2> 
+                <p><b>Country was born: </b> Belarus </p>
+                <p><b>City:</b> Minsk</p>
+                <p><b>Street where living:</b> Miroshnichenko 12 , flat 3</p>
+                <p><b>My universites:</b> IPD</p>
+                <p><b>Purpus:</b> Earn big money</p>
+            
+        </section>
+
+        <section class="education">
+
+            <h2 style="color: forestgreen;font-size: 20px; font-style: italic;" >3) Education</h2>
+            <p><b>Course:</b> Economic and buesnies</p>
+            <p><b>Description:</b> Economic , law , math , analiz </p>
+            <p><b>Specialization:</b> Menedjer-economist</p>
+         
+        </section>
+
+        <section class="Hobbies">
+
+                <h2 style="color :dimgray; font-size: 20px;font-style: italic;">4) Hobbies</h2>
+                <p><b>I have a lot of hobbies , but the main thing is travel:</b> I guess a europian country</p>
+                <p><b>I have been visited country and cityes</b> -- like next:</p>
+          <p><b>First Country:</b> </p>
+                            <ul>
+                            <li>Belguem</li>
+                        </ul>
+                    <p></p>
+                    <b>City:</b>
+                    <ul>
+                        <li>Bruge</li>
+                        <li>Brusel</li>
+                    </ul>
+           <p><b>Second Country:</b> </p>
+                            <ul>
+                            <li>Spain</li>
+                        </ul>
+                    <p></p>
+                    <b>City:</b>
+                        <ul>
+                        <li>Barcelona</li>
+                        <li>Madrid</li>
+                        <li>Malaga</li>
+                    </ul>
+           <p><b>Therhst Country:</b> </p>
+                         <ul>
+                         <li>England</li>
+                       </ul>
+                    <p></p>
+                    <b>City:</b>
+                       <ul>
+                       <li>London</li>
+                       <li>Manchester</li>
+                       <li>Glasgo</li>
+                <hr>
+                
+                <h3>5) Future job</h3>
+                <p><b>Java developer:</b> developer project</p>
+                <p><b>My courses:</b>Itee-step , what we did on our courses : </p>
+                        <li>Basic java</li>
+                        <li>Data-Base</li>
+                        <li>MySQL</li>
+                        <li>JUnit</li>
+                        <li>HTML</li>
+        </section>
+        </body>
