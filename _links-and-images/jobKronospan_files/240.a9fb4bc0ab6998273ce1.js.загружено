@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[240],{1926:function(n,e,t){"use strict";var c=t(1439),o=t(1443),u=t(1507);e.a=function(){return function(n){return n(Object(u.c)(u.a.FETCHING)),c.a.delete("/employer/edit/logo").then((function(){n([Object(u.d)(null),Object(u.c)(u.a.SUCCESS)])}),(function(e){n(Object(u.c)(u.a.FAIL)),n(Object(o.a)(e))}))}}}}]);
+//# sourceMappingURL=240.a9fb4bc0ab6998273ce1.js.map

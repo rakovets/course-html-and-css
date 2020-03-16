@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[448],{1740:function(t,n,c){"use strict";var e=c(1439),i=c(1495),o=c(1539);n.a=function(t){return function(n){return n(Object(i.d)(i.a.FETCHING)),e.a.postFormData("/employer/description",{description:t}).then((function(t){var c=t.data;n([Object(i.c)(c.description),Object(i.d)(i.a.SUCCESS)]),Object(o.a)({vishnuEntryObject:{description:!0}})}),(function(t){throw n(Object(i.d)(i.a.FAIL)),t}))}}}}]);
+//# sourceMappingURL=448.7ffc6f02082d5efdbcc7.js.map

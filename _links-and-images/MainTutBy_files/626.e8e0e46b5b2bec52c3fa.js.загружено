@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[626],{1375:function(e,s,t){var n=t(10);e.exports=new n.Template({code:function(e,s,t){var n=this;return n.b(t=t||""),n.b('<div class="supernova-suggest-mobile-item" data-qa="search-mobile-suggest-item">'),n.b("\n"+t),n.b("    "),n.b(n.v(n.f("text",e,s,0))),n.b("\n"+t),n.b("</div>"),n.b("\n"),n.b("\n"),n.fl()},partials:{},subs:{}},'<div class="supernova-suggest-mobile-item" data-qa="search-mobile-suggest-item">\n    {{text}}\n</div>\n\n',n)}}]);
+//# sourceMappingURL=626.e8e0e46b5b2bec52c3fa.js.map
