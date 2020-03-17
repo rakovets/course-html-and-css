@@ -1,0 +1,2 @@
+(window.webpackJsonp=window.webpackJsonp||[]).push([[26],{1799:function(n,e,o){"use strict";var t;e.a=function(){return t||(t=new Promise((function(n,e){if(window){if(!window.CKEDITOR){var o=document.createElement("script");o.onload=function(){return n()},o.src="".concat(window.globalVars.staticHost,"/ckeditor/ckeditor.js?v=1.2.0"),document.querySelector("head").appendChild(o)}}else e()}))),t}}}]);
+//# sourceMappingURL=26.c369e22cdbcc2dadb20e.js.map
