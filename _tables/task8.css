@@ -1,6 +1,7 @@
 table {
     border-collapse: separate;
     border: 3px solid black;
+    border-spacing: 5px;
 }
 
 td {
