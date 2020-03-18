@@ -10,5 +10,6 @@ td {
 }
 
 th {
-    /* стили для ячеек-заголовков */
+   padding: 10px;
+   border: 1px solid black;
 }

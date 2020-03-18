@@ -4,5 +4,7 @@ table {
 }
 
 td {
+    padding: 5px;
+    padding-right: 30px;
     border: 2px solid lightgray;
 }

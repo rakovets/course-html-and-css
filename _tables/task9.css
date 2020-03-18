@@ -5,3 +5,12 @@ body {
     font-size: 14px;
     font-family: Arial, sans-serif;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 2px solid rgb(189, 184, 184);
+    padding: 5px;
+}
