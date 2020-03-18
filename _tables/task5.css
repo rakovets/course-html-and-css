@@ -1,7 +1,8 @@
 table {
     border: 3px solid black;
+    border-collapse: collapse;
 }
 
 td {
-    border: 3px solid lightgray;
+    border: 6px solid lightgray;
 }
