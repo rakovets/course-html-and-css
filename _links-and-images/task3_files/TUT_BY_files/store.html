@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html><head>
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta charset="utf-8">
+	<title></title>
+</head><body><script>
+if(window.top !== window) {
+	window.addEventListener('message', function(ev) {
+		if (!ev.origin.match(/\.tut\.by$/)) {
+			return;
+		}
+		if (typeof(ev.data) != 'object') {
+			return;
+		}
+		if (!(typeof(ev.data.key) == 'string' && typeof(ev.data.method) == 'string')) {
+			return;
+		}
+		switch (ev.data.method) {
+			case 'set':
+				localStorage.setItem(ev.data.key, JSON.stringify(ev.data.hasOwnProperty('data') ? ev.data.data : false));
+				break;
+			case 'touch':
+				localStorage.setItem(ev.data.key, JSON.stringify(ev.data.hasOwnProperty('data') ? ev.data.data : false));
+				localStorage.removeItem(ev.data.key);
+				break;
+			case 'get':
+				var data = localStorage.getItem(ev.data.key);
+				try {
+					data = JSON.parse(data);
+				} catch (e) {
+					data = null;
+				}
+				setTimeout(function() {
+					window.parent.postMessage({
+						method: 'storage#get',
+						key: ev.data.key,
+						data: data
+					}, '*');
+				}, 1);
+				break;
+			case 'remove':
+				localStorage.removeItem(ev.data.key);
+				break;
+		}
+	});
+	window.addEventListener('storage', function(ev) {
+		if (ev.type != 'storage') {
+			return;
+		}
+		if (ev.newValue === null) {
+			return;
+		}
+		if (window.location.hash && ev.key.replace(/^[0-9a-f]+:([0-9a-f-]+)$/, '#$1') != window.location.hash) {
+			return;
+		}
+		var data = ev.newValue;
+		try {
+			data = JSON.parse(data);
+		} catch (e) {
+			data = null;
+		}
+		setTimeout(function() {
+			window.parent.postMessage({
+				method: 'storage#set',
+				key: ev.key,
+				data: data
+			}, '*');
+		}, 1);
+	});
+}</script></body></html>
