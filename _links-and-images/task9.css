@@ -1,0 +1,6 @@
+img {
+    width: 30em;
+    height: 30em;
+    border-radius: 1.5em;
+    border: 3px solid rgba(105, 105, 105, 0.5);
+}
