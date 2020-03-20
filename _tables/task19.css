@@ -4,6 +4,8 @@ table {
 }
 
 td {
+    color: brown;
+    background-color: lightgrey;
     padding: 5px;
     padding-right: 10px;
     border: 1px solid lightgray;
@@ -15,6 +17,8 @@ th {
 }
 
 caption {
+    color: darkblue;
+    background-color: lightcyan;
     margin-bottom: 10px;
     font-size: 18px;
 }
