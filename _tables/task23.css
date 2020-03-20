@@ -5,3 +5,40 @@ body {
     font-size: 14px;
     font-family: Arial, sans-serif;
 }
+
+table {
+    border-collapse: collapse;
+}
+
+th {
+    color: white;
+    width: 33%;
+    padding: 5px;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+}
+
+td {
+    width: 33%;
+    padding: 5;
+    border-bottom: 2px solid lightgray;
+}
+
+td.center {
+    padding: 5px;
+    text-align: center;
+}
+
+td.left {
+    padding: 5px;
+    text-align: left;
+}
+
+td.right {
+    padding: 5px;
+    text-align: right;
+}
+
+tr.yellow {
+    background-color: lightyellow;
+}
