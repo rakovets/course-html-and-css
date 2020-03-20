@@ -1,0 +1,55 @@
+body {
+    background-color: rgb(150, 150, 150);
+    font-family: 'Tahoma';
+    font-size: 18px;
+    line-height: 2em;
+}
+
+a {
+    margin-left: 1.0em;
+    color: rgb(255, 255, 255);
+}
+
+header,
+footer {
+    color: white;
+    background-color: dimgrey;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0em 0em 1em;
+    padding: 0.7em;
+}
+
+footer p {
+    margin: 3em 0em 0em;
+    padding: 0.7em;
+}
+
+img {
+    width: 15em;
+    height: 15em;
+    border-radius: 1.5em;
+    border: 3px solid rgba(105, 105, 105, 0.5);
+}
+
+section {
+    display: inline-block;
+    width: 1020px;
+    border-bottom: 3px solid rgba(105, 105, 105, 0.5);
+}
+
+.wrapper {
+    width: 1020px;
+    margin: 0 auto;
+}
+
+.me-photo {
+    width: 35%;
+    float: left;
+}
+
+.me-contact {
+    margin-top: 5%;
+}
