@@ -15,5 +15,6 @@ th {
 }
 
 caption {
-    /* стили для заголовка таблицы */
+    caption-side: bottom;
+    text-align: left;
 }
