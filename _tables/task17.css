@@ -1,7 +1,27 @@
 body {
     width: 350px;
     margin: 0;
-    padding: 0 10px;
+    padding: 10px;
     font-size: 14px;
     font-family: Arial, sans-serif;
+}
+
+caption {
+    caption-side: bottom;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+table {
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid lightgray;
 }
