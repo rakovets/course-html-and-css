@@ -1,0 +1,38 @@
+body {
+    background: rgb(239, 239, 240);
+}
+
+table {
+    margin: auto;
+    background: white;
+    border-spacing: 5px;
+}
+
+td {
+    border-radius: 0.5em;
+}
+
+caption {
+    text-align: center;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.style-1 {
+    background: #e7e42f;
+    color: white;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+.style-2 {
+    background: lightgray;
+    color: black;
+    padding: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
