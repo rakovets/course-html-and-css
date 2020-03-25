@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>HTML5-видео</title>
+
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/markdown.css">
+    <link rel="stylesheet"
+        href="https://cdn.jsdelivr.net/gh/Microsoft/vscode/extensions/markdown-language-features/media/highlight.css">
+
+    <style>
+        .task-list-item {
+            list-style-type: none;
+        }
+
+        .task-list-item-checkbox {
+            margin-left: -20px;
+            vertical-align: middle;
+        }
+    </style>
+    <style>
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe WPC', 'Segoe UI', 'Ubuntu', 'Droid Sans', sans-serif;
+            font-size: 14px;
+            line-height: 1.6;
+        }
+    </style>
+
+
+</head>
+
+<body class="vscode-light">
+    <h1>HTML5-видео</h1>
+    <p>Раньше, если вы хотели добавить видео на веб-страницу, вам приходилось использовать элемент
+        <code>&lt;object&gt;</code>, представляющий собой универсальный контейнер для внешних объектов. Подобные
+        приложения были в малой степени интерактивными и слабо взаимодействовали с окружающими их элементами на
+        веб-странице.</p>
+    <p>Второй подход заключался в использовании подключаемого модуля браузера, например <strong>Silverlight</strong> или
+        <strong>Flash</strong>. И хотя технология <strong>Flash</strong> позволяла использовать готовый видеоплеер или
+        создавать собственный, но её использование порождало большое нагромождение <strong>HTML</strong>-разметки, а
+        видеофайлы нужно было кодировать в требуемый формат.</p>
+    <p><strong>HTML5-видео</strong> — новый стандарт для размещения мультимедийных файлов в сети с оригинальным
+        программным интерфейсом без привлечения подключаемых модулей. С помощью элемента <code>&lt;video&gt;</code>
+        появилась возможность добавлять видеосодержимое на веб-страницы, а также стилизовать внешний вид видеоплеера при
+        помощи <em>css</em>-стилей.</p>
+    <p><img src="file:////home/rakovets/dev/table/images/video_player.png"
+            alt="ВНЕШНИЙ ВИД ВИДЕОПЛЕЕРА В ОСНОВНЫХ БРАУЗЕРАХ"></p>
+    <p>Как добавить HTML5-видео на веб-страницу</p>
+    <p>Содержание:</p>
+    <ol>
+        <li>Элемент <code>&lt;video&gt;</code></li>
+        <li>Встраиваемый интерактивный контент <code>&lt;embed&gt;</code></li>
+        <li>Видеокодеки</li>
+        <li>Видеоконтейнеры</li>
+        <li>Альтернативные медиа-ресурсы <code>&lt;source&gt;</code></li>
+        <li>Добавление субтитров и заголовков <code>&lt;track&gt;</code></li>
+        <li>Пример: размещаем видео на сайте</li>
+        <li>Видеоконвертеры</li>
+    </ol>
+    <h2>Элемент <video></h2>
+    <p>Поддержка браузерами</p>
+    <blockquote>
+        <p>IE: 9.0, атрибут muted — с 10.0<br>
+            Firefox: 3.5<br>
+            Chrome: 4.0, атрибут muted — с 30.0
+            Safari: 4.0, атрибут muted — с 5.0
+            Opera: 11.5
+            iOS Safari: 3.2
+            Android Browser: 2.3
+            Chrome for Android: 44</p>
+    </blockquote>
+    <p>В простом варианте HTML-разметка для размещения видеофайла на странице имеет следующий вид:</p>
+    <p><code>&lt;video src=&quot;video.ogv&quot; controls&gt;&lt;/video&gt;</code>
+        HTML
+        Атрибут controls отвечает за появление элементов управления видеоплеером. Вы можете добавить изображение с
+        помощью атрибута poster, которое браузер будет использовать, пока загружается видео или пока пользователь не
+        нажмет на кнопку воспроизведения, а также задать высоту и ширину видео.</p>
+    <p>Как и в случае с аудиофайлами, рекомендуется перечислять в
+        <source> все форматы, начиная с более предпочтительного. Также нужно указывать MIME-тип для каждого видеофайла.
+    </p>
+    <pre><code class="language-html"><div><span class="hljs-tag">&lt;<span class="hljs-name">video</span> <span class="hljs-attr">controls</span> <span class="hljs-attr">width</span>=<span class="hljs-string">"400"</span> <span class="hljs-attr">height</span>=<span class="hljs-string">"300"</span>&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">source</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"video.mp4"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"video/mp4"</span>&gt;</span><span class="hljs-comment">&lt;!-- MP4 для Safari, IE9, iPhone, iPad, Android, и Windows Phone 7 --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">source</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"video.webm"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"video/webm"</span>&gt;</span><span class="hljs-comment">&lt;!-- WebM/VP8 для Firefox4, Opera, и Chrome --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">source</span> <span class="hljs-attr">src</span>=<span class="hljs-string">"video.ogv"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"video/ogg"</span>&gt;</span><span class="hljs-comment">&lt;!-- Ogg/Vorbis для старых версий браузеров Firefox и Opera --&gt;</span>
+  <span class="hljs-tag">&lt;<span class="hljs-name">object</span> <span class="hljs-attr">data</span>=<span class="hljs-string">"video.swf"</span> <span class="hljs-attr">type</span>=<span class="hljs-string">"application/x-shockwave-flash"</span>&gt;</span><span class="hljs-comment">&lt;!-- добавляем видеоконтент для устаревших браузеров, в которых нет поддержки элемента video --&gt;</span>
+    <span class="hljs-tag">&lt;<span class="hljs-name">param</span> <span class="hljs-attr">name</span>=<span class="hljs-string">"movie"</span> <span class="hljs-attr">value</span>=<span class="hljs-string">"video.swf"</span>&gt;</span>
+  <span class="hljs-tag">&lt;/<span class="hljs-name">object</span>&gt;</span>
+<span class="hljs-tag">&lt;/<span class="hljs-name">video</span>&gt;</span>
+</div></code></pre>
+    <p>HTML
+        ТАБЛИЦА 1. АТРИБУТЫ ТЕГА <VIDEO></p>
+    <table>
+        <thead>
+            <tr>
+                <th style="text-align:left">Атрибут</th>
+                <th>Описание, принимаемое значение</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td style="text-align:left">autoplay</td>
+                <td>Автоматическое воспроизведение видеоофайла сразу же после загрузки страницы.</td>
+            </tr>
+            <tr>
+                <td style="text-align:left">controls</td>
+                <td>Указывает браузеру, что нужно отобразить базовые элементы управления воспроизведением
+                    (воспроизведение, пауза, громкость).</td>
+            </tr>
+        </tbody>
+    </table>
+    <p>height Задает высоту окна для отображения видеоданных, возможные значения: px или %
+        loop Циклическое воспроизведение видеофайла.
+        muted Выключает звук при воспроизведении видеофайла.
+        poster URL файла изображения, которое будет отображаться во время загрузки видеофайла или до тех пор, пока
+        пользователь не нажмет на кнопку PLAY. Если атрибут не задан, то будет отображаться первый кадр видеофайла.
+        preload Атрибут, отвечающий за предварительную загрузку видеоконтента. Не является обязательным, некоторые
+        браузеры игнорируют его. Возможные значения:
+        auto — браузер загружает видеофайл полностью, чтобы он был доступен, когда пользователь начнет его
+        воспроизведение.
+        metadata — браузер загружает первую небольшую часть видеофайла, чтобы определить его основные характеристики.
+        none — отсутствие автоматической загрузки видеофайла.
+        src Содержит абсолютный или относительный URL-адрес видеофайла.
+        width Задает ширину окна для отображения видеоданных, возможные значения: px или %</p>
+
+</body>
+
+</html>
