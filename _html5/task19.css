@@ -9,7 +9,7 @@ body {
 }
 
 body {
-    width: 553px;
+    width: 100%;
 }
 
 a:link,
@@ -142,6 +142,7 @@ figure.slides {
 }
 
 .slides>img {
+    width: 250px;
     float: left;
     margin-right: 16px;
 }
