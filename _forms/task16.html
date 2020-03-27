@@ -10,10 +10,10 @@
 <body>
     <h1>Профиль</h1>
 
-    <form action="http://localhost:8080" method="post">
+    <form enctype="application/x-www-form-urlencoded" action="http://localhost:8080" method="post">
         <p>Выберите изображение для своего аватара:</p>
         <!-- Добавьте поле сюда -->
-
+        <input type="file" name="avatar">
         <input type="submit" value="Загрузить">
     </form>
 </body>
