@@ -8,19 +8,53 @@
 </head>
 
 <body>
-    <h1>Профиль</h1>
+    <h1>Профиль</h1><br>
 
     <form action="http://localhost:8080" method="post">
-        Ваш пол: Мужской Женский
-        Месяц и год рождения:
-        Январь 1990
-        Знакомые технологии:
-        HTML
-        CSS
-        JavaScript
-        Node.js
-        Фото:
-        Сохранить
+        Ваш пол: 
+        <input type="radio" name="check"> Мужской 
+        <input type="radio" name="check" checked> Женский
+        <br><br>
+        Месяц и год рождения:<br>
+        <select name="month">
+            <option>Январь</option>
+            <option>Февраль</option>
+            <option>Март</option>
+            <option>Апрель</option>
+            <option>Май</option>
+            <option>Июнь</option>
+            <option>Июль</option>
+            <option>Август</option>
+            <option>Сентябрь</option>
+            <option>Октябрь</option>
+            <option>Ноябрь</option>
+            <option>Декабрь</option>         
+        </select>
+        <select name="year">
+            <option>2000</option>
+            <option>2001</option>
+            <option>2002</option>
+            <option>2003</option>
+            <option>2004</option>
+            <option>2005</option>
+            <option>2006</option>
+            <option>2007</option>
+            <option>2008</option>
+            <option>2009</option>
+            <option>2010</option>
+            <option>2011</option>         
+        </select>
+        <br><br>
+        Знакомые технологии:<br>
+        <select name="technology" multiple size="4">
+            <option>HTML</option>
+            <option>CSS</option>
+            <option>JavaScript</option>
+            <option>Node.js</option>       
+        </select>
+        <br><br>                
+        Фото: <input type="file" name="avatar"><br><br>
+        <input type="submit" value="Сохранить">
     </form>
 </body>
 
