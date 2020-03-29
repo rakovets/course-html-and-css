@@ -1,0 +1,131 @@
+html,
+body {
+    margin: 0;
+    padding: 0;
+    color: white;
+    background: url(images/background.jpg);
+}
+
+
+/* Header */
+
+header.page-header {
+    text-align: center;
+    padding: 20px;
+    color: white;
+    background-color: rgb(28, 37, 60);
+    border-radius: 10px;
+    box-shadow: 0 0 10px #cccccc;
+
+}
+
+.logo {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    margin: 0;
+    border-radius: 10px;
+    box-shadow: 0 0 10px #cccccc;
+}
+
+.main-menu ul {
+    margin: 0;
+    margin-left: 200px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 2em;
+}
+
+.main-menu a {
+    color: white;
+    font-family: "Roboto";
+    font-size: 150%;
+}
+
+
+/* Main */
+
+main {
+    display: block;
+    min-height: 200px;
+    padding-top: 115px;
+    color: black;
+}
+
+main::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.posts {
+    color: white;
+    min-height: 50px;
+    margin: 20px 0;
+    padding: 20px;
+
+    box-shadow: 0 0 10px #cccccc;
+}
+
+/* Footer */
+
+footer.page-footer {
+    min-height: 5px;
+    padding: 5px;
+    font-size: 14px;
+    color: white;
+    background-color: rgb(28, 37, 60);
+    background-image: linear-gradient(45deg, transparent 50%, #6d6565 50%), linear-gradient(-45deg, transparent 50%, red 50%), linear-gradient(135deg, transparent 50%, #6d6565 50%), linear-gradient(-135deg, transparent 50%, red 50%);
+    background-repeat: repeat-x;
+    background-position: 0 0, 0 0, 0 100%, 0 100%;
+    background-size: 10px 12px;
+}
+
+p {
+    text-align: center;
+}
+
+i {
+    font-size: 150%;
+}
+
+.img-profile {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+    border-bottom-left-radius: 50px;
+    border-bottom-right-radius: 50px;
+    width: 200px;
+    height: 200px;
+}
+
+.text {
+    color: red;
+    font-family: "Roboto";
+    font-size: 150%;
+}
+
+.info {
+    text-align: center;
+    color: white;
+    float: right;
+    width: 40%;
+    background: #585549;
+    border: 5px solid white;
+    border-bottom-width: 15px;
+    box-shadow: 0 0 8px -1px #f39c12;
+}
+
+.profile {
+    text-align: center;
+    color: white;
+    float: left;
+    width: 40%;
+    background: #585549;
+    border: 5px solid white;
+    border-bottom-width: 15px;
+    box-shadow: 0 0 8px -1px #f39c12;
+}
