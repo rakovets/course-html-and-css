@@ -8,7 +8,7 @@ body {
     font-size: 14px;
 }
 
-.logo,
+.logo
 .contacts,
 .about-us,
 .main-menu,
@@ -18,7 +18,7 @@ body {
     border: 2px solid #cccccc;
 }
 
-/* Собственные стили блоков */
+
 
 .header {
     min-height: 40px;

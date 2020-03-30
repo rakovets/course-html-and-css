@@ -3,10 +3,10 @@ p {
     outline: 2px solid rgba(0, 0, 0, 0.1);
 }
 
-.green {
+  .blue {
     background-color: #dff0d8;
 }
 
-.blue {
+ .green {
     background-color: #aaddff;
 }
