@@ -10,3 +10,7 @@ p {
 .blue {
     background-color: #aaddff;
 }
+
+.blue.green {
+    background-color: #dff0d8;
+}
