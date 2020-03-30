@@ -4,13 +4,13 @@ p {
 }
 
 .p-first {
-    
+    margin-left: 50px;
 }
 
 .p-second {
-    
+    padding: 20px;
 }
 
 .p-third {
-    
+    width: 50%;
 }
