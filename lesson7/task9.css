@@ -1,7 +1,8 @@
 p {
     outline: 2px solid rgba(0, 0, 0, 0.1);
+    padding: 10px;
 }
 
 .truth {
-    
+    background-color: #dff0d8;
 }
