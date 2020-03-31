@@ -15,16 +15,8 @@ footer {
     color: white;
     background-color: dimgrey;
     text-align: center;
-}
-
-header h1 {
-    margin: 0em 0em 1em;
-    padding: 0.7em;
-}
-
-footer p {
-    margin: 3em 0em 0em;
-    padding: 0.7em;
+    border-top: 1px solid white;
+    border-bottom: 1px solid white;
 }
 
 img {
@@ -52,4 +44,29 @@ section {
 
 .me-contact {
     margin-top: 5%;
+}
+
+.form {
+    display: inline;;
+    border: 3px solid gray;
+    border-radius: 10px 10px 10px 10px;
+    padding: 10px;
+    background-color: dimgrey;
+    color: white;
+}
+
+.submit {
+    padding: 5px;
+    border-radius: 10px 10px 10px 10px;
+    box-shadow: gray 2px 1px 1px 3px inset;
+    text-shadow: grey 0px 1px 1px;
+    background-image: linear-gradient(rgb(96, 97, 96), rgb(109, 112, 108));
+    color: white;
+    font-family: 'Tahoma';
+    font-size: 18px;
+
+}
+
+.submit:hover {
+    background-image: linear-gradient(rgb(76, 77, 76), rgb(93, 95, 93));
 }
