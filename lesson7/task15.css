@@ -27,33 +27,35 @@ body {
 
 .logo {
     float: left;
-    width: 100px;
+    width: 300px;
     text-align: center;
+    background-color: black;
+    color: white;
 }
 
 .contacts {
-    float: right;
-    width: 110px;
+    width: 170px;
     text-align: center;
+    margin-left: 370px;
+    background-color: black;
+    color: white;
 }
 
 .about-us {
-    width: 200px;
+    float: left;
+    width: 300px;
     margin-bottom: 10px;
 }
 
-.about-us h1 {
-    
-}
-
-.about-us p {
-    font-size: 12px;
-}
-
 .main-menu {
-    width: 50px;
+    width: 170px;
+    margin-left: 370px;
+    height: 50;
 }
 
 .footer {
-    
+    float: left;
+    width: 540px;
+    background-color: black;
+    color: white;
 }
