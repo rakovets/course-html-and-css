@@ -1,0 +1,43 @@
+.dark .first {
+    background-color: darkolivegreen;
+}
+
+.dark .second {
+    background-color: darkorange;
+}
+
+.dark .third {
+    background-color: darkorchid;
+}
+
+.dark .fourth {
+    background-color: darkred;
+}
+
+.dark .fifth {
+    background-color: darksalmon;
+}
+
+.light .first {
+    background-color: lightblue;
+}
+
+.light .second {
+    background-color: lightcoral;
+}
+
+.light .third {
+    background-color: lightcyan;
+}
+
+.light .third {
+    background-color: lightgray;
+}
+
+.light .fourth {
+    background-color: lightpink;
+}
+
+.light .fifth {
+    background-color: lightseagreen;
+}
