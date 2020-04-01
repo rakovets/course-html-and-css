@@ -4,27 +4,33 @@
 <head>
     <title>Завершаем главную: наполнение</title>
     <meta charset="utf-8">
+    <link rel="stylesheet" href="task19.css">
 </head>
 
 <body>
-    <img src="images/logo.svg" width="90" height="90">
-    <ul>
-        <li><a href="#home">Главная</a></li>
-        <li><a href="#blog">Посты</a></li>
-        <li><a href="#me">Обо мне</a></li>
-    </ul>
-    <img src="images/preview.jpg" alt="Видео превью">
-    <h1>Размышления о жизни</h1>
-    <p>Существует много вещей, которые безразличны собакам, но кошки от них без ума.</p>
-    <p>К примеру, любимое место кота — это клавиатура компьютера. Собака не будет постоянно спать на клавиатуре.</p>
-    <img src="images/vaska-1.jpg" alt="vaska-1">
-    <img src="images/vaska-2.jpg" alt="vaska-2">
-    <img src="images/vaska-3.jpg" alt="vaska-3">
-    <img src="images/vaska-4.jpg" alt="vaska-4">
-    <img src="images/vaska-5.jpg" alt="vaska-5">
-    <img src="images/vaska.jpg" width="50" alt="vaska">
-    Васька, vaska@rakovets.com
-    © 2010—2020 Cat Energy
+    <main>
+        <section class="text_video">
+            <article class="profile">
+                <h1>Размышления о жизни</h1>
+                <p>Существует много вещей, которые безразличны собакам, но кошки от них без ума.</p>
+                <p>К примеру, любимое место кота — это клавиатура компьютера. Собака не будет постоянно спать на клавиатуре.</p>
+            </article>
+            <aside class="last-actions">
+                <video controls preload="metadata" width="450" height="300">
+                    <source src="videos/rendering.mp4" type="video/mp4">
+                    <source src="videos/rendering.ogv" type="video/ogg">
+                    <source src="videos/rendering.webm" type="video/webm">
+                </video>
+            </aside>
+        </section>
+        <section class="foto">
+            <img src="images/vaska-1.jpg" alt="vaska-1">
+            <img src="images/vaska-2.jpg" alt="vaska-2">
+            <img src="images/vaska-3.jpg" alt="vaska-3">
+            <img src="images/vaska-4.jpg" alt="vaska-4">
+            <img src="images/vaska-5.jpg" alt="vaska-5">
+        </section>
+    </main>
 </body>
 
 </html>
