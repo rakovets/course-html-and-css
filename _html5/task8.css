@@ -1,4 +1,4 @@
-/*
+
 @font-face {
   font-family: "Roboto";
   font-style: normal;
@@ -7,15 +7,14 @@
       local("Roboto-Regular"),
       url("fonts/roboto.woff") format("woff");
 }
-*/
+
 
 html,
 body {
     margin: 0;
     padding: 0;
     font-size: 100%;
-    font-family: "PT Sans", "Arial", sans-serif;
-    /* сменить на "Roboto" */
+    font-family: "Roboto";
     color: white;
     background-color: #2c3e50;
 }
