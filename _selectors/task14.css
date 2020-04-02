@@ -1,0 +1,12 @@
+Псевдоклассы :link, :visited и :active
+a:link {
+    color: black;
+}
+
+a:visited {
+    color: #cccccc;
+}
+
+a:active {
+    color: green;
+}
