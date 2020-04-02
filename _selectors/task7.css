@@ -1,0 +1,13 @@
+.dark .third +li{
+   background-color: darkred; 
+
+}
+
+
+.normal .first+li{
+    background-color: red;
+}
+
+.normal .third+li{
+    background-color: yellow;
+}

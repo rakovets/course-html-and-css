@@ -2,6 +2,10 @@ table {
     background: rgba(255, 255, 255, 0.95);
 }
 
-tr:hover {}
+tr:hover {
+    background-color: darkcyan;
+}
 
-strong:hover {}
+strong:hover {
+    color: #0088cc;
+}
