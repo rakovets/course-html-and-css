@@ -1,0 +1,39 @@
+.dark .first  {
+    background-color: rgb(170, 13, 13);
+}
+
+.dark .second {
+    background-color: rgb(32, 185, 19);
+}
+
+.dark .third  {
+    background-color: rgb(72, 17, 202);
+}
+
+.dark .fourth {
+    background-color: rgb(185, 18, 135);
+}
+
+.dark .fifth  {
+    background-color: rgb(153, 185, 10);
+}
+
+.light .first  {
+    background-color: rgb(170, 107, 107);
+}
+
+.light .second {
+    background-color: rgb(132, 187, 127);
+}
+
+.light .third  {
+    background-color: rgb(168, 153, 204);
+}
+
+.light .fourth {
+    background-color: rgb(182, 134, 167);
+}
+
+.light .fifth  {
+    background-color: rgb(192, 201, 152);
+}

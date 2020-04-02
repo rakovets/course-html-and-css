@@ -1,0 +1,7 @@
+.target :first-child {
+    background-color: red;
+}
+
+.target :last-child {
+    background-color: yellow;
+}

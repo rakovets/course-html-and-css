@@ -1,7 +1,7 @@
-.places li {
+.places > li > span {
     border-bottom: 2px solid #cccccc;
 }
 
-.places span {
+.places > li > span {
     font-weight: bold;
 }

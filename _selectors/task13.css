@@ -1,0 +1,7 @@
+.cup-standings table td:hover em {
+    display: inline;
+}
+
+.cup-standings table td:hover strong {
+    color: #0088cc;
+}
