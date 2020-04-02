@@ -1,0 +1,7 @@
+input[id="fullname"] {
+    background-color: #fcf8e3;
+}
+
+input[id="year"] {
+    width: 100px;
+}
