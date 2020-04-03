@@ -1,0 +1,11 @@
+input[required] {
+    background-color: #fcf8e3;
+}
+
+input[name="password"] {
+    background-color: #f2dede;
+}
+
+[type="submit"] {
+    border-color: green;
+}
