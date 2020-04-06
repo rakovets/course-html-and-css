@@ -1,79 +1,184 @@
-<head>
-
-    </head>
-
+<body>
+    
     <style>
-        
-       .vidio{
-         box-sizing: border-box;
-         float: left;
-         width: 40%;
-         margin: 10px;
-         padding: 10 90px;
-         margin-top: 8px;
-        }
+p {
+    margin: 120px 0 0 460px;
+    font-family: Geneva, Arial, Helvetica, serif;
+    font-size: 26px;
+}
 
-        .instruction{
-            border: 3px solid blue;
-            box-sizing: border-box;
-            float: left;
-            width: 15%;
-            margin: 10px;
-            padding: 11px 20px;
-            margin-top: 7px;
+main section:nth-child(1) h2 {
+    margin: 15px 0 0 345px;
+    font-family: Geneva, Arial, Helvetica, serif;
+    font-size: 26px;
+}
 
-         }
+iframe {
+    margin: 75px 0 0 135px;
+    width: 565px;
+    height: 380px; 
+}
 
-        body{
-            margin:90px 210px 0px 210px;
-        }
+table th:nth-child(2) {
+    margin: 0 0px 0 0;
+    padding: 115px 50px 0px 25px;
+}
 
-        p{
-            margin:90px 360px 0px 360px;
-        }
+.Login {
+    border: 6px solid blue;
+    margin: 0 0 0 0;
+    padding: 40px 55px 320px 55px;
+    font-family: Geneva, Arial, Helvetica, serif;
+    font-size: 28px;
+}
 
-        h2{
-            text-align: center;
-            float: left;
-            margin:10px 250px;
-        }
+.enter-name {
+    margin: 45px 15px 0 15px;
+    padding: 20px 60px 15px 5px;
+    font-family: Geneva, Arial, Helvetica, serif;
+    font-size: 24px;
+    color: lightgray;
+    border: 2px solid gray;
+}
 
-        b{
-            padding-top: 10px;
-            padding: 5px;
-            margin: 5px 5px;
-        }
+.enter-email {
+    margin: 10px 15px 0 15px;
+    padding: 20px 60px 15px 5px;
+    font-family: Geneva, Arial, Helvetica, serif;
+    font-size: 24px;
+    color: rgba(211, 211, 211);
+    border: 2px solid gray;
+}
+
+.button-1 {
+    margin: 10px 15px 50px 10px;
+    padding: 25px 40px 30px 50px;
+    font-family: Geneva, Arial, Helvetica, serif;
+    font-size: 24px;
+    color: white;
+    background-color: blue;
+}
+
+main section:nth-child(2) h2 {
+    margin: 75px 0 0 365px;
+    font-family: Geneva, Arial, Helvetica, serif;
+    font-size: 24px; 
+}
+
+img[src="1.jpg"] {
+    width: 155px;
+    height: 155px;
+    margin: 25px 0px 0px 175px;
+}
+
+img[src="2.jpg"] {
+    width: 155px;
+    height: 155px;
+    margin: 25px 0px 0px 95px;
+}
+
+img[src="3.jpg"] {
+    width: 155px;
+    height: 155px;
+    margin: 25px 0px 0px 85px;
+}
+
+img[src="4.jpg"] {
+    width: 155px;
+    height: 155px;
+    margin: 25px 0px 0px 95px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+a:hover {
+    color: rgb(80, 145, 231);
+}
+
+.photofonn {
+    font-family: Geneva, Arial, Helvetica, serif;
+    font-size: 25px;
+    text-align: center;
+    font-weight: bold;  
+}
+
+.photo1 { 
+    width: 230px;
+    word-wrap: break-word;
+    margin: 5px 0px 0px 135px; 
+   }
+
+.photo2 { 
+    width: 230px;
+    word-wrap: break-word;
+    margin: -55px 0px 0px 390px; 
+}
+
+.photo3 { 
+    width: 230px;
+    word-wrap: break-word;
+    margin: -60px 0px 0px 630px; 
+}  
+
+.photo4 { 
+    width: 230px;
+    word-wrap: break-word;
+    margin: -60px 0px 0px 895px; 
+}  
+
+.button-2 {
+    margin: 60px 0px 50px 475px;
+    padding: 20px 60px 25px 55px;
+    font-family: Geneva, Arial, Helvetica, serif;
+    font-size: 19px;
+    color: white;
+    background-color: blue;
+}  
+
+ h2 {
+    margin: 50px 0 0 520px;
+    font-family: Geneva, Arial, Helvetica, serif;
+    font-size: 26px; 
+}
     </style>
-    <body>
+
         <main>
-            <section></section>
-            <p>Получите видио-инструкцию</p>
-            <h2>КАК ЗАРАБОТАТЬ СВОЙ ПЕРВЫЙ МИЛЛИОН</h2>
-            <div class="vidio">
-                <iframe width="400" height="220" src="https://www.youtube.com/embed/qgylp3Td1Bw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-                 </div>
-                 <div class="instruction">
-                   <b> Введите свой email </b> 
-                    <form action="http://localhost:8080/registration" method="post">
-                        <label>
-                         <br>
-                         <input style="width: 180px; height: 40px; padding: 4px;" type="text" name="username" placeholder="Ваше имя" required><br><br>
-                        </label>
-                        <label>
-                         <input style="width: 180px; height: 40px; padding: 4px;" type="text" name="email" placeholder="Ваш email" required><br><br>
-                        </label>  
-                        <label>
-                            <a href="" class="btn"><button style="background-color: blue; color: white; height: 40px; width: 180px;" type="button" class="btn btn-outline-light" >Получить инструкцию</button></a>
-                        </label>  
-                 </div>
-        </section>
-        <section>
-            <h2>ПОЧЕМУ НУЖНО СДЕЛАТЬ ЭТО СЕЙЧАС?</h2>
-            <p></p>
-    </section>
-    <section>
-        <h2>НАШИ КЛИЕНТЫ</h2>
-        <p></p>
-    </section>
-        </main>
-    </body>
+            <section>
+                <p>Получите видео-инструкцию</p>
+                <h2>КАК ЗАРАБОТАТЬ СВОЙ ПЕРВЫЙ МИЛЛИОН</h2>
+                <table>
+                    <tr>
+                        <th>
+                            <iframe width="360" height="215" src="https://www.youtube.com/embed/qgylp3Td1Bw" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+                        </th>
+                        <th>
+                            <dev class="Login">Введите свой email</dev><br>
+                                <input  class="enter-name" type="text" name="name" placeholder="Ваше имя"><br>
+                                <input  class="enter-email" type="text" name="email" placeholder="Ваш email"><br>
+                                <input  class="button-1" type="submit" value="Получить инструкцию">
+                            </form>
+                        </th>
+                    </tr>
+                </table>
+            </section>
+            <section>
+                <h2>ПОЧЕМУ НУЖНО СДЕЛАТЬ ПРЯМО СЕЙЧАС?</h2><br>
+                <img src="1.jpg" alt="Первое преимущество">
+                <img src="2.jpg" alt="Второе преимущество">
+                <img src="3.jpg" alt="Третье преимущество">
+                <img src="4.jpg" alt="Четвертое преимущество"><br>
+                <div class="photofonn">
+                        <div class="photo1">Первое преимущество</div>
+                        <div class="photo2">Второе преимущество</div>
+                        <div class="photo3">Третье преимущество</div>
+                        <div class="photo4">Четвертое преимущество</div>
+                </div>
+                <input  class="button-2" type="submit" value="Получить инструкцию">
+            </section>
+            <section>
+                <h2>НАШИ КЛИЕНТЫ</h2><br>
+                
+        </main> 
