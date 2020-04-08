@@ -4,18 +4,18 @@ body {
     padding: 0;
 }
 
-selector {
+.shooter-1 {
     padding: 55px 0 55px 0;
     background-color: #fcf8e3;
     border-bottom: 1px dashed #cccccc;
 }
 
-selector {
+.shooter-2 {
     padding: 55px 0 55px 0;
     background-color: #d9edf7;
 }
 
-selector {
+.target {
     display: flex;
     justify-content: space-between;
     width: 200px;
@@ -29,7 +29,7 @@ selector {
     box-shadow: 0 0 3px rgba(0, 0, 0, 0.5);
 }
 
-selector {
+li {
     position: relative;
     width: 22px;
     height: 22px;
@@ -39,7 +39,7 @@ selector {
     border-radius: 50%;
 }
 
-selector {
+.hitbox {
     width: 10px;
     height: 10px;
     margin: 6px auto;
@@ -47,7 +47,7 @@ selector {
     border-radius: 50%;
 }
 
-selector {
+.lever {
     position: absolute;
     top: -2px;
     left: -2px;
@@ -58,7 +58,7 @@ selector {
     box-shadow: 0 0 2px rgba(0, 0, 0, 0.5);
 }
 
-selector {
+span {
     position: absolute;
     top: 12px;
     left: 11px;
@@ -68,18 +68,18 @@ selector {
     box-shadow: -1px 15px 2px rgba(0, 0, 0, 0.3), 1px 15px 2px rgba(0, 0, 0, 0.3);
 }
 
-selector {
+.miss .lever {
     display: none;
 }
 
-selector {
+.shooter-2 li:nth-child(1) .lever {
     display: none;
 }
 
-selector {
+.shooter-2 li:nth-child(4) .lever {
     display: none;
 }
 
-selector {
+.shooter-2 li:nth-child(5) .lever {
     display: none;
 }
