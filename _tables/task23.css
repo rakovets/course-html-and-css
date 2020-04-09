@@ -5,3 +5,37 @@ body {
     font-size: 14px;
     font-family: Arial, sans-serif;
 }
+table {
+    border-collapse: collapse;
+}
+
+td {
+    border-bottom: 2px solid lightgray;
+    width: 33%;
+    padding: 10px;
+}
+
+th {
+    color: white;
+    background: darkcyan;
+    padding: 10px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+
+.align-right {
+    text-align: right;
+}
+
+.align-center {
+    text-align: center;
+}
+
+.style-1 {
+    background: lightblue;
+    text-align: center;
+}
+
+.style-2 {
+    background: lightyellow;
+}
