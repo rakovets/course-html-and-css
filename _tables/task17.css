@@ -5,3 +5,22 @@ body {
     font-size: 14px;
     font-family: Arial, sans-serif;
 }
+caption {
+    caption-side: bottom;
+    text-align: center;
+}
+
+th {
+    padding: 10px;
+    border-bottom: 2px solid black;
+}
+
+table {
+    padding: 10px;
+    border-collapse: collapse;
+}
+
+td {
+    padding: 10px;
+    border: 1px solid lightgray;
+}
