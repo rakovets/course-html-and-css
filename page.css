@@ -1,0 +1,106 @@
+.text1 {
+    margin-top: 120px;
+    font-size: 26px;
+}
+
+.text2 {
+    margin-top: 10px;  
+}
+
+.text3 {
+    margin-top: 85px;  
+}
+
+.text4 {
+    margin-top: 115px;  
+}
+
+
+iframe {
+    margin-top: 75px;
+    min-width: 75%;
+    min-height: 75%;
+
+}
+
+.bord { 
+    height: 425px;
+    word-wrap: break-word;
+    margin-top: 60px;
+    border: 6px solid blue;
+}
+
+.email { 
+    margin-top: 40px;
+}
+
+.t1 { 
+    margin-top: 60px;
+    font-size: 26px;
+}
+
+.t2 { 
+    margin-top: 20px;
+    font-size: 26px;
+}
+
+.button-1 { 
+    margin-top: 30px;
+    font-size:1.5rem;
+}
+
+.button-2 { 
+    margin-top: 60px;
+    
+}
+
+
+img[src="1.jpg"] {
+    width: 155px;
+    height: 155px;
+    margin-top: 40px;
+}
+
+img[src="2.jpg"] {
+    width: 155px;
+    height: 155px;
+    margin-top: 40px;
+}
+
+img[src="3.jpg"] {
+    width: 155px;
+    height: 155px;
+    margin-top: 40px;
+}
+
+img[src="4.jpg"] {
+    width: 155px;
+    height: 155px;
+    margin-top: 40px;
+}
+
+
+img[src="face1.jpg"] {
+    width: 225px;
+    height: 230px;
+    margin-top: 60px;
+}
+
+img[src="face2.jpg"] {
+    width: 225px;
+    height: 230px;
+    margin-top: 60px;
+}
+
+img[src="face3.jpg"] {
+    width: 225px;
+    height: 230px;
+    margin-top: 60px;
+}
+
+img[src="face4.jpg"] {
+    width: 225px;
+    height: 230px;
+    margin-top: 60px;
+}
+
