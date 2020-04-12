@@ -29,3 +29,15 @@ p {
     padding: 12px 0;
     cursor: pointer;
 }
+
+@media screen and (max-width: 800px) {
+    .form__btn {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form__input {
+        width: 100%;
+    }
+}
