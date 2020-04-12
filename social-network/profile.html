@@ -4,44 +4,113 @@
 <head>
     <title>Profile</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="profile.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registration.css">
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="logo">
-            <img src="images/logo.jpg" width="200" height="200">
-        </div>
-        <nav class="main-menu">
-            <ul>
-                <li><a href="registration.html">Registration</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><i>Profile</i></li>
-                <li><a href="edit-profile.html">Edit-profile</a></li>
-                <li><a href="friends.html">Friends</a></li>
-                <li><a href="messages.html">Messages</a></li>
-                <li><a href="video.html">Video</a></li>
-                <li><a href="audio.html">Audio</a></li>   
-            </ul>
+    <div class="conteiner">
+        <nav class="navbar navbar-light bg-secondary mb-5">             
+            <div class="col-1"><img class="rounded" src="images/logo.jpg" width="50" height="50" class="d-inline-block align-top" alt=""></div>
+            <div class="col-3 text-warning">
+                <h5>Project social network bootstrap</h5>
+            </div>
+            <div class="col-4 text-center text-white">
+                <h2>Profile</h2>
+            </div>
+            <div class="col-4">
+                <form class="form-inline justify-content-end">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning ml-2" type="submit">Search</button>
+                </form>
+            </div>
         </nav>
-    </header>
-    <main>
-        <section class="posts">
-            <figure class="profile">
-                <figcaption class="text">ЧУЖОЙ ПЁТР ПЕТРОВИЧ</figcaption>
-                <img class="img-profile" src="images/foto-profile.jpg">
-            </figure> 
-        </section>
-        <section class="info">
-            <p class="text">Адрес проживания не известен</p>
-        </section>   
-        <section class="info">
-            <p class="text"> Личные данные засекречены</p>
-        </section>
-    </main>
-    <footer class="page-footer">
-        <p>(c) Kandyba Alexey - 2020</p>
-    </footer>
-</body>
+        
+        <div class="row">
+            <div class="col-2 border-right">
+                <ul class="nav flex-column pl-5 mb-5 position-fixed">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="registration.html">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <b>Profile</b>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="edit-profile.html">Edit-profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="friends.html">Friends</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="messages.html">Messages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="video.html">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="audio.html">Audio</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link active" href="groups.html">Groups</a>
+                    </li> 
+                </ul>
+            </div>
+            <div class="col-10 px-5">
+                <div class="row border-bottom ">
+                    <div class="col-5 text-center">
+                        <img class="rounded-circle mb-3" width="200" height="200" src="images/foto-profile.jpg">
+                    </div>
+                    <div class="col-7 align-self-center">
+                        <h2>Petr Petrovich</h2>
+                    </div>
+                </div>
+                <div class="row border-bottom mb-3">
+                    <div class="col my-1">
+                        <h4>Info</h4>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Name</div>
+                    <div class="col-9">Petr</div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Surname</div>
+                    <div class="col-9">Petrovich</div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Age</div>
+                    <div class="col-9">152 years</div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Education</div>
+                    <div class="col-9">Belarusian National Technical University</div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Email</div>
+                    <div class="col-9">alien@mail.ru</div>
+                </div>
+                <div class="row">
+                    <div class="col-3">City</div>
+                    <div class="col-9">Minsk</div>
+                </div>
+                <div class="row">
+                    <div class="col-3">State</div>
+                    <div class="col-9">Belarus</div>
+                </div>
+                <div class="row">
+                    <div class="col-3">Zip</div>
+                    <div class="col-9">12345-6789</div>
+                </div> 
+            </div>
+        </div>             
+    </div>
+        <footer class="row-footer bg-secondary py-3 mt-5">             
+            <div class="col text-center text-warning">(c) Kandyba Alexey - 2020</div>
+        </footer> 
+    </div>   
 
+</body>
 </html>

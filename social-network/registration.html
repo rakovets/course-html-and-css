@@ -5,56 +5,120 @@
     <title>Registration</title>
     <meta charset="utf-8">
     <link rel="stylesheet" href="css/bootstrap.min.css">
-
+    <link rel="stylesheet" href="css/registration.css">
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="logo">
-            <img src="images/logo.jpg" width="200" height="200">
-        </div>
-        <nav class="main-menu">
-            <ul>
-                <li><i>Registration</i></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="edit-profile.html">Edit-profile</a></li>
-                <li><a href="friends.html">Friends</a></li>
-                <li><a href="messages.html">Messages</a></li>
-                <li><a href="video.html">Video</a></li>
-                <li><a href="audio.html">Audio</a></li>   
-            </ul>
+    <div class="conteiner">
+        <nav class="navbar navbar-light bg-secondary mb-5">             
+            <div class="col-1"><img class="rounded" src="images/logo.jpg" width="50" height="50" class="d-inline-block align-top" alt=""></div>
+            <div class="col-3 text-warning">
+                <h5>Project social network bootstrap</h5>
+            </div>
+            <div class="col-4 text-center text-white">
+                <h2>Registration</h2>
+            </div>
+            <div class="col-4">
+                <form class="form-inline justify-content-end">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning ml-2" type="submit">Search</button>
+                </form>
+            </div>
         </nav>
-    </header>
-    <main>
-        <section class="posts">
-            <a class="center"><h1>Регистрация</h1></a>
-        </section>
-        <section class="name">
-            <p>
-                <input class="input-1" type="text" name="login" placeholder="ИМЯ">
-                <input class="input-1" type="text" name="password" placeholder="ФАМИЛИЯ">
-            </p>
-            <p>
-                <input class="input-2" type="text" name="login" placeholder="Номер мобильного телефона или эл. адрес">
-            </p>
-            <p>
-                <input class="input-2" type="text" name="login" placeholder="Новый пароль">
-            </p>
-            <p>
-                <input type="checkbox" name="subscribe" checked> Подписаться на рассылку
-            </p>
-        </section>  
-        <section class="info">
-            <p>Нажимая кнопку Регистрация, вы принимаете Условия, Политику использования данных и Политику в 
-            отношении файлов cookie. Вы можете получать от нас SMS-уведомления, отказаться от которых можно 
-            в любой момент.</p>
-            <button class="button-reg" type="submit">Регистрация</button>
-        </section>  
-    </main>
-    <footer class="page-footer">
-        <p class="center">(c) Kandyba Alexey - 2020</p>
-    </footer>
-</body>
+        
+        <div class="row">
+            <div class="col-2 border-right">
+                <ul class="nav flex-column pl-5 position-fixed">
+                    <li class="nav-item pl-3">
+                        <b>Registration</b>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="edit-profile.html">Edit-profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="friends.html">Friends</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="messages.html">Messages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="video.html">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="audio.html">Audio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="groups.html">Groups</a>
+                    </li> 
+                </ul>
+            </div>
+            <div class="col-10 px-5">
+                <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                        <div class="col-4 mb-3">
+                            <label for="validationTooltip01">Name</label>
+                            <input type="text" class="form-control" id="validationTooltip01" placeholder="Name" value="Name" required>
+                            <div class="valid-tooltip">Looks good!</div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <label for="validationTooltip02">Surname</label>
+                            <input type="text" class="form-control" id="validationTooltip02" placeholder="Surname" value="Surname" required>
+                            <div class="valid-tooltip">Looks good!</div>
+                        </div>
+                        <div class="col-4 mb-3">
+                            <label for="validationTooltipUsername">Email</label>
+                            <div class="input-group">
+                            <div class="input-group-prepend">
+                                <span class="input-group-text" id="validationTooltipUsernamePrepend">@</span>
+                            </div>
+                            <input type="text" class="form-control" id="validationTooltipUsername" placeholder="Email" aria-describedby="validationTooltipUsernamePrepend" required>
+                            <div class="invalid-tooltip">Please choose a unique and valid username.</div>
+                            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-6 mb-3">
+                            <label for="validationTooltip03">City</label>
+                            <input type="text" class="form-control" id="validationTooltip03" placeholder="City" required>
+                            <div class="invalid-tooltip">Please provide a valid city.</div>
+                        </div>
+                        <div class="col-3 mb-3">
+                            <label for="validationTooltip04">State</label>
+                            <input type="text" class="form-control" id="validationTooltip04" placeholder="State" required>
+                            <div class="invalid-tooltip">Please provide a valid state.</div>
+                        </div>
+                        <div class="col-3 mb-3">
+                            <label for="validationTooltip05">Zip</label>
+                            <input type="text" class="form-control" id="validationTooltip05" placeholder="Zip" required>
+                            <div class="invalid-tooltip">Please provide a valid zip.</div> 
+                    </div>
+                    <div class="form-row">
+                        <div class="col-6 mb-4">
+                            <label for="inputPassword6">Password</label>
+                            <input type="password" id="inputPassword1" class="form-control" aria-describedby="passwordHelpInline">
+                            <small id="passwordHelpInline" class="text-muted">Must be 8-20 characters long.</small>
+                        </div>
+                        <div class="col-6 mb-4">
+                            <label for="inputPassword6">retype Password</label>
+                            <input type="password" id="inputPassword2" class="form-control" aria-describedby="passwordHelpInline">
+                        </div>
+                        <button class="btn btn-primary mb-5" type="submit">Submit form</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>               
+</div>
+    <footer class="row-footer bg-secondary py-3 mt-5">             
+        <div class="col text-center text-warning">(c) Kandyba Alexey - 2020</div>
+    </footer> 
+</div>   
 
+</body>
 </html>

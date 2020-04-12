@@ -4,45 +4,81 @@
 <head>
     <title>Login</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="login.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registration.css">
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="logo">
-            <img src="images/logo.jpg" width="200" height="200">
-        </div>
-        <nav class="main-menu">
-            <ul>
-                <li><a href="registration.html">Registration</a></li>
-                <li><i>Login</i></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="edit-profile.html">Edit-profile</a></li>
-                <li><a href="friends.html">Friends</a></li>
-                <li><a href="messages.html">Messages</a></li>
-                <li><a href="video.html">Video</a></li>
-                <li><a href="audio.html">Audio</a></li>   
-            </ul>
-        </nav>
-    </header>
-    <main>
-        <section class="posts">
-            <div class="login">
-                <label>
-                    Ваш логин (email): <br>
-                    <input type="text" name="login"><br><br>
-                </label>
-                <label>
-                    Пароль: <br> 
-                    <input type="text" name="password"><br><br>
-                </label>  
-                <input type="submit" value="Войти">
+    <div class="conteiner">
+        <nav class="navbar navbar-light bg-secondary mb-5">             
+            <div class="col-1"><img class="rounded" src="images/logo.jpg" width="50" height="50" class="d-inline-block align-top" alt=""></div>
+            <div class="col-3 text-warning">
+                <h5>Project social network bootstrap</h5>
             </div>
-        </section>
-    </main>
-    <footer class="page-footer">
-        <p>(c) Kandyba Alexey - 2020</p>
-    </footer>
-</body>
+            <div class="col-4 text-center text-white">
+                <h2>Login</h2>
+            </div>
+            <div class="col-4">
+                <form class="form-inline justify-content-end">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning ml-2" type="submit">Search</button>
+                </form>
+            </div>
+        </nav>
+        
+        <div class="row">
+            <div class="col-2 border-right">
+                <ul class="nav flex-column pl-5 mb-5 position-fixed">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="registration.html">Registration</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <b>Login</b>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="edit-profile.html">Edit-profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="friends.html">Friends</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="messages.html">Messages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="video.html">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="audio.html">Audio</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link active" href="groups.html">Groups</a>
+                    </li> 
+                </ul>
+            </div>
+            <div class="col-10 px-5">
+                <form>
+                    <div class="form-group">
+                      <label for="exampleInputEmail1">Email address or login</label>
+                      <input type="email" class="form-inline pl-2 pr-5 rounded" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email or login">
+                      <small id="emailHelp" class="form-text text-muted mb-5">Enter case-sensitive data and very carefully, otherwise there will be a complete destruction of your profile.</small>
+                    </div>
+                    <div class="form-group">
+                      <label for="exampleInputPassword1">Password</label>
+                      <input type="password" class="form-inline pl-2 pr-5 rounded" id="exampleInputPassword1" placeholder="Password">
+                      <small id="emailHelp" class="form-text text-muted mb-5">Enter case-sensitive data and very carefully, otherwise there will be a complete destruction of your profile.</small>
+                    </div>
+                    <button type="submit" class="btn btn-primary my-5">Submit</button>
+                </form>
+            </div>
+        </div>              
+    </div>
+        <footer class="row-footer bg-secondary py-3 mt-5">             
+            <div class="col text-center text-warning">(c) Kandyba Alexey - 2020</div>
+        </footer> 
+    </div>   
 
+</body>
 </html>

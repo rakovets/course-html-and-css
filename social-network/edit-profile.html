@@ -4,51 +4,169 @@
 <head>
     <title>Edit-profile</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="edit-profile.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registration.css">
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="logo">
-            <img src="images/logo.jpg" width="200" height="200">
-        </div>
-        <nav class="main-menu">
-            <ul>
-                <li><a href="registration.html">Registration</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><i>Edit-profile</i></li>
-                <li><a href="friends.html">Friends</a></li>
-                <li><a href="messages.html">Messages</a></li>
-                <li><a href="video.html">Video</a></li>
-                <li><a href="audio.html">Audio</a></li>   
-            </ul>
+    <div class="conteiner">
+        <nav class="navbar navbar-light bg-secondary mb-5">             
+            <div class="col-1"><img class="rounded" src="images/logo.jpg" width="50" height="50" class="d-inline-block align-top" alt=""></div>
+            <div class="col-3 text-warning">
+                <h5>Project social network bootstrap</h5>
+            </div>
+            <div class="col-4 text-center text-white">
+                <h2>Edit-profile</h2>
+            </div>
+            <div class="col-4">
+                <form class="form-inline justify-content-end">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning ml-2" type="submit">Search</button>
+                </form>
+            </div>
         </nav>
-    </header>
-    <main>
-        <section class="posts">
-            <div class="edit-profile">Редактирование профиля</div>
-        </section>
-        <figure class="profile">
-            <figcaption class="text">
-                ЧУЖОЙ ПЁТР ПЕТРОВИЧ<br>
-                <button class="button-edit" type="submit">Изменить имя</button>
-            </figcaption>
-            <img class="img-profile" src="images/foto-profile.jpg">
-            <button class="button-edit" type="submit">Изменить фото</button>
-        </figure> 
-        <section class="info">
-            <p class="text">Адрес проживания не известен</p>
-            <button class="button-edit" type="submit">Изменить адрес</button>
-        </section>   
-        <section class="info">
-            <p class="text"> Личные данные засекречены</p>
-            <button class="button-edit" type="submit">Изменить личные данные</button>
-        </section>
-    </main>
-    <footer class="page-footer">
-        <p>(c) Kandyba Alexey - 2020</p>
-    </footer>
-</body>
+        
+        <div class="row">
+            <div class="col-2 border-right">
+                <ul class="nav flex-column pl-5  position-fixed">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="registration.html">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <b>Edit-profile</b>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="friends.html">Friends</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="messages.html">Messages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="video.html">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="audio.html">Audio</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link active" href="groups.html">Groups</a>
+                    </li> 
+                </ul>
+            </div>
+            <div class="col-10 px-5">
+                <form class="needs-validation" novalidate>
+                    <div class="form-row">
+                        <div class="col-4 mb-3">
+                            <img class="rounded-circle mb-3" width="200" height="200" src="images/foto-profile.jpg">
+                            <button class="btn btn-primary mt-2 mb-3" type="submit">Edit-Foto</button>
+                        </div>    
+                    </div>
 
+                    <div class="form-row">
+                        <div class="col-4 mb-3">
+                            <label for="validationTooltip01">Name</label>
+                            <input type="text" class="form-control" id="validationTooltip01" placeholder="Name" value="Petr" required>
+                            <div class="valid-tooltip">Looks good!</div>
+                            <button class="btn btn-primary mt-2 mb-3" type="submit">Edit-Name</button>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-4 mb-3">
+                            <label for="validationTooltip02">Surname</label>
+                            <input type="text" class="form-control" id="validationTooltip02" placeholder="Surname" value="Petrovich" required>
+                            <div class="valid-tooltip">Looks good!</div>
+                            <button class="btn btn-primary mt-2 mb-3" type="submit">Edit-Surname</button>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-4 mb-3">
+                            <label for="validationTooltip02">Age<Age/label>
+                            <input type="text" class="form-control" id="validationTooltip02" placeholder="Age" value="152" required>
+                            <div class="valid-tooltip">Looks good!</div>
+                            <button class="btn btn-primary mt-2 mb-3" type="submit">Edit-Age</button>
+                        </div>
+                    </div>
+                    
+                    <div class="form-row">
+                        <div class="col-4 mb-3">
+                            <label for="validationTooltip02">Education</label>
+                            <input type="text" class="form-control" id="validationTooltip02" placeholder="Education" value="Belarusian National Technical University" required>
+                            <div class="valid-tooltip">Looks good!</div>
+                            <button class="btn btn-primary mt-2 mb-3" type="submit">Edit-Education</button>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-4 mb-3">
+                            <label for="validationTooltipUsername">Email</label>
+                            <input type="text" class="form-control" id="validationTooltipUsername" placeholder="alien@mail" aria-describedby="validationTooltipUsernamePrepend" required>
+                            <div class="invalid-tooltip">Please choose a unique and valid username.</div>
+                            <button class="btn btn-primary mt-2 mb-3" type="submit">Edit-Email</button>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-6 mb-3">
+                            <label for="validationTooltip03">City</label>
+                            <input type="text" class="form-control" id="validationTooltip03" placeholder="Minsk" required>
+                            <div class="invalid-tooltip">Please provide a valid city.</div>
+                            <button class="btn btn-primary mt-2 mb-3" type="submit">Edit-City</button>
+                        </div>
+                    </div>    
+
+                    <div class="form-row">
+                        <div class="col-3 mb-3">
+                            <label for="validationTooltip04">State</label>
+                            <input type="text" class="form-control" id="validationTooltip04" placeholder="Belarus" required>
+                            <div class="invalid-tooltip">Please provide a valid state.</div>
+                            <button class="btn btn-primary mt-2 mb-3" type="submit">Edit-State</button>
+                        </div>
+                    </div>    
+
+                    <div class="form-row">
+                        <div class="col-3 mb-3">
+                            <label for="validationTooltip05">Zip</label>
+                            <input type="text" class="form-control" id="validationTooltip05" placeholder="12345-6789" required>
+                            <div class="invalid-tooltip">Please provide a valid zip.</div> 
+                            <button class="btn btn-primary mt-2 mb-3" type="submit">Edit-Zip</button>
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-6 mb-2">
+                            <label for="inputPassword6">Old Password</label>
+                            <input type="password" id="inputPassword1" class="form-control" aria-describedby="passwordHelpInline"> 
+                        </div>
+                    </div>
+
+                    <div class="form-row">
+                        <div class="col-6 mb-4">
+                            <label for="inputPassword6">New Password</label>
+                            <input type="password" id="inputPassword1" class="form-control" aria-describedby="passwordHelpInline">
+                            <button class="btn btn-primary mt-2 mb-3" type="submit">Edit-Password</button>
+                            
+                        </div>
+                    </div>
+
+                        <button class="btn btn-primary my-5" type="submit">Submit</button>
+                        
+ 
+                    </div>
+                </form>
+            </div>
+        </div>            
+    </div>
+        <footer class="row-footer bg-secondary py-3 mt-5">             
+            <div class="col text-center text-warning">(c) Kandyba Alexey - 2020</div>
+        </footer> 
+    </div>   
+
+</body>
 </html>

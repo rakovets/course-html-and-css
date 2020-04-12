@@ -4,39 +4,204 @@
 <head>
     <title>Audio</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="audio.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registration.css">
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="logo">
-            <img src="images/logo.jpg" width="200" height="200">
-        </div>
-        <nav class="main-menu">
-            <ul>
-                <li><a href="registration.html">Registration</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="edit-profile.html">Edit-profile</a></li>
-                <li><a href="friends.html">Friends</a></li>
-                <li><a href="messages.html">Messages</a></li>
-                <li><a href="video.html">Video</a></li>
-                <li><i>Audio</i></li>   
-            </ul>
+    <div class="conteiner">
+        <nav class="navbar navbar-light bg-secondary mb-5">             
+            <div class="col-1"><img class="rounded" src="images/logo.jpg" width="50" height="50" class="d-inline-block align-top" alt=""></div>
+            <div class="col-3 text-warning">
+                <h5>Project social network bootstrap</h5>
+            </div>
+            <div class="col-4 text-center text-white">
+                <h2>Audio</h2>
+            </div>
+            <div class="col-4">
+                <form class="form-inline justify-content-end">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning ml-2" type="submit">Search</button>
+                </form>
+            </div>
         </nav>
-    </header>
-    <main>
-        <section class="posts">
-            <p><h3>Какой-то музон</h3></p>
-            <audio controls preload="metadata">
-                <source src="sounds/sound.mp3" type="audio/mpeg">
-                <source src="sounds/sound.ogg" type="audio/ogg">    
-            </audio>
-        </section>
-    </main>
-    <footer class="page-footer">
-        <p>(c) Kandyba Alexey - 2020</p>
-    </footer>
-</body>
+        
+        <div class="row">
+            <div class="col-2 border-right">
+                <ul class="nav flex-column pl-5 mb-5 position-fixed">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="registration.html">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="edit-profile.html">Edit-profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="friends.html">Friends</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="messages.html">Messages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="video.html">Video</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <b>Audio</b>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="groups.html">Groups</a>
+                    </li>  
+                </ul>
+            </div>
+            <div class="col-10 px-5">
+                <div class="row border-bottom mb-3">
+                    <div class="col my-1">
+                        <h4>number of audio (10)</h4>
+                    </div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-4 align-self-center">AC-DC - Highway To Hell</div>
+                    <div class="col-6">
+                        <audio controls>
+                            <source src="sounds/AC-DC - Highway To Hell.mp3" type="audio/mpeg">
+                        </audio>
+                    </div> 
+                    <div class="col-2 align-self-center">
+                        <a href="sounds/AC-DC - Highway To Hell.mp3" download>
+                            <button type="button" class="btn btn-secondary">Download</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-4 align-self-center">AC-DC - Thunderstruck</div>
+                    <div class="col-6">
+                        <audio controls>
+                            <source src="sounds/AC-DC - Thunderstruck.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <a href="sounds/AC-DC - Thunderstruck.mp3" download>
+                            <button type="button" class="btn btn-secondary">Download</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-4 align-self-center">Bon Jovi - Limitless</div>
+                    <div class="col-6">
+                        <audio controls>
+                            <source src="sounds/Bon Jovi - Limitless.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <a href="sounds/Bon Jovi - Limitless.mp3" download>
+                            <button type="button" class="btn btn-secondary">Download</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-4 align-self-center">Iron Maiden - 2 Minutes To Midnight</div>
+                    <div class="col-6">
+                        <audio controls>
+                            <source src="sounds/Iron Maiden - 2 Minutes To Midnight.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <a href="sounds/Iron Maiden - 2 Minutes To Midnight.mp3" download>
+                            <button type="button" class="btn btn-secondary">Download</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-4 align-self-center">Metallica - Nothing Else Matters</div>
+                    <div class="col-6">
+                        <audio controls>
+                            <source src="sounds/Metallica - Nothing Else Matters.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <a href="sounds/Metallica - Nothing Else Matters.mp3" download>
+                            <button type="button" class="btn btn-secondary">Download</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-4 align-self-center">Metallica - The Unforgiven</div>
+                    <div class="col-6">
+                        <audio controls>
+                            <source src="sounds/Metallica - The Unforgiven.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <a href="sounds/Metallica - The Unforgiven.mp3" download>
+                            <button type="button" class="btn btn-secondary">Download</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-4 align-self-center">Ozzy Osbourne - I just want you</div>
+                    <div class="col-6">
+                        <audio controls>
+                            <source src="sounds/Ozzy Osbourne - I just want you.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <a href="sounds/Ozzy Osbourne - I just want you.mp3" download>
+                            <button type="button" class="btn btn-secondary">Download</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-4 align-self-center">Scorpions - Still Loving You</div>
+                    <div class="col-6">
+                        <audio controls>
+                            <source src="sounds/Scorpions - Still Loving You.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <a href="sounds/Scorpions - Still Loving You.mp3" download>
+                            <button type="button" class="btn btn-secondary">Download</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-4 align-self-center">Scorpions - Wind Of Change</div>
+                    <div class="col-6">
+                        <audio controls>
+                            <source src="sounds/Scorpions - Wind Of Change.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <a href="sounds/Scorpions - Wind Of Change.mp3" download>
+                            <button type="button" class="btn btn-secondary">Download</button>
+                        </a>
+                    </div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-4 align-self-center">Slade - Ooh La La In LA</div>
+                    <div class="col-6">
+                        <audio controls>
+                            <source src="sounds/Slade - Ooh La La In LA.mp3" type="audio/mpeg">
+                        </audio>
+                    </div>
+                    <div class="col-2 align-self-center">
+                        <a href="sounds/Slade - Ooh La La In LA.mp3" download>
+                            <button type="button" class="btn btn-secondary">Download</button>
+                        </a>
+                    </div>
+                </div>
+                
+            </div>
+        </div>              
+    </div>
+        <footer class="row-footer bg-secondary py-3 mt-5">             
+            <div class="col text-center text-warning">(c) Kandyba Alexey - 2020</div>
+        </footer> 
+    </div>   
 
+</body>
 </html>

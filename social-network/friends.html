@@ -4,68 +4,169 @@
 <head>
     <title>Friends</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="friends.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registration.css">
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="logo">
-            <img src="images/logo.jpg" width="200" height="200">
-        </div>
-        <nav class="main-menu">
-            <ul>
-                <li><a href="registration.html">Registration</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="edit-profile.html">Edit-profile</a></li>
-                <li><i>Friends</i></li>
-                <li><a href="messages.html">Messages</a></li>
-                <li><a href="video.html">Video</a></li>
-                <li><a href="audio.html">Audio</a></li>   
-            </ul>
+    <div class="conteiner">
+        <nav class="navbar navbar-light bg-secondary mb-5">             
+            <div class="col-1"><img class="rounded" src="images/logo.jpg" width="50" height="50" class="d-inline-block align-top" alt=""></div>
+            <div class="col-3 text-warning">
+                <h5>Project social network bootstrap</h5>
+            </div>
+            <div class="col-4 text-center text-white">
+                <h2>Friends</h2>
+            </div>
+            <div class="col-4">
+                <form class="form-inline justify-content-end">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning ml-2" type="submit">Search</button>
+                </form>
+            </div>
         </nav>
-    </header>
-    <main>
-        <section class="posts">
-            <figure>
-                <figcaption class="text">ХИЩНИК АНТОН АНДРЕЕВИЧ</figcaption>
-                <img class="img-friend" src="images/friend-1.jpg">
-                Хищники — это двуногие прямоходящие гуманоиды. Рост взрослой особи составляет примерно 
-                от 200 см до 250 см, вес ~150—200 кг. Форма тела близка к человеческой. Большую часть их 
-                массы составляют мускулы и лишь очень малое количество жира, что объясняется их образом жизни и, 
-                следовательно, необходимостью поддерживать отличную физическую форму. Цвет кожи, напоминающей 
-                крапчатую чешуйчатую кожу рептилий, как правило, бледно-жёлтый или тёмно-зелёный с чёрными пятнами 
-                (но бывают и исключения, вроде Берсеркера), глубоко посаженные глаза также, в зависимости от цвета 
-                кожи, зелёные или жёлтые.
-            </figure>
-        </section>
-        <section class="posts">
-            <figure>
-                <figcaption class="text">КАКОЙ-ТО ЧЕЛ</figcaption>
-                <img class="img-friend" src="images/friend-2.jpg">
-                Данные не известны
-            </figure>
-        </section>
-        <section class="posts">
-            <figure>
-                <figcaption class="text">ЗЕЛЁНЫЙ</figcaption>
-                <img class="img-friend" src="images/friend-3.jpg">
-                Представляет собой зелёного, круглого монстра невысокого роста, с крупной головой, 
-                основной частью тела, руками и ногами. На голове маленькие рожки и один большой расширенный 
-                глаз с голубой радужкой посреди головы.
-            </figure>
-        </section>
-        <section class="posts">
-            <figure>
-                <figcaption class="text">ПАНДА</figcaption>
-                <img class="img-friend" src="images/friend-4.jpg">
-                Бамбуковый медведь, одно из редчайших животных, занесённых в международную Красную книгу
-            </figure>
-        </section>
-    </main>
-    <footer class="page-footer">
-        <p>(c) Kandyba Alexey - 2020</p>
-    </footer>
-</body>
+        
+        <div class="row">
+            <div class="col-2 border-right">
+                <ul class="nav flex-column pl-5 mb-5 position-fixed">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="registration.html">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="edit-profile.html">Edit-profile</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <b>Friends</b>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="messages.html">Messages</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="video.html">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="audio.html">Audio</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="groups.html">Groups</a>
+                    </li>  
+                </ul>
+            </div>
+            <div class="col-10 px-5">
+                <div class="row border-bottom mb-3">
+                    <div class="col my-1">
+                        <h4>number of friends (10)</h4>
+                    </div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-1.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Robert De Niro</div>
+                </div>
+                <div class="row border-bottom mb-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-2.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Jack Nicholson</div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-3.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Denzel Washington</div>
+                </div>
+                <div class="row border-bottom mb-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-4.jpg">
+                    </div>
+                    <div class="col-9 align-self-center"> Tom Hanks</div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-5.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Leonardo DiCaprio</div>
+                </div>
+                <div class="row border-bottom mb-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-6.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Morgan Freeman</div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-7.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Johnny Depp</div>
+                </div>
+                <div class="row border-bottom mb-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-8.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Will Smith</div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-9.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Diane Keaton</div>
+                </div>
+                <div class="row border-bottom mb-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-10.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Halle Berry</div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-11.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Angelina Jolie</div>
+                </div>
+                <div class="row border-bottom mb-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-12.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Harrison Ford</div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-13.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Samuel L. Jackson</div>
+                </div>
+                <div class="row border-bottom mb-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-14.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Eddie Murphy</div>
+                </div>
+                <div class="row border-bottom my-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-15.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Ben Kingsley</div>
+                </div>
+                <div class="row border-bottom mb-3">
+                    <div class="col-3 text-center">
+                        <img class="rounded-circle mb-3" width="50%" src="images/friend-16.jpg">
+                    </div>
+                    <div class="col-9 align-self-center">Joaquin Phoenix</div>
+                </div>
+            </div>
+        </div>              
+    </div>
+        <footer class="row-footer bg-secondary py-3 mt-5">             
+            <div class="col text-center text-warning">(c) Kandyba Alexey - 2020</div>
+        </footer> 
+    </div>   
 
+</body>
 </html>

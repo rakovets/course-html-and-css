@@ -4,63 +4,120 @@
 <head>
     <title>Messages</title>
     <meta charset="utf-8">
-    <link rel="stylesheet" href="messages.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/registration.css">
 </head>
 
 <body>
-    <header class="page-header">
-        <div class="logo">
-            <img src="images/logo.jpg" width="200" height="200">
-        </div>
-        <nav class="main-menu">
-            <ul>
-                <li><a href="registration.html">Registration</a></li>
-                <li><a href="login.html">Login</a></li>
-                <li><a href="profile.html">Profile</a></li>
-                <li><a href="edit-profile.html">Edit-profile</a></li>
-                <li><a href="friends.html">Friends</a></li>
-                <li><i>Messages</i></li>
-                <li><a href="video.html">Video</a></li>
-                <li><a href="audio.html">Audio</a></li>   
-            </ul>
+    <div class="conteiner">
+        <nav class="navbar navbar-light bg-secondary mb-5">             
+            <div class="col-1"><img class="rounded" src="images/logo.jpg" width="50" height="50" class="d-inline-block align-top" alt=""></div>
+            <div class="col-3 text-warning">
+                <h5>Project social network bootstrap</h5>
+            </div>
+            <div class="col-4 text-center text-white">
+                <h2>Messages</h2>
+            </div>
+            <div class="col-4">
+                <form class="form-inline justify-content-end">
+                    <input class="form-control" type="search" placeholder="Search" aria-label="Search">
+                    <button class="btn btn-warning ml-2" type="submit">Search</button>
+                </form>
+            </div>
         </nav>
-    </header>
-    <main>
-        <section class="posts">
+        
+        <div class="row">
+            <div class="col-2 border-right">
+                <ul class="nav flex-column pl-5 mb-5 position-fixed">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="registration.html">Registration</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="login.html">Login</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="profile.html">Profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="edit-profile.html">Edit-profile</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="friends.html">Friends</a>
+                    </li>
+                    <li class="nav-item pl-3">
+                        <b>Messages</b>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="video.html">Video</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link active" href="audio.html">Audio</a>
+                    </li> 
+                    <li class="nav-item">
+                        <a class="nav-link active" href="groups.html">Groups</a>
+                    </li> 
+                </ul>
+            </div>
+            <div class="col-10 px-5">
+                <div class="row alert alert-primary alert mr-5">
+                    <div class="col-2 mt-3 text-right"><img class="rounded-circle mb-3" width="100" height="100" src="images/foto-profile.jpg"></div>
+                    <div class="col-9 align-self-center pr-2">As the coronavirus crisis deepens, many charities have had to cease operations, 
+                        reducing support for large numbers of vulnerable people.</div>
+                    <div class="col-1 align-self-end">11:27</div>
+                </div>
+                <div class="row alert-success alert ml-5">
+                    <div class="col-1 align-self-end">11:27</div>
+                    <div class="col-9 align-self-center">According to the British Red Cross, there are thousands of refugees and asylum seekers living in poverty in the UK, 
+                        although the government says it provides support for those who need it.</div>
+                    <div class="col-2 mt-3"><img class="rounded-circle mb-3" width="100" height="100" src="images/friend-4.jpg"></div>
+                </div>
+                <div class="row alert alert-primary alert mr-5">
+                    <div class="col-2 mt-3 text-right"><img class="rounded-circle mb-3" width="100" height="100" src="images/foto-profile.jpg"></div>
+                    <div class="col-9 align-self-center pr-2">And in Calais in France, many migrants are living in makeshift camps hoping to cross to the UK.</div>
+                    <div class="col-1 align-self-end">11:27</div>
+                </div>
+                <div class="row alert-success alert ml-5">
+                    <div class="col-1 align-self-end">11:27</div>
+                    <div class="col-9 align-self-center">The BBC’s Fergal Keane reports on how the coronavirus pandemic is affecting those who have fled persecution or poverty.</div>
+                    <div class="col-2 mt-3"><img class="rounded-circle mb-3" width="100" height="100" src="images/friend-7.jpg"></div>
+                </div>
+                <div class="row alert alert-primary alert mr-5">
+                    <div class="col-2 mt-3 text-right"><img class="rounded-circle mb-3" width="100" height="100" src="images/foto-profile.jpg"></div>
+                    <div class="col-9 align-self-center pr-2">Dyfed-Powys Police said he was the first person in the force area to be arrested for causing a public nuisance with regards to the restrictions.</div>
+                    <div class="col-1 align-self-end">11:27</div>
+                </div>
+                <div class="row alert-success alert ml-5">
+                    <div class="col-1 align-self-end">11:27</div>
+                    <div class="col-9 align-self-center">Police said he drove around with "total disregard for the law and for the health and well-being" of others.</div>
+                    <div class="col-2 mt-3"><img class="rounded-circle mb-3" width="100" height="100" src="images/friend-9.jpg"></div>
+                </div>
+                <div class="row alert alert-primary alert mr-5">
+                    <div class="col-2 mt-3 text-right"><img class="rounded-circle mb-3" width="100" height="100" src="images/foto-profile.jpg"></div>
+                    <div class="col-9 align-self-center pr-2">Roads Policing Inspector Andrew Williams said: "While our aim is to engage with the public who still travel on non-essential business there is a time when we have to take enforcement action.</div>
+                    <div class="col-1 align-self-end">11:27</div>
+                </div>
+                <div class="row alert-success alert ml-5">
+                    <div class="col-1 align-self-end">11:27</div>
+                    <div class="col-9 align-self-center">This is an example of how we will proactively deal with those persons who continue to blatantly disregard the Covid-19 restrictions and the health and well-being of our communities.</div>
+                    <div class="col-2 mt-3"><img class="rounded-circle mb-3" width="100" height="100" src="images/friend-11.jpg"></div>
+                </div>
+                <div class="row alert alert-primary alert mr-5">
+                    <div class="col-2 mt-3 text-right"><img class="rounded-circle mb-3" width="100" height="100" src="images/foto-profile.jpg"></div>
+                    <div class="col-9 align-self-center pr-2">I also hope that this serves as reassurance for our communities that officers are conducting high visibility patrols and engaging with those on the roads and using the powers given to us in the new legislation.</div>
+                    <div class="col-1 align-self-end">11:27</div>
+                </div>
+                <div class="row alert-success alert ml-5">
+                    <div class="col-1 align-self-end">11:27</div>
+                    <div class="col-9 align-self-center">Grimsby teacher Zane Powles is delivering dozens of packed lunches every weekday to pupils stuck at home due to coronavirus.</div>
+                    <div class="col-2 mt-3"><img class="rounded-circle mb-3" width="100" height="100" src="images/friend-15.jpg"></div>
+                </div>
+            </div>
+        </div>              
+    </div>
+        <footer class="row-footer bg-secondary py-3 mt-5">             
+            <div class="col text-center text-warning">(c) Kandyba Alexey - 2020</div>
+        </footer> 
+    </div>   
 
-            <section>
-                <p>
-                    <h3>Сообщение от:</h3>
-                </p>
-                <figure class="section-1">
-                    <figcaption class="text">ЗЕЛЁНЫЙ</figcaption>
-                    <img class="img-friend" src="images/friend-3.jpg">
-                </figure>
-            </section>
-
-        </section>
-        <section class="posts">
-        <article>
-            <p>Россия с 30 марта полностью закрывает границу, в том числе с Беларусью</p>
-        </article>
-        <article>
-            <p>«С 00 часов 00 минут по московскому времени 30 марта 2020 г. временно ограничить 
-                движение через автомобильные, железнодорожные, пешеходные, речные и смешанные пункты 
-                пропуска через государственную границу Российской Федерации, а также через сухопутный
-                 участок российско-белорусской государственной границы».
-            </p>
-        </article>
-        <article>
-            <p>Мэр Москвы Сергей Собянин с 28 марта ввел жесткие ограничительные меры, пояснив, 
-                что «семь нерабочих дней — это не каникулы, а серьезная мера предотвращения COVID-19». 
-                В городе закрыли даже детские площадки.
-            </p>
-        </article>
-        </section>
-    </main>
-    <footer class="page-footer">
-        <p class="center">(c) Kandyba Alexey - 2020</p>
-    </footer>
 </body>
-
 </html>
