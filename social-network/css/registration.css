@@ -1,0 +1,40 @@
+.form {
+    padding-top: 20px;
+    text-align: center;
+}
+
+.form__input {
+    background-color: white;
+    font-size: 15px;
+    border-radius: 5px;
+    width: 500px;
+    padding: 15px 0;
+    margin-bottom: 15px;
+    margin-right: 20px;
+    border: 0;
+    padding-left: 25px;
+    outline: none;
+}
+
+.form__btn {
+    background-color: rgb(132, 134, 143);
+    font-size: 15px;
+    font-weight: 700;
+    border-radius: 5px;
+    width: 120px;
+    border: 0;
+    padding: 12px 0;
+    cursor: pointer;
+}
+
+@media screen and (max-width: 800px) {
+    .form__btn {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .form__input {
+        width: 100%;
+    }
+}
