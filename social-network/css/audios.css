@@ -1,0 +1,19 @@
+audio {
+    width: 300px;
+    outline: none;
+}
+
+.media {
+    padding-top: 30px;
+}
+
+.media__text {
+    text-align: center;
+    padding-left: 30px;
+}
+ 
+@media screen and (max-width: 500px) {
+    .media {
+        flex-direction: column;
+    }
+}
