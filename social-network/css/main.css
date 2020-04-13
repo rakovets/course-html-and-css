@@ -1,0 +1,101 @@
+/* header */
+
+.logo {
+    width: 150px;
+}
+
+header {
+    background-color: rgb(110, 117, 204);
+    color: black;
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+ul, li {
+    display: block;
+    padding: 0;
+    margin: 0;
+}
+
+.menu__item a {
+    font-size: 20px;
+    font-weight: 700;
+    color: #000;
+}
+
+.menu__item {
+    margin: 0 20px;
+}
+
+.menu {
+    padding-top: 50px;
+    padding-right: 60px;
+}
+
+/* section */
+
+h1 {
+    text-align: center;
+}
+
+.content {
+    background-color: rgb(207, 207, 207);
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.offer__text {
+    padding-top: 10px;
+    margin-left:  150px;
+    margin-right: 150px;
+}
+
+.name {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+/* footer */
+
+.footer {
+    background-color: rgb(132, 134, 143);
+    padding: 30px;
+}
+
+.credits {
+    font-size: 15px;
+    width: 185px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+/* media */
+
+@media screen and (max-width: 1470px) {
+    .logo {
+        display: block;
+        margin: 0 auto;
+    }
+
+    .menu {
+        padding-top: 0px;
+       flex-direction: column;
+    }
+} 
+
+@media screen and (max-width: 1000px) {
+    .menu__item {
+        text-align: center;
+    }
+
+    .menu {
+        padding-top: 20px;
+        padding-right: 0px;
+    }
+}
+
+@media screen and (max-width: 360px) {
+    .offer__text {
+        margin: auto;
+    }
+}

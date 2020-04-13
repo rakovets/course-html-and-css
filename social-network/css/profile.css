@@ -1,0 +1,19 @@
+
+.list {
+    padding-top: 20px;
+}
+
+.list__item {
+    margin-bottom: 10px;
+}
+
+.name {
+    text-align: center;
+    padding-bottom: 30px;
+}
+
+@media screen and (max-width: 1000px) {
+    .list__item {
+       text-align: center;
+    }
+}

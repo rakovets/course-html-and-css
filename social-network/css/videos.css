@@ -1,0 +1,13 @@
+.media {
+    padding-top: 50px;
+}
+
+.media__text {
+    padding: 50px 0 0 50px;
+}
+
+@media screen and (max-width: 650px) {
+    .media {
+        flex-direction: column;
+    }   }
+}
