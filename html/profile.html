@@ -1,0 +1,341 @@
+<!DOCTYPE html>
+ <html>
+<head>
+    <title>Profile</title>
+    <link href="../css/bootstrao.min.css" rel="stylesheet" id="bootstrap-css">
+    <script src="../script/bootstrap.min.js"></script>
+    <script src="../script/jquery.min.js"></script>
+    </head>
+  
+<style>
+   footer.page-footer {
+    min-height: 50px;
+    padding: 20px;
+    font-size: 14px;
+    color: black;
+    background-color: linear-gradient(to bottom, #33ccff 0%, #003399 100%);;
+    background-image: linear-gradient(45deg, transparent 50%, white 50%), linear-gradient(-45deg, transparent 50%, white 50%), linear-gradient(135deg, transparent 50%, #2c3e50 50%), linear-gradient(-135deg, transparent 50%, #2c3e50 50%);
+    background-repeat: repeat-x;
+    background-position: 0 0, 0 0, 0 100%, 0 100%;
+    background-size: 10px 12px;
+}
+
+.page-footer::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.page-footer .info {
+    float: left;
+}
+
+.page-footer .info img {
+    margin-right: 0.5em;
+    vertical-align: middle;
+    border: 2px solid white;
+    box-shadow: 0 0 4px #c0392b;
+    transform: rotate(-5deg);
+}
+
+.page-footer .copyright {
+    float: right;
+    padding-top: 20px;
+    font-size: 12px;
+}
+    header.page-header {
+    position: relative;
+    z-index: 5;
+    min-height: 20px;
+    padding: 20px;
+    color: white;
+    background-image: linear-gradient(45deg, #34495e 25%, transparent 25%), linear-gradient(-45deg, #34495e 25%, transparent 25%), linear-gradient(135deg, #34495e 25%, transparent 25%), linear-gradient(-135deg, #34495e 25%, transparent 25%);
+    background-position: 10px 0, 10px 0, 0 0, 0 0;
+    background-size: 20px 20px;
+    box-shadow: 0 0 5px 0 #333333;
+}
+
+.logo {
+    position: absolute;
+    top: 10px;
+    left: 20px;
+    margin: 0;
+}
+
+.main-menu ul {
+    margin: 0;
+    margin-left: 130px;
+    padding: 0;
+    list-style: none;
+}
+
+.main-menu li {
+    display: inline-block;
+    margin-right: 1em;
+}
+
+.main-menu a {
+    color: white;
+}
+
+           body{
+    background: -webkit-linear-gradient(left, #3931af, #00c6ff);
+}
+.emp-profile{
+    padding: 3%;
+    margin-top: 3%;
+    margin-bottom: 3%;
+    border-radius: 0.5rem;
+    background: #fff;
+}
+.profile-img{
+    text-align: center;
+}
+.profile-img img{
+    width: 70%;
+    height: 100%;
+}
+.profile-img .file {
+    position: relative;
+    overflow: hidden;
+    margin-top: -20%;
+    width: 70%;
+    border: none;
+    border-radius: 0;
+    font-size: 15px;
+    background: #212529b8;
+}
+.profile-img .file input {
+    position: absolute;
+    opacity: 0;
+    right: 0;
+    top: 0;
+}
+.profile-head h5{
+    color: #333;
+}
+.profile-head h6{
+    color: #0062cc;
+}
+.profile-edit-btn{
+    border: none;
+    border-radius: 1.5rem;
+    width: 70%;
+    padding: 2%;
+    font-weight: 600;
+    color: #6c757d;
+    cursor: pointer;
+}
+.proile-rating{
+    font-size: 12px;
+    color: #818182;
+    margin-top: 5%;
+}
+.proile-rating span{
+    color: #495057;
+    font-size: 15px;
+    font-weight: 600;
+}
+.profile-head .nav-tabs{
+    margin-bottom:5%;
+}
+.profile-head .nav-tabs .nav-link{
+    font-weight:600;
+    border: none;
+}
+.profile-head .nav-tabs .nav-link.active{
+    border: none;
+    border-bottom:2px solid #0062cc;
+}
+.profile-work{
+    padding: 14%;
+    margin-top: -15%;
+}
+.profile-work p{
+    font-size: 12px;
+    color: #818182;
+    font-weight: 600;
+    margin-top: 10%;
+}
+.profile-work a{
+    text-decoration: none;
+    color: #495057;
+    font-weight: 600;
+    font-size: 14px;
+}
+.profile-work ul{
+    list-style: none;
+}
+.profile-tab label{
+    font-weight: 600;
+}
+.profile-tab p{
+    font-weight: 600;
+ }
+</style>
+<header class="page-header">
+    <div class="logo">
+        <img src="../img/javascript-1231.jpg" width="90" height="90">
+    </div>
+    <nav class="main-menu">
+        <ul>
+            <li><a href="Login.html" class="btn">Login</a></li>
+            <li><a href="siningup.html" class="btn">Sining up</a></li>
+            <li><a href="profile.html">About me</a></li>
+        </ul>
+    </nav>
+</header>
+ <body>
+<div class="container emp-profile">
+            <form method="post">
+                    <div class="row">
+                        <div class="col-md-4">
+                            <div class="profile-img">
+                                <img style= "height: 100%; width: 70%; text-align: center; transform: rotate(90deg)" src="../img/IMG_0650.jpg" alt="User photos" >
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <div class="profile-head">
+                                        <h5>
+                                            Nikita Kochetkov
+                                        </h5>
+                                        <h6>
+                                            Student of IT Academics
+                                    </h6>
+                                    <p class="proile-rating">RANKINGS : <span>8/10</span></p>
+                            <ul class="nav nav-tabs" id="myTab" role="tablist">
+                                <li class="nav-item">
+                                    <a class="nav-link active" id="home-tab" data-toggle="tab" href="#home" role="tab" aria-controls="home" aria-selected="true">About</a>
+                                </li>
+                                <li class="nav-item">
+                                    <a class="nav-link" id="profile-tab" data-toggle="tab" href="#profile" role="tab" aria-controls="profile" aria-selected="false">Timeline</a>
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="col-md-2">
+                        <input type="submit" class="profile-edit-btn" name="btnAddMore" value="Edit Profile"/>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-4">
+                        <div class="profile-work">
+                      <p style="color: rebeccapurple; font: outline; padding: 5px;" >1)MESAGE :</p>
+                                <a style="padding: 2%;
+                                text-decoration-line: underline;"  href="mesege.html">your masage</a><br/>
+                               
+                                <p style="color: rebeccapurple"  >2)VIDIO :</p>
+                                <a style="padding: 2%;
+                                text-decoration-line: underline;" href="">your vidio
+                                </a><br/>
+                                <p style="color: rebeccapurple">3)AUDIO :</p>
+                                <a style="padding: 2%;
+                                text-decoration-line: underline;" href="">your audio</a><br/>
+                            </div>
+                        </div>
+                        <div class="col-md-8">
+                            <div class="tab-content profile-tab" id="myTabContent">
+                                <div class="tab-pane fade show active" id="home" role="tabpanel" aria-labelledby="home-tab">
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>User Id</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>Nikitakochetkov99</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Name</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>Nikita Kochetkov</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Email</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>nikitaatesh@icloud.com</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Phone</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>+375292755981</p>
+                                                </div>
+                                            </div>
+                                            <div class="row">
+                                                <div class="col-md-6">
+                                                    <label>Profession</label>
+                                                </div>
+                                                <div class="col-md-6">
+                                                    <p>student</p>
+                                            </div>
+                                        </div>
+                            </div>
+                            <div class="tab-pane fade" id="profile" role="tabpanel" aria-labelledby="profile-tab">
+                                        <div style="color: rebeccapurp; font: outline;" class="row">
+                                            <div class="col-md-6">
+                                                <label style="color: rebeccapurple; font: outline;">Experience :</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p style="color: rebeccapurple;">Student</p>
+                                            </div>
+                                        </div>
+                                        <div style="color: blue; font: outline;" class="row">
+                                            <div  class="col-md-6">
+                                                <label style="color: blue; font: outline;"> 
+Skills :</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p style="
+                                text-decoration-line: underline;">HTML</p>
+                                                <p style="
+                                text-decoration-line: underline;">CSS</p>
+                                                <p style="
+                                text-decoration-line: underline;">DataBase</p>
+                                                <p style="
+                                text-decoration-line: underline;">Java</p>
+                                            </div>
+                                        </div>
+                                        <div style="color: red; font: outline;"  class="row">
+                                            <div class="col-md-6">
+                                                <label style="color: red; font: outline;">Projects :</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p style="
+                                text-decoration-line: underline;">Books</p>
+                                                <p style="
+                                text-decoration-line: underline;">Resume</p>
+                                                <p style="
+                                text-decoration-line: underline;">Social-Networks</p>
+                                            </div>
+                                        </div>
+                                        <div class="row">
+                                            <div class="col-md-6">
+                                                <label style="color: green; font: outline;">English Level :</label>
+                                            </div>
+                                            <div class="col-md-6">
+                                                <p style="color: green;
+                                text-decoration-line: underline;">Intermidiat</p>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </form>           
+        </div>
+
+        <link href="../css/bootstrao.min.css" rel="stylesheet" id="bootstrap-css">
+        <script src="../script/bootstrap.min.js"></script>
+        <script src="../script/jquery.min.js"></script>
+
+</body>
+</html>
