@@ -79,3 +79,20 @@ body, h1, h2, h3 {
     width: 250px;
     height: 230px;
 }
+
+@media screen and (max-width: 1000px) {
+    .form-intro {
+        width: 340px;
+    }
+
+    .clients {
+        text-align: center;
+    }
+}
+
+@media screen and (max-width: 650px) {
+    iframe {
+        width: 100%;
+        height: 100%;
+    }
+}
