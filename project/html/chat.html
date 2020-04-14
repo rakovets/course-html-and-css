@@ -1,0 +1,530 @@
+<!DOCTYPE html>
+<html>
+	<head>
+<link href="css/b1.css" rel="stylesheet" id="bootstrap-css">
+<script src="jquery/b1.js"></script>
+<script src="jquery/b1.jquary.js"></script>
+	</head>
+	
+	<style>
+
+		footer.page-footer {
+			min-height: 50px;
+			padding: 20px;
+			font-size: 14px;
+			color: black;
+			background-color: linear-gradient(to bottom, #33ccff 0%, #003399 100%);;
+			background-image: linear-gradient(45deg, transparent 50%, white 50%), linear-gradient(-45deg, transparent 50%, white 50%), linear-gradient(135deg, transparent 50%, #2c3e50 50%), linear-gradient(-135deg, transparent 50%, #2c3e50 50%);
+			background-repeat: repeat-x;
+			background-position: 0 0, 0 0, 0 100%, 0 100%;
+			background-size: 10px 12px;
+		}
+		
+		.page-footer::after {
+			content: "";
+			display: table;
+			clear: both;
+		}
+		
+		.page-footer .info {
+			float: left;
+		}
+		
+		.page-footer .info img {
+			margin-right: 0.5em;
+			vertical-align: middle;
+			border: 2px solid white;
+			box-shadow: 0 0 4px #c0392b;
+			transform: rotate(-5deg);
+		}
+		
+		.page-footer .copyright {
+			float: right;
+			padding-top: 20px;
+			font-size: 12px;
+		}
+		
+		
+		
+		 header.page-header {
+			position: relative;
+			z-index: 5;
+			min-height: 20px;
+			padding: 20px;
+			color: white;
+			background-image: linear-gradient(45deg, #34495e 25%, transparent 25%), linear-gradient(-45deg, #34495e 25%, transparent 25%), linear-gradient(135deg, #34495e 25%, transparent 25%), linear-gradient(-135deg, #34495e 25%, transparent 25%);
+			background-position: 10px 0, 10px 0, 0 0, 0 0;
+			background-size: 20px 20px;
+			box-shadow: 0 0 5px 0 #333333;
+		}
+		
+		.logo {
+			position: absolute;
+			top: 10px;
+			left: 20px;
+			margin: 0;
+		}
+		
+		.main-menu ul {
+			margin: 0;
+			margin-left: 130px;
+			padding: 0;
+			list-style: none;
+		}
+		
+		.main-menu li {
+			display: inline-block;
+			margin-right: 1em;
+		}
+		
+		.main-menu a {
+			color: white;
+		}
+		
+				
+			  body,html{
+					height: 100%;
+					margin: 0;
+					background: #7F7FD5;
+				background: -webkit-linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+				background: linear-gradient(to right, #91EAE4, #86A8E7, #7F7FD5);
+				}
+		
+				.chat{
+					margin-top: auto;
+					margin-bottom: auto;
+				}
+				.card{
+					height: 500px;
+					border-radius: 15px !important;
+					background-color: rgba(0,0,0,0.4) !important;
+				}
+				.contacts_body{
+					padding:  0.75rem 0 !important;
+					overflow-y: auto;
+					white-space: nowrap;
+				}
+				.msg_card_body{
+					overflow-y: auto;
+				}
+				.card-header{
+					border-radius: 15px 15px 0 0 !important;
+					border-bottom: 0 !important;
+				}
+			 .card-footer{
+				border-radius: 0 0 15px 15px !important;
+					border-top: 0 !important;
+			}
+				.container{
+					align-content: center;
+				}
+				.search{
+					border-radius: 15px 0 0 15px !important;
+					background-color: rgba(0,0,0,0.3) !important;
+					border:0 !important;
+					color:white !important;
+				}
+				.search:focus{
+					 box-shadow:none !important;
+				   outline:0px !important;
+				}
+				.type_msg{
+					background-color: rgba(0,0,0,0.3) !important;
+					border:0 !important;
+					color:white !important;
+					height: 60px !important;
+					overflow-y: auto;
+				}
+					.type_msg:focus{
+					 box-shadow:none !important;
+				   outline:0px !important;
+				}
+				.attach_btn{
+			border-radius: 15px 0 0 15px !important;
+			background-color: rgba(0,0,0,0.3) !important;
+					border:0 !important;
+					color: white !important;
+					cursor: pointer;
+				}
+				.send_btn{
+			border-radius: 0 15px 15px 0 !important;
+			background-color: rgba(0,0,0,0.3) !important;
+					border:0 !important;
+					color: white !important;
+					cursor: pointer;
+				}
+				.search_btn{
+					border-radius: 0 15px 15px 0 !important;
+					background-color: rgba(0,0,0,0.3) !important;
+					border:0 !important;
+					color: white !important;
+					cursor: pointer;
+				}
+				.contacts{
+					list-style: none;
+					padding: 0;
+				}
+				.contacts li{
+					width: 100% !important;
+					padding: 5px 10px;
+					margin-bottom: 15px !important;
+				}
+			.active{
+					background-color: rgba(0,0,0,0.3);
+			}
+				.user_img{
+					height: 70px;
+					width: 70px;
+					border:1.5px solid #f5f6fa;
+				
+				}
+				.user_img_msg{
+					height: 40px;
+					width: 40px;
+					border:1.5px solid #f5f6fa;
+				
+				}
+			.img_cont{
+					position: relative;
+					height: 70px;
+					width: 70px;
+			}
+			.img_cont_msg{
+					height: 40px;
+					width: 40px;
+			}
+			.online_icon{
+				position: absolute;
+				height: 15px;
+				width:15px;
+				background-color: #4cd137;
+				border-radius: 50%;
+				bottom: 0.2em;
+				right: 0.4em;
+				border:1.5px solid white;
+			}
+			.offline{
+				background-color: #c23616 !important;
+			}
+			.user_info{
+				margin-top: auto;
+				margin-bottom: auto;
+				margin-left: 15px;
+			}
+			.user_info span{
+				font-size: 20px;
+				color: white;
+			}
+			.user_info p{
+			font-size: 10px;
+			color: rgba(255,255,255,0.6);
+			}
+			.video_cam{
+				margin-left: 50px;
+				margin-top: 5px;
+			}
+			.video_cam span{
+				color: white;
+				font-size: 20px;
+				cursor: pointer;
+				margin-right: 20px;
+			}
+			.msg_cotainer{
+				margin-top: auto;
+				margin-bottom: auto;
+				margin-left: 10px;
+				border-radius: 25px;
+				background-color: #82ccdd;
+				padding: 10px;
+				position: relative;
+			}
+			.msg_cotainer_send{
+				margin-top: auto;
+				margin-bottom: auto;
+				margin-right: 10px;
+				border-radius: 25px;
+				background-color: #78e08f;
+				padding: 10px;
+				position: relative;
+			}
+			.msg_time{
+				position: absolute;
+				left: 0;
+				bottom: -15px;
+				color: rgba(255,255,255,0.5);
+				font-size: 10px;
+			}
+			.msg_time_send{
+				position: absolute;
+				right:0;
+				bottom: -15px;
+				color: rgba(255,255,255,0.5);
+				font-size: 10px;
+			}
+			.msg_head{
+				position: relative;
+			}
+			#action_menu_btn{
+				position: absolute;
+				right: 10px;
+				top: 10px;
+				color: white;
+				cursor: pointer;
+				font-size: 20px;
+			}
+			.action_menu{
+				z-index: 1;
+				position: absolute;
+				padding: 15px 0;
+				background-color: rgba(0,0,0,0.5);
+				color: white;
+				border-radius: 15px;
+				top: 30px;
+				right: 15px;
+				display: none;
+			}
+			.action_menu ul{
+				list-style: none;
+				padding: 0;
+			margin: 0;
+			}
+			.action_menu ul li{
+				width: 100%;
+				padding: 10px 15px;
+				margin-bottom: 5px;
+			}
+			.action_menu ul li i{
+				padding-right: 10px;
+			
+			}
+			.action_menu ul li:hover{
+				cursor: pointer;
+				background-color: rgba(0,0,0,0.2);
+			}
+			@media(max-width: 576px){
+			.contacts_card{
+				margin-bottom: 15px !important;
+			}
+			}
+		</style>
+	
+  <header class="page-header">
+    <div class="logo">
+        <img src="img/HTML5.jpg" width="90" height="90">
+    </div>
+    <nav class="main-menu">
+        <ul>
+            <li><a href="Login.html" class="btn">Login</a></li>
+            <li><a href="siningup.html" class="btn">Sining up</a></li>
+			<li><a href="profile.html">My Profile</a></li>    
+			<li><a href="vidio.html">Vidio</a></li>
+        </ul>
+    </nav>
+</header>
+	
+	<body  style="background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(163,97,110,1) 100%);">
+		<div style="background: rgb(63,94,251);
+        background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(158,51,73,1) 100%);"  class="container-fluid h-100">
+			<div class="row justify-content-center h-100">
+				<div class="col-md-4 col-xl-3 chat"><div class="card mb-sm-3 mb-md-0 contacts_card">
+					<div class="card-header">
+						<div class="input-group">
+							<input type="text" placeholder="Search..." name="" class="form-control search">
+							<div class="input-group-prepend">
+								<span class="input-group-text search_btn"><i class="fas fa-search"></i></span>
+							</div>
+						</div>
+					</div>
+					<div class="card-body contacts_body">
+						<ui class="contacts">
+						<li class="active">
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img style=" transform: rotate(90deg)" src="img/Nikita.jpg" class="rounded-circle user_img">
+									<span class="online_icon"></span>
+								</div>
+								<div class="user_info">
+									<span>Никита Кочетков</span>
+									<p>Никита сейчас онлайн</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/Alina.jpg" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Алина Кунаева</span>
+									<p>Алина была в сети 7 минут назад</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/Vlad.jpg" class="rounded-circle user_img">
+									<span class="online_icon"></span>
+								</div>
+								<div class="user_info">
+									<span>Владислав Морозов</span>
+									<p>Владислав сейчас онлайн</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/Artem.jpg" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Артём Янчевский</span>
+									<p>Артём был в сети 30 минут назад</p>
+								</div>
+							</div>
+						</li>
+						<li>
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img src="img/Alex.jpg" class="rounded-circle user_img">
+									<span class="online_icon offline"></span>
+								</div>
+								<div class="user_info">
+									<span>Алексей Самойло</span>
+									<p>Алексей был в сети 50 минут назад</p>
+								</div>
+							</div>
+						</li>
+						</ui>
+					</div>
+					<div class="card-footer"></div>
+				</div></div>
+				<div class="col-md-8 col-xl-6 chat">
+					<div class="card">
+						<div class="card-header msg_head">
+							<div class="d-flex bd-highlight">
+								<div class="img_cont">
+									<img style="transform: rotate(90deg);" src="img/Nikita.jpg" class="rounded-circle user_img">
+									<span class="online_icon"></span>
+								</div>
+								<div class="user_info">
+									<span>Чат с Никитой</span>
+									<p>1767 Messages</p>
+								</div>
+								<div class="video_cam">
+									<span><i class="fas fa-video"></i></span>
+									<span><i class="fas fa-phone"></i></span>
+								</div>
+							</div>
+							<span id="action_menu_btn"><i class="fas fa-ellipsis-v"></i></span>
+							<div class="action_menu">
+								<ul>
+									<li><i class="fas fa-user-circle"></i> View profile</li>
+									<li><i class="fas fa-users"></i> Add to close friends</li>
+									<li><i class="fas fa-plus"></i> Add to group</li>
+									<li><i class="fas fa-ban"></i> Block</li>
+								</ul>
+							</div>
+						</div>
+						<div class="card-body msg_card_body">
+							<div class="d-flex justify-content-start mb-4">
+								<div class="img_cont_msg">
+									<img src="img/Alex.jpg" class="rounded-circle user_img_msg">
+								</div>
+								<div class="msg_cotainer">
+									Здарова бандит как дела ?
+									<span class="msg_time">8:40 AM, Today</span>
+								</div>
+							</div>
+							<div class="d-flex justify-content-end mb-4">
+								<div class="msg_cotainer_send">
+									Привет все нормально , делаю домашку по програмировнию?
+									<span class="msg_time_send">8:55 AM, Today</span>
+								</div>
+								<div class="img_cont_msg">
+							<img style="transform: rotate(90deg);" src="img/Nikita.jpg" class="rounded-circle user_img_msg">
+								</div>
+							</div>
+							<div class="d-flex justify-content-start mb-4">
+								<div class="img_cont_msg">
+									<img src="img/Alex.jpg" class="rounded-circle user_img_msg">
+								</div>
+								<div class="msg_cotainer">
+									Окей , понял когда сделаешь набери сходим в мяту )
+									<span class="msg_time">9:00 AM, Today</span>
+								</div>
+							</div>
+							<div class="d-flex justify-content-end mb-4">
+								<div class="msg_cotainer_send">
+									Окей и тёлок позовём)
+									<span class="msg_time_send">9:05 AM, Today</span>
+								</div>
+								<div class="img_cont_msg">
+									<img style="transform: rotate(90deg);" src="img/Nikita.jpg" class="rounded-circle user_img_msg">
+								</div>
+							</div>
+							<div class="d-flex justify-content-start mb-4">
+								<div class="img_cont_msg">
+									<img  src="img/Alex.jpg" class="rounded-circle user_img_msg">
+								</div>
+								<div class="msg_cotainer">
+									Ты забыл , никаких тёлок я с Алисой буду !!!
+									<span class="msg_time">9:07 AM, Today</span>
+								</div>
+							</div>
+							<div class="d-flex justify-content-end mb-4">
+								<div class="msg_cotainer_send">
+									Да ладно Лёха она не узнает)
+									<span class="msg_time_send">9:10 AM, Today</span>
+								</div>
+								<div class="img_cont_msg">
+						<img style="transform: rotate(90deg);" src="img/Nikita.jpg" class="rounded-circle user_img_msg">
+								</div>
+							</div>
+							<div class="d-flex justify-content-start mb-4">
+								<div class="img_cont_msg">
+									<img src="img/Alex.jpg" class="rounded-circle user_img_msg">
+								</div>
+								<div class="msg_cotainer">
+									Ну это же другое дело , зови побольше )!!!
+									<span class="msg_time">9:12 AM, Today</span>
+								</div>
+							</div>
+						</div>
+						<div class="card-footer">
+							<div class="input-group">
+								<div class="input-group-append">
+									<span class="input-group-text attach_btn"><i class="fas fa-paperclip"></i></span>
+								</div>
+								<textarea name="" class="form-control type_msg" placeholder="Type your message..."></textarea>
+								<div class="input-group-append">
+									<span class="input-group-text send_btn"><i class="fas fa-location-arrow"></i></span>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+    </div>
+
+    <link href="css/b1.css" rel="stylesheet" id="bootstrap-css">
+<script src="jquery/b1.js"></script>
+<script src="jquery/b1.jquary.js"></script>
+
+  </body>
+
+  <footer style="background: rgb(63,94,251);
+  background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(163,97,110,1) 100%);" class="page-footer">
+    <section class="info">
+        <img src="img/vas9.jpg" width="50">
+        Nikitos Karporation, nikitos@icloud.com
+    </section>
+    <section class="copyright">
+        © 2019—2020 Nikita Developer
+    </section>
+</footer>
+
+</html>
