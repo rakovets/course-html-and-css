@@ -1,0 +1,349 @@
+<!DOCTYPE html>
+<html lang="eng">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width"/>
+
+
+
+<style>
+
+@font-face {
+    font-family: 'Varela';
+    font-style: normal;
+    font-weight: 400;
+    src: local('Varela'), url('fonts/DPEtYwqExx0AWHX5Ax4E.woff2') format('woff2');
+}
+
+
+* {
+    -webkit-transition: .3s ease-in-out;
+    -o-transition: .3s ease-in-out;
+    transition: .3s ease-in-out;
+}
+
+*, *:before, *:after {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+::-moz-selection {
+    background: #303030;
+    color: white;
+}
+
+::selection {
+    background: #303030;
+    color: white;
+}
+
+*:target:before {
+    content: "";
+    display: block;
+    height: 2em;
+    margin-top: -2em;
+}
+
+body {
+    font-family: "Trebuchet MS", sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+    color: #303030;
+    background: #F8F9FB;
+    word-spacing: 2px;
+    min-height: 100vh;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    flex-direction: column;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    line-height: 1.2;
+    clear: both;
+    font-weight: 500;
+    margin: 0 0 15px;
+    color: #252525;
+}
+
+h1 {
+    font-size: 32px;
+}
+
+h2 {
+    font-size: 28px;
+}
+
+h3 {
+    font-size: 24px;
+}
+
+h4 {
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 18px;
+}
+
+h6 {
+    font-size: 16px;
+}
+
+p {
+    margin-bottom: 20px;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul, ol {
+    list-style: none;
+}
+
+main {
+    -webkit-box-flex: 1;
+    -ms-flex: 1 0 auto;
+    flex: 1 0 auto;
+}
+.container {
+    margin: 0 auto;
+    padding: 0 20px;
+    width: 100%;
+    max-width: 1220px;
+}
+
+header {
+    padding: 20px 0;
+    margin-bottom: 30px;
+}
+
+header .container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.menu-wrapper, .menu-header-container ul {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+}
+
+.menu-header-container ul {
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    height: 100%;
+}
+
+.header-logo {
+    display: block;
+    color: inherit;
+    font-size: 40px;
+    line-height: 1;
+    font-family: 'Varela', sans-serif;
+    font-weight: bold;
+}
+
+.header-logo span {
+    display: block;
+    font-size: 16px;
+    letter-spacing: 10px;
+    position: relative;
+    text-align: right;
+    margin-right: -7px;
+}
+
+.header-logo span:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    background: #abd6cf;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    left: 3px;
+    -webkit-box-shadow: 12px 6px #abd6cf, 24px 0px #abd6cf, 36px 6px #abd6cf;
+    box-shadow: 12px 6px #abd6cf, 24px 0px #abd6cf, 36px 6px #abd6cf;
+    -webkit-transition: .4s linear;
+    -o-transition: .4s linear;
+    transition: .4s linear;
+}
+
+.header-logo:hover span:before {
+    top: 6px;
+    -webkit-box-shadow: 12px -6px #abd6cf, 24px 0px #abd6cf, 36px -6px #abd6cf;
+    box-shadow: 12px -6px #abd6cf, 24px 0px #abd6cf, 36px -6px #abd6cf;
+}
+
+#menu-header a {
+    color: inherit;
+    display: block;
+    padding: 10px 17px;
+    font-size: 13px;
+    text-transform: uppercase;
+    position: relative;
+    line-height: 1;
+}
+
+.search-box {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    align-items: center;
+    position: relative;
+    z-index: 10;
+    margin-left: 15px;
+}
+
+.search-box i {
+    font-size: 16px;
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+    display: block;
+    position: relative;
+    overflow: hidden;
+    -webkit-transition-duration: 0.1s;
+    -o-transition-duration: 0.1s;
+    transition-duration: 0.1s;
+}
+
+.search-box i:before, .search-box i:after {
+    position: absolute;
+    height: 18px;
+    width: 18px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+}
+
+.search-box i:before {
+    top: 0;
+    left: 0;
+}
+
+.search-box i:after {
+    content: "\f00d";
+    top: 100%;
+    left: 0;
+}
+
+.search-box input[type="search"] {
+    position: absolute;
+    width: 100%;
+    z-index: 99;
+    border: none;
+    padding: 10px;
+    background: white;
+    border-top: 3px solid transparent;
+    -webkit-box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 12px 0 rgba(0, 0, 0, 0.2);
+}
+
+.search-box input[type="search"]:focus {
+    outline: none;
+}
+
+.search-box .search-form {
+    position: absolute;
+    right: 0px;
+    top: 100%;
+    border-top: 3px solid #303030;
+    width: 300px;
+    opacity: 0;
+    visibility: hidden;
+}
+
+
+</style>
+
+
+
+<body class="page-template-default page page-id-28 page-child parent-pageid-3800">
+    <header>  
+        <div class="container">
+            <a class="header-logo" href="https://html5book.ru/">HTML5<span>BOOK</span></a>
+            <div class="menu-wrapper">
+                <div class="menu-header-container"><ul id="menu-header" class="menu"><li id="menu-item-3827" class="menu-item menu-item-type-post_type menu-item-object-page current-page-ancestor menu-item-3827"><a href="https://html5book.ru/html-html5/">HTML</a></li>
+<li id="menu-item-3871" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3871"><a href="https://html5book.ru/css-css3/">CSS</a></li>
+<li id="menu-item-3975" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3975"><a href="https://html5book.ru/javascript-jquery/">JS</a></li>
+<li id="menu-item-3884" class="menu-item menu-item-type-post_type menu-item-object-page menu-item-3884"><a href="https://html5book.ru/web-topography/">Типографика</a></li>
+<li id="menu-item-9988" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-9988"><a href="https://html5book.ru/category/seo/">SEO</a></li>
+<li id="menu-item-5292" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-5292"><a href="https://html5book.ru/category/uroki/">Уроки</a></li>
+<li id="menu-item-10067" class="menu-item menu-item-type-taxonomy menu-item-object-category menu-item-10067"><a href="https://html5book.ru/category/vyorstka/">Вёрстка</a></li>
+<li id="menu-item-11005" class="menu-item menu-item-type-custom menu-item-object-custom menu-item-11005"><a href="https://html5book.ru/css-spravochnik.html">CSS-справочник</a></li>
+</ul></div>                <div class="search-box">
+					<form role="search" method="get" class="search-form" action="https://html5book.ru/">
+				<label>
+					<span class="screen-reader-text">Найти:</span>
+					<input type="search" class="search-field" placeholder="Поиск…" value="" name="s">
+				</label>
+				<input type="submit" class="search-submit" value="Поиск">
+			</form>					<i class="fa fa-search" aria-hidden="true"></i>
+				</div>
+            </div>
+        </div>
+    </header>
+    <main><div class="container">
+            <div class="content-wrapper">
+            <div class="content">
+                <h1>1.10. HTML-генераторы</h1>
+                <div class="post-meta">
+                    <span class="post-date">Опубликовано: 20 марта 2014</span>
+                    <span>Обновлено: 5 января 2020</span>                              </div>
+
+                <div class="content-inner">
+                    <img width="250" height="250" src="https://html5book.ru/wp-content/uploads/2014/03/html5-generators.png" class="attachment-page-image size-page-image wp-post-image" alt="">                    <div class="no-shadow"><b>HTML-генераторы</b> и полезные сервисы облегчат работу с HTML-кодом, протестируют отображение вашего сайта в разных браузерах, а также дадут информацию о поддержке браузерами тех или иных тегов и технологий.<p></p>
+<h2>Подборка HTML-генераторов</h2>
+<p><b>Image-Maps</b> — сервис для создания карт-изображений.</p>
+<p><a target="_blank" rel="nofollow" href="https://html5book.ru/goto/https://www.image-maps.com" class="external-link"><img src="https://html5book.ru/wp-content/uploads/2014/03/image-maps-com.png" alt="image-maps-com"></a></p>
+<p><b>Mobirise</b> — оффлайн приложение для Windows и Mac, с помощью которого можно создавать небольшие веб-сайты, лендинги, онлайн-резюме и портфолио, промо-сайты для приложений, событий, продуктов и услуг.</p>
+<p><a target="_blank" rel="nofollow" href="https://html5book.ru/goto/https://mobirise.com/ru/" class="external-link"><img src="https://html5book.ru/wp-content/uploads/2014/03/mobirise.png" alt="mobirise"></a></p>
+<p><b>FREE Banner Maker</b> — сервис для HTML5-баннеров. </p>
+<p><a target="_blank" rel="nofollow" href="https://html5book.ru/goto/http://html5maker.com/#/" class="external-link"><img src="https://html5book.ru/wp-content/uploads/2014/03/html5-maker.png" alt="html5-maker"></a></p>
+<p><b>HTML minifier</b> — сервис для минимизации HTML-кода. </p>
+<p><a target="_blank" rel="nofollow" href="https://html5book.ru/goto/http://kangax.github.io/html-minifier/" class="external-link"><img src="https://html5book.ru/wp-content/uploads/2014/03/html-minifier.png" alt="html-minifier"></a></p>
+<p><b>Mobile HTML5</b> таблица совместимости HTML5 API на мобильных и планшетных браузерах с тестированием на реальных устройствах.</p>
+<p><a target="_blank" rel="nofollow" href="https://html5book.ru/goto/http://mobilehtml5.org" class="external-link"><img src="https://html5book.ru/wp-content/uploads/2014/03/mobile-html.png" alt="mobile-html"></a></p>
+<p><b>Initializr</b> — генератор HTML5-шаблонов, которые помогут начать работу над вашим новым проектом. Он построен на базе HTML5 Boilerplate, мощнейшем HTML5-шаблоне, созданном Paul Irish и Divya Manian. С его помощью вы элементарно создадите HTML5-проект с необходимыми настройками по вашему выбору. По сути, это облегченная версия Boilerplate. Выбираемыми параметрами являются: структура, серверные опции (.htaccess, nginx.conf, web.config), подключение jquery, аналитики google, выбор между css и less и тд. Как только вы настроите конфигурацию шаблона, нажмите Download  и вы получите набор файлов, согласно сделанному выбору.</p>
+
+<div class="e64ad5ead3b1736eb206cd33a35b030d" data-index="1" style="float: none; margin:0px;">
+<div style="margin: 0 0 20px 0;clear:both;">
+<script async="" src="//pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+
+<ins class="adsbygoogle" style="display:block" data-ad-client="ca-pub-4906567094890032" data-ad-slot="3058577107" data-ad-format="auto" data-full-width-responsive="true"></ins>
+<script>
+(adsbygoogle = window.adsbygoogle || []).push({});
+</script>
+</div>
+</div>
+
+<p><a target="_blank" rel="nofollow" href="https://html5book.ru/goto/http://www.initializr.com/" class="external-link"><img src="https://html5book.ru/wp-content/uploads/2014/03/initializr.png" alt="initializr"></a></p>
+<p><b>Browsershots</b> делает скриншоты дизайна вашего сайта в разных операционных системах и браузерах. Проверка может длиться несколько часов, в зависимости от количества файлов на сайте. </p>
+<p><a target="_blank" rel="nofollow" href="https://html5book.ru/goto/http://browsershots.org/" class="external-link"><img src="https://html5book.ru/wp-content/uploads/2014/03/check.png" alt="check"></a></p>
+<p></p><p>Сервис <b>Can I use…</b> тестирует поддержку основных возможностей HTML5 для всех версий всех браузеров. Он позволяет выделить именно те возможности, которые требуются вам. Для работы с сервисом нужно выбрать вкладку <b>Tables</b>, затем вкладку <b>Compatibility tables</b>, после чего выбрать требуемую возможность (возможности), установив флажок. Также можно производить поиск через поле <b>Search</b>.</p>
+<p><a target="_blank" rel="nofollow" href="https://html5book.ru/goto/http://caniuse.com/" class="external-link"><img src="https://html5book.ru/wp-content/uploads/2014/03/canius.png" alt="canius"></a></p>
+<p>Сервис <b>HTML5Test</b> проверяет, насколько тот или иной браузер готов работать со стандартом HTML5.</p>
+<p><a target="_blank" rel="nofollow" href="https://html5book.ru/goto/http://html5test.com/" class="external-link"><img src="https://html5book.ru/wp-content/uploads/2014/03/html5test.png" alt="html5test"></a></p>
+<p>Сервис <b>HTML5 Please</b> содержит информацию о поддержке браузерами всех новых API стандарта HTML5.</p>
+<p><a target="_blank" rel="nofollow" href="https://html5book.ru/goto/http://html5please.com/" class="external-link"><img src="https://html5book.ru/wp-content/uploads/2014/03/html5please.png" alt="html5please"></a></p>
+<p><b>FormLinter</b> найдёт на сайте формы и проверит, есть ли у них проблемы с доступностью.</p>
+<p><a target="_blank" rel="nofollow" href="https://html5book.ru/goto/https://formlinter.com" class="external-link"><img src="https://html5book.ru/wp-content/uploads/2014/03/form-linter.png" alt="form-linter"></a></p>
+</div>
+<div class="nav-wrapper">
+<div class="nav-prev"><a href="https://html5book.ru/specsimvoly-html/">Спецсимволы HTML</a></div>
+<div class="nav-next"><a href="https://html5book.ru/html5-semantic-elements/">Семантические элементы HTML5</a></div>
+</div>
