@@ -1,5 +1,11 @@
-<html lang="en"><head>
-</head> 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume</title>
+</head>
+
 <style>
  body {
     background-color: lightgrey;
@@ -22,7 +28,7 @@ a {
 header,
 footer {
     color:wheat ;
-    background-color: darkslategray;
+    background-color: rgb(22, 36, 36);
     text-align: center;
 }
 
@@ -57,6 +63,15 @@ section.additional {
     border-bottom: 0px;
 }
 
+section.experience{
+    border-bottom: 0px;
+}
+
+hr{
+    border-bottom: 0px;  
+    border-bottom: 3px solid rgba(105, 105, 105, 0.5);
+}
+
 .wrapper {
     width: 1020px;
     margin: 0 auto;
@@ -68,56 +83,84 @@ section.additional {
     float: left;
 }
 
-.about-me-contact {
-    width: 60%;
-    margin-top: 3%;
-    float: left;
+.MainInfo {
+   font-family: 'Noto Sans', 'Tahoma', sans-serif;
+   font-size: 18px;
+   line-height: 2em;
+   width: 60%;
+   margin-top: 3%;
+   float: left;
 }
-  
 
+footer{
+    font-family: 'Noto Sans', 'Tahoma', sans-serif;
+    font-size: 18px;
+    line-height: 2em;
+    color: white;
+    background-color: rgb(22, 36, 36);
+    text-align: center;
+}
  </style>
-<body>
-    <header>
-        <h1>Nikita Kochetkov : Student of computer sience academic</h1>
-    </header>
-    </style> 
-    <img style="transform: rotate(90deg);" src="../img/IMG_0649.jpg" alt="Italian Trulli" height="120" width="200">
-    
-    <br> 
 
-    <section class="Main info:">
+<body>
+
+    <header>
+
+    <h1>Nikita Kochetkov : Student of computer-sience academic</h1>
+
+    </header>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-7 text-center">
+        <img style="transform: rotate(90deg); " src="../img/IMG_0649.jpg" alt="Italian Trulli" height="215" width="360">
+    </div>
+  </div>
+  
+        <div class="row">
+        <div class="col text-center">
+    <section class="MainInfo:">
             <h1 style="color: crimson; font-size: 20px ; font-style: italic;" >1) Contact Info:</h1>
                 <p><b>Phone/Viber/Telegram:</b><a> +375292755981</a></p>
                 <p><b>Email:</b><a >nikitaatesh@icloud.com</a></p>
   <p><b>Skype:</b><a >nikitaatesh</a></p>
-          
-        </section>
-  
-        <section  style="display: inline-table;" class="About me:">
-           
-                <h2 style="color:blueviolet ; font-size: 20px ; font-style: italic;">2) About me:</h2> 
-                <p><b>Country was born: </b> Belarus </p>
-                <p><b>City:</b> Minsk</p>
-                <p><b>Street where living:</b> Miroshnichenko 12 , flat 3</p>
-                <p><b>My universites:</b> IPD</p>
-                <p><b>Purpus:</b> Earn big money</p>
-            
-        </section>
+          </section>
+          </div>
+        </div>
+ 
 
+      
+    <div class="row">
+        <div class="col text-center">
         <section class="education">
+            <h2 style="color: rgb(142, 57, 199); font-size: 20px; font-style: italic;" >2) About me</h2>
+            <p><b>Country was born:</b> Belarus</p>
+            <p><b>City where i have been living:</b> Minsk</p>
+            <p><b>Street:</b> Miroshnichenko 12</p>
+            <p><b>Number floor:</b> 1</p>
+            <p><b>Number flat:</b> 3</p>
+        </section>
+        </div>
+    </div>
 
-            <h2 style="color: forestgreen;font-size: 20px; font-style: italic;" >3) Education</h2>
+
+    <div class="row">
+        <div class="col text-center">
+        <section class="education">
+            <h2 style="color: forestgreen; font-size: 20px; font-style: italic;" >3) Education</h2>
             <p><b>Course:</b> Economic and buesnies</p>
             <p><b>Description:</b> Economic , law , math , analiz </p>
             <p><b>Specialization:</b> Menedjer-economist</p>
-         
         </section>
+        </div>
+    </div>
 
+    <div class="row">
+        <div class="col text-center">
         <section class="Hobbies">
-
-                <h2 style="color :dimgray; font-size: 20px;font-style: italic;">4) Hobbies</h2>
+                <h2 style="color :dimgray; font-size: 20px;font-style: italic;" >4) Hobbies</h2>
                 <p><b>I have a lot of hobbies , but the main thing is travel:</b> I guess a europian country</p>
-                <p><b>I have been visited country and cityes</b> -- like next:</p>
+                <p><b>I have been visited country and cityes</b> - like next:</p>
           <p><b>First Country:</b> </p>
                             <ul>
                             <li>Belguem</li>
@@ -148,16 +191,64 @@ section.additional {
                        <ul>
                        <li>London</li>
                        <li>Manchester</li>
-                       <li>Glasgo</li>
-                <hr>
-                
-                <h3>5) Future job</h3>
-                <p><b>Java developer:</b> developer project</p>
-                <p><b>My courses:</b>Itee-step , what we did on our courses : </p>
-                        <li>Basic java</li>
-                        <li>Data-Base</li>
-                        <li>MySQL</li>
-                        <li>JUnit</li>
+                       <li>Glasgo</li>  
+       </div>
+    </div>
+
+        <div class="row">
+        <div class="col text-center">
+        <section class="experience">
+            <h2 style="color :fuchsia; font-size: 20px;font-style: italic;">5) Study experience</h2>
+                <p><b>10/2019-Current time – Java developer Student</b></p>
+                <p><b>Projects description:</b> During my training, I've done about 6 projects that you can read by going to my
+                    <a href="https://github.com/Nikitakochetkov"><b> --Git Hub-- </b></a>
+                    </p><p><b>Project which i made in Front:</b>
+                        </p><ul>
+                            <li><a style="color:green" href="https://github.com/Nikitakochetkov/course-html-and-css/tree/Social-Network">Social-Network</a></li>
+                            <li><a style="color:green" href="https://github.com/Nikitakochetkov/course-html-and-css/tree/Social-Network-bootstrap">Social-Network-bootstrap</a></li>
+                            <li><a style="color:green" href="https://github.com/Nikitakochetkov/course-html-and-css/tree/project-first-million-pixel-perfect">First-million-pixel-perfect</a></li>
+                            <li><a style="color:green" href="https://github.com/Nikitakochetkov/course-html-and-css/tree/project-first-million-bootstrap">First-million-pixel-perfect-bootstrap</a></li>
+                            <li><a style="color:green" href="https://github.com/Nikitakochetkov/course-html-and-css/tree/Book">Book</a></li>
+                        </ul>
+                    <p></p>
+                    <b>Project which i made in Backend:</b>
+                    <ul>
+                            <li><a style="color:green" href="https://github.com/Nikitakochetkov/java-practice/tree/master-1">Pizza</a></li>
+                            <li><a style="color:green" href="https://github.com/Nikitakochetkov/java-practice/tree/solid">Sollid</a></li>
+                            <li><a style="color:green" href="https://github.com/Nikitakochetkov/java-practice/tree/junit">Junit</a></li>
+                    </ul>
+                </div>
+            </div>
+
+                <section></section>
+          <div class="row">
+            <div class="col text-center">
+                <h2 style="color :rgb(61, 28, 61); font-size: 20px;font-style: italic;">6) Study experience</h2>
+                <p><b>Technologies we will study :</b>
+                <p>
+                    <b>Backend:</b>
+                    </p><ul>
+                        <li>Java8</li>
                         <li>HTML</li>
-        </section>
-        </body>
+                        <li>MySQL</li>
+                        <li>Spring</li>
+                        <li>Hibernate</li>
+                        <li>CSS</li>
+                        <li>Java Script</li>
+                        <li>Json</li>
+                        <li>Maria DB</li>
+                        <li>Spring Security</li>
+                </ul>   
+            </div>
+      </div>
+</div>
+
+       </body>
+
+        <footer>
+            <p>
+                (NK) Nikita Kochetkov - 2020
+            </p>
+        </footer>
+
+        </html>
